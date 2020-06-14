@@ -5,17 +5,23 @@
 //  Created by Owner on 4/10/20.
 //  Copyright © 2020 AlexZhou. All rights reserved.
 //
-
 import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate {
+    
+    var players: Response?
+    var lastNameArray = [String]()
+    var playerArray = ["Lebron","Stephen","Kobe"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         let url = "https://www.balldontlie.io/api/v1/players"
         getData(from: url)
-        print(playerArray)
+        for name in players!.data {
+            lastNameArray.append(name.lastName)
+        }
+        print(lastNameArray)
     }
     
     @IBOutlet weak var playerOneSearchBar: UISearchBar!
@@ -24,7 +30,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     var searchPlayerOne = [String]()
     var searchingPlayerOne = false
     
-    func getData(from url:String){
+    func getData(from url:String) {
             
         //Get Raw Data
             let task = URLSession.shared.dataTask(with: URL(string: url)!,completionHandler:
@@ -35,24 +41,20 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 }
                     
         //Get Decoded Data (extract data)
-                var result:Response?
+                    //var players:[Datum]
                 do {
-                    result = try JSONDecoder().decode(Response.self, from:data)
+                    self.players = try JSONDecoder().decode(Response.self, from:data)
                 }
                  catch {
                     print("failed to convert")
                 }
                 
-                guard let json = result else{
-                    return
-                }
-                
         //Print Out Data
-                    var playerArray = [String]()
-                    for name in json.data {
-                        playerArray.append(name.lastName)
-                    }
-                    print(playerArray)
+                    //var playerArray = [String]()
+                    //for name in json.data {
+                        //playerArray.append(name.lastName)
+                    //}
+                    //print(playerArray)
             })
             task.resume()
         }
@@ -147,12 +149,10 @@ struct Meta: Codable {
 /*struct Response: Codable{
     var response: Data
 }
-
 struct Data: Codable{
     var data: [PlayerInfo]
     var meta: MetaInfo
 }
-
 struct PlayerInfo: Codable{
     var id: Int
     var first_name: String
@@ -163,7 +163,6 @@ struct PlayerInfo: Codable{
     var team: TeamInfo
     var weight_pounds: Int?
 }
-
 struct TeamInfo: Codable{
     var id: Int
     var abbreviation: String
@@ -173,8 +172,6 @@ struct TeamInfo: Codable{
     var full_name: String
     var name: String
 }
-
-
 struct MetaInfo: Codable{
     var total_pages: Int
     var current_page: Int
