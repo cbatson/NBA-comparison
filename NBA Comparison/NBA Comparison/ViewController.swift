@@ -9,19 +9,23 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate {
     
-    var players: Response?
+    var players = [Datum]()
     var lastNameArray = [String]()
     var playerArray = ["Lebron","Stephen","Kobe"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let url = "https://www.balldontlie.io/api/v1/players"
-        getData(from: url)
-        for name in players!.data {
+        getData{
+            print("successful")
+        }
+        print(players[0].lastName)
+        /*
+        for name in players {
             lastNameArray.append(name.lastName)
         }
         print(lastNameArray)
+        */
     }
     
     @IBOutlet weak var playerOneSearchBar: UISearchBar!
@@ -30,40 +34,31 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     var searchPlayerOne = [String]()
     var searchingPlayerOne = false
     
-    func getData(from url:String) {
-            
-        //Get Raw Data
-            let task = URLSession.shared.dataTask(with: URL(string: url)!,completionHandler:
-                {data,reponse,error in
-                guard let data = data, error == nil else{
-                    print("something went wrong")
-                    return
-                }
-                    
-        //Get Decoded Data (extract data)
-                    //var players:[Datum]
-                do {
-                    self.players = try JSONDecoder().decode(Response.self, from:data)
-                }
-                 catch {
-                    print("failed to convert")
-                }
-                
-        //Print Out Data
-                    //var playerArray = [String]()
-                    //for name in json.data {
-                        //playerArray.append(name.lastName)
-                    //}
-                    //print(playerArray)
-            })
-            task.resume()
-        }
+    func getData(completed: @escaping () -> ()) {
+        
+        let url = URL(string: "https://www.balldontlie.io/api/v1/players")
+        
+        URLSession.shared.dataTask(with: url!) { data,reponse,error in
+                if error==nil {
+                    do {
+                        let downloadedPlayers = try JSONDecoder().decode(Response.self, from: data!)
+                        self.players = downloadedPlayers.data
+                        
+                        DispatchQueue.main.async {
+                            completed()
+                        }
+                        } catch{
+                            print("Json Error")
+                        }
+                    }
+        }.resume()
+    }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if searchingPlayerOne{
             return searchPlayerOne.count
         } else{
-            return playerArray.count
+            return players.count
         }
     }
     
@@ -73,7 +68,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             cell?.textLabel?.text = searchPlayerOne[indexPath.row]
         }
         else{
-            cell?.textLabel?.text = playerArray[indexPath.row]
+            cell?.textLabel?.text = players[indexPath.row].lastName
         }
         return cell!
     }
