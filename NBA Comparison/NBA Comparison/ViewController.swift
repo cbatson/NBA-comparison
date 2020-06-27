@@ -10,31 +10,23 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate {
     
     var players = [Datum]()
-    var lastNameArray = [String]()
-    var playerArray = ["Lebron","Stephen","Kobe"]
+    var playerOneSearches = [Datum]()
+    var playerTwoSearches = [Datum]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        getData{
-            print("successful")
-        }
-        print(players[0].lastName)
-        /*
-        for name in players {
-            lastNameArray.append(name.lastName)
-        }
-        print(lastNameArray)
-        */
+        getData()
+        playerOneSearchBar.delegate = self
+        playerTwoSearchBar.delegate = self
     }
     
     @IBOutlet weak var playerOneSearchBar: UISearchBar!
     @IBOutlet weak var playerOneTableView: UITableView!
-    
-    var searchPlayerOne = [String]()
-    var searchingPlayerOne = false
-    
-    func getData(completed: @escaping () -> ()) {
+    @IBOutlet weak var playerTwoSearchBar: UISearchBar!
+    @IBOutlet weak var playerTwoTableView: UITableView!
+
+    func getData() {
         
         let url = URL(string: "https://www.balldontlie.io/api/v1/players")
         
@@ -43,9 +35,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                     do {
                         let downloadedPlayers = try JSONDecoder().decode(Response.self, from: data!)
                         self.players = downloadedPlayers.data
-                        
+                        self.playerOneSearches = downloadedPlayers.data
                         DispatchQueue.main.async {
-                            completed()
+                            self.playerOneTableView.reloadData()
+                            self.playerTwoTableView.reloadData()
                         }
                         } catch{
                             print("Json Error")
@@ -53,33 +46,32 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                     }
         }.resume()
     }
-
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if searchingPlayerOne{
-            return searchPlayerOne.count
-        } else{
-            return players.count
-        }
+        return playerOneSearches.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "playerOneCell")
-        if searchingPlayerOne{
-            cell?.textLabel?.text = searchPlayerOne[indexPath.row]
-        }
-        else{
-            cell?.textLabel?.text = players[indexPath.row].lastName
-        }
-        return cell!
+        let cell = playerOneTableView.dequeueReusableCell(withIdentifier: "playerOneCell")!
+        cell.textLabel?.text = playerOneSearches[indexPath.row].lastName.capitalized
+        return cell
     }
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        searchPlayerOne = playerArray.filter({$0.prefix(searchText.count)==searchText})
-        searchingPlayerOne = true
-        playerOneTableView.reloadData()
+        playerOneSearches = []
+        
+        if searchText == "" {
+            playerOneSearches = players
+        }
+        else {
+            for player in players {
+                if player.lastName.lowercased().contains(searchText.lowercased()) {
+                    playerOneSearches.append(player)
+                }
+            }
+        }
+        self.playerOneTableView.reloadData()
     }
-    
-}
 
 
         //define data format so that json can match
@@ -175,3 +167,4 @@ struct MetaInfo: Codable{
     var total_count: Int
 }
 */
+}
