@@ -55,8 +55,7 @@ enum Conference: String, Codable {
 
 // MARK: - Meta
 struct Meta: Codable {
-    let totalPages, currentPage, perPage: Int
-    let nextPage: Int?
+    let totalPages, currentPage, nextPage, perPage: Int
     let totalCount: Int
 
     enum CodingKeys: String, CodingKey {

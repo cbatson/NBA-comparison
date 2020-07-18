@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate {
     
     var players = [Datum]()
-    var metadata = Meta(totalPages: 0, currentPage: 0, perPage: 0, nextPage: 0, totalCount: 0)
+    var metadata = Meta(totalPages: 0, currentPage: 0, nextPage: 0, perPage: 0, totalCount: 0)
     //var playerOneSearches = [Datum]()
     var urlString = "https://www.balldontlie.io/api/v1/players"
     //let baseURL = "https://www.balldontlie.io/api/v1/players"
@@ -29,18 +29,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         getData()
         //}
     }
-    /*
-    func changePage() {
-        if (metadata.nextPage != nil) {
-            if (urlString == ) {
-                urlString = urlString + "?page=\(String(describing: metadata.nextPage))"
-            }
-            else {
-                urlString = urlString + "&page="
-            }
+    
+    func getAllPlayers() {
+        if (metadata.currentPage <= metadata.totalPages) {
+            print(metadata.currentPage)
+            urlString = "https://www.balldontlie.io/api/v1/players?page=\( metadata.nextPage)"
+            getData()
         }
     }
-    */
+    
     @IBOutlet weak var playerOneSearchBar: UISearchBar!
     @IBOutlet weak var playerOneTableView: UITableView!
 
@@ -50,12 +47,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                     if error==nil {
                         do {
                             let downloadedPlayers = try JSONDecoder().decode(Response.self, from: data!)
-                            self.players = downloadedPlayers.data
+                            self.players += downloadedPlayers.data
                             self.metadata = downloadedPlayers.meta
                             //self.playerOneSearches = self.players
                             DispatchQueue.main.async {
                                 self.playerOneTableView.reloadData()
-                                //self.changePage(url: url)
+                                self.getAllPlayers()
                             }
                             } catch{
                                 print("Json Error : \(error)")
@@ -81,7 +78,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             changePage()
         }
     }
-        */
+    */
+    
         func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
             //playerOneSearches = []
             
