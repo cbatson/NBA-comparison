@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pqZ-aT-OaE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pqZ-aT-OaE">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Player One View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NBA_Comparison" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="PlayerOneViewController" customModule="NBA_Comparison" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -21,7 +21,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <searchBar contentMode="redraw" showsCancelButton="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bYo-Hd-W7z">
+                            <searchBar contentMode="redraw" placeholder="Type &quot;Lebron&quot;, &quot;Lebron James&quot;, or &quot;James&quot;" translatesAutoresizingMaskIntoConstraints="NO" id="bYo-Hd-W7z">
                                 <rect key="frame" x="0.0" y="159" width="414" height="56"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
@@ -76,6 +76,7 @@
                     <connections>
                         <outlet property="playerOneSearchBar" destination="bYo-Hd-W7z" id="Y5j-Nj-LSB"/>
                         <outlet property="playerOneTableView" destination="L9q-wt-kte" id="4b5-5u-dvx"/>
+                        <segue destination="2cR-c8-bCq" kind="show" identifier="nextPlayer" id="jcw-a7-wZY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -100,10 +101,10 @@
             </objects>
             <point key="canvasLocation" x="-468.11594202898556" y="136.60714285714286"/>
         </scene>
-        <!--View Controller-->
+        <!--Player Two View Controller-->
         <scene sceneID="bs4-sA-oQg">
             <objects>
-                <viewController id="2cR-c8-bCq" customClass="ViewController" customModule="NBA_Comparison" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="2cR-c8-bCq" customClass="PlayerTwoViewController" customModule="NBA_Comparison" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FTK-zc-0bx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -118,14 +119,14 @@
                                 <rect key="frame" x="0.0" y="159" width="414" height="56"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <outlet property="delegate" destination="2cR-c8-bCq" id="mp1-Xd-WTT"/>
+                                    <outlet property="delegate" destination="2cR-c8-bCq" id="udL-D9-VQc"/>
                                 </connections>
                             </searchBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="f3j-jU-NGZ">
                                 <rect key="frame" x="0.0" y="215" width="414" height="681"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="playerOneCell" textLabel="jeG-W9-84E" style="IBUITableViewCellStyleDefault" id="cLO-Dg-3u7">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="playerTwoCell" textLabel="jeG-W9-84E" style="IBUITableViewCellStyleDefault" id="cLO-Dg-3u7">
                                         <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cLO-Dg-3u7" id="R0x-1Z-2f4">
@@ -144,8 +145,8 @@
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
-                                    <outlet property="dataSource" destination="2cR-c8-bCq" id="kJD-E7-fE6"/>
-                                    <outlet property="delegate" destination="2cR-c8-bCq" id="a5X-E2-VUg"/>
+                                    <outlet property="dataSource" destination="2cR-c8-bCq" id="gsp-pi-0Cf"/>
+                                    <outlet property="delegate" destination="2cR-c8-bCq" id="bsL-Uz-grT"/>
                                 </connections>
                             </tableView>
                         </subviews>
@@ -167,8 +168,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="QRe-zT-hbO"/>
                     <connections>
-                        <outlet property="playerOneSearchBar" destination="HU0-Nn-Nyc" id="76W-Qz-eXf"/>
-                        <outlet property="playerOneTableView" destination="f3j-jU-NGZ" id="ChX-xF-UNN"/>
+                        <outlet property="playerTwoSearchBar" destination="HU0-Nn-Nyc" id="4bS-Ld-26n"/>
+                        <outlet property="playerTwoTableView" destination="f3j-jU-NGZ" id="sVN-8d-7UO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e7v-zx-EHX" sceneMemberID="firstResponder"/>

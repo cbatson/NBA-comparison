@@ -1,14 +1,19 @@
 //
-//  ViewController.swift
+//  PlayerTwoViewController.swift
 //  NBA Comparison
 //
-//  Created by Owner on 4/10/20.
+//  Created by Owner on 7/22/20.
 //  Copyright © 2020 AlexZhou. All rights reserved.
 //
+
 import UIKit
 
-class PlayerOneViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate {
+class PlayerTwoViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate {
     
+    @IBOutlet weak var playerTwoSearchBar: UISearchBar!
+    @IBOutlet weak var playerTwoTableView: UITableView!
+    
+    var playerOne: Datum?
     var players = [Datum]()
     var metadata = Meta(totalPages: 0, currentPage: 0, perPage: 0, nextPage: 0, totalCount: 0)
     //var playerOneSearches = [Datum]()

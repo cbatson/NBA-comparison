@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB38726D24C8C7B000F4756B /* PlayerTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38726C24C8C7B000F4756B /* PlayerTwoViewController.swift */; };
 		EB4277F224A803A200B80778 /* PlayerNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4277F124A803A200B80778 /* PlayerNames.swift */; };
 		EB83D15C2440E92600128A2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83D15B2440E92600128A2B /* AppDelegate.swift */; };
 		EB83D15E2440E92600128A2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83D15D2440E92600128A2B /* SceneDelegate.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB38726C24C8C7B000F4756B /* PlayerTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTwoViewController.swift; sourceTree = "<group>"; };
 		EB4277F124A803A200B80778 /* PlayerNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerNames.swift; sourceTree = "<group>"; };
 		EB83D1582440E92600128A2B /* NBA Comparison.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NBA Comparison.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB83D15B2440E92600128A2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				EB83D15B2440E92600128A2B /* AppDelegate.swift */,
 				EB83D15D2440E92600128A2B /* SceneDelegate.swift */,
 				EB83D15F2440E92600128A2B /* ViewController.swift */,
+				EB38726C24C8C7B000F4756B /* PlayerTwoViewController.swift */,
 				EB83D1612440E92600128A2B /* Main.storyboard */,
 				EB83D1642440E92A00128A2B /* Assets.xcassets */,
 				EB83D1662440E92A00128A2B /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				EB4277F224A803A200B80778 /* PlayerNames.swift in Sources */,
 				EB83D15C2440E92600128A2B /* AppDelegate.swift in Sources */,
 				EB83D15E2440E92600128A2B /* SceneDelegate.swift in Sources */,
+				EB38726D24C8C7B000F4756B /* PlayerTwoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
