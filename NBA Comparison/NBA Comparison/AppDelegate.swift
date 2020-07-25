@@ -2,19 +2,21 @@
 //  AppDelegate.swift
 //  NBA Comparison
 //
-//  Created by Owner on 4/10/20.
-//  Copyright © 2020 AlexZhou. All rights reserved.
+//  Created by chuck on 7/24/20.
+//  Copyright © 2020 AlexZ. All rights reserved.
 //
 
 import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+    var playerStore = PlayerStore()
+    var ballDontLie = BallDontLie()
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        ballDontLie.populateAllPlayers(playerStore: playerStore)
         return true
     }
 
