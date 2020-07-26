@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1311C8AD24CCBB120021A10B /* PlayerComparisonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1311C8AC24CCBB120021A10B /* PlayerComparisonView.swift */; };
+		1311C8AF24CCC9340021A10B /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1311C8AE24CCC9340021A10B /* Stats.swift */; };
 		138F547E24CBF2C9004C5AE3 /* SelectPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138F547D24CBF2C9004C5AE3 /* SelectPlayerView.swift */; };
 		13BFBB0724CB68B10004AEE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BFBB0624CB68B10004AEE7 /* AppDelegate.swift */; };
 		13BFBB0924CB68B10004AEE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BFBB0824CB68B10004AEE7 /* SceneDelegate.swift */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1311C8AC24CCBB120021A10B /* PlayerComparisonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerComparisonView.swift; sourceTree = "<group>"; };
+		1311C8AE24CCC9340021A10B /* Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
 		138F547D24CBF2C9004C5AE3 /* SelectPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPlayerView.swift; sourceTree = "<group>"; };
 		13BFBB0324CB68B10004AEE7 /* NBA Comparison.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NBA Comparison.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13BFBB0624CB68B10004AEE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +125,8 @@
 				13BFBB3A24CB702B0004AEE7 /* PlayerStore.swift */,
 				13BFBB3C24CB72230004AEE7 /* BallDontLie.swift */,
 				138F547D24CBF2C9004C5AE3 /* SelectPlayerView.swift */,
+				1311C8AC24CCBB120021A10B /* PlayerComparisonView.swift */,
+				1311C8AE24CCC9340021A10B /* Stats.swift */,
 			);
 			path = "NBA Comparison";
 			sourceTree = "<group>";
@@ -283,11 +289,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				13BFBB3B24CB702B0004AEE7 /* PlayerStore.swift in Sources */,
+				1311C8AF24CCC9340021A10B /* Stats.swift in Sources */,
 				138F547E24CBF2C9004C5AE3 /* SelectPlayerView.swift in Sources */,
 				13BFBB3724CB690F0004AEE7 /* Player.swift in Sources */,
 				13BFBB0724CB68B10004AEE7 /* AppDelegate.swift in Sources */,
 				13BFBB3924CB6ABC0004AEE7 /* SearchBar.swift in Sources */,
 				13BFBB3D24CB72230004AEE7 /* BallDontLie.swift in Sources */,
+				1311C8AD24CCBB120021A10B /* PlayerComparisonView.swift in Sources */,
 				13BFBB0924CB68B10004AEE7 /* SceneDelegate.swift in Sources */,
 				13BFBB0B24CB68B10004AEE7 /* ContentView.swift in Sources */,
 			);
