@@ -20,7 +20,8 @@ class StatInfo {
     }
     
     func unformattable(value : Any) -> String {
-        return  String(describing: type(of: value))
+        let typeString = String(describing: type(of: value))
+        return "<unformattable \(typeString)>"
     }
 }
 

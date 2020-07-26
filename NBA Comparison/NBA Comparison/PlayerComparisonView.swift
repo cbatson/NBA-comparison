@@ -8,11 +8,6 @@
 
 import SwiftUI
 
-struct IndividualStat : Identifiable {
-    var id = UUID()
-    var statName : String
-}
-
 struct PlayerComparisonView: View {
     var player1 : Player
     var player2 : Player
@@ -24,7 +19,6 @@ struct PlayerComparisonView: View {
     let ballDontLie = (UIApplication.shared.delegate as! AppDelegate).ballDontLie
 
     var body: some View {
-        //Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
         VStack {
             // Static Player View
             HStack {
