@@ -67,7 +67,65 @@ class BallDontLie {
         })
     }
     
+    static let seasonAverageStats = [
+        "games_played": Stats.GAMES_PLAYED,
+        "min": Stats.MIN,
+        "fgm": Stats.FGM,
+        "fga": Stats.FGA,
+        "fg3m": Stats.FG3M,
+        "fg3a": Stats.FG3A,
+        "ftm": Stats.FTM,
+        "fta": Stats.FTA,
+        "oreb": Stats.OREB,
+        "dreb": Stats.DREB,
+        "reb": Stats.REB,
+        "ast": Stats.AST,
+        "stl": Stats.STL,
+        "blk": Stats.BLK,
+        "turnover": Stats.TURNOVER,
+        "pf": Stats.PF,
+        "pts": Stats.PTS,
+        "fg_pct": Stats.FG_PCT,
+        "fg3_pct": Stats.FG3_PCT,
+        "ft_pct": Stats.FT_PCT,
+    ]
+    
+    func loadSeasonAverages(season: Int, playerIds : [Int], completionHandler: @escaping ([Dictionary<Stats, StatValue>]?, Error?) -> Void) {
+        let urlArgs = playerIds.map { "player_ids[]=\($0)" }
+        let urlString = baseUrl + "season_averages?season=\(season)&\(urlArgs.joined(separator: "&"))"
+        jsonFromUrl(urlString: urlString, jsonCompletionHandler: {(data, error) in
+            guard let data = data, error == nil else {
+                completionHandler(nil, error)
+                return
+            }
+            
+            do {
+                let json = try JSONSerialization.jsonObject(with: data) as! Dictionary<String, AnyObject>
+                let dataDict = json["data"] as! [Dictionary<String, AnyObject>]
+
+                var result : [Dictionary<Stats, StatValue>] = []
+                for playerEntry in dataDict {
+                    var outDict = Dictionary<Stats, StatValue>()
+                    for statEntry in playerEntry {
+                        if let statEnum = Self.seasonAverageStats[statEntry.key] {
+                            // It's a recognized stat
+                            let statInfo = StatMap.getStatInfo(stat: statEnum)
+                            let statValue = StatValue(stat: statEnum, info: statInfo, value: statEntry.value)
+                            outDict[statEnum] = statValue
+                        }
+                    }
+                    result.append(outDict)
+                }
+                completionHandler(result, nil)
+            }
+            catch {
+                completionHandler(nil, error)
+            }
+        })
+    }
+    
     func jsonFromUrl(urlString: String, jsonCompletionHandler: @escaping (Data?, Error?) -> Void) {
+        print("DEBUG: Fetching from \(urlString)")
         let url = URL(string: urlString)
         URLSession.shared.dataTask(with:url!, completionHandler: {(data, response, error) in
             guard let data = data, error == nil else {
@@ -88,6 +146,7 @@ class BallDontLie {
                 return
             }
             
+            //print("DEBUG: Response was: \(data)")
             jsonCompletionHandler(data, nil)
         }).resume()
     }

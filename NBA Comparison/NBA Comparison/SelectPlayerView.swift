@@ -24,7 +24,7 @@ struct SelectPlayerView: View {
                 ForEach(self.playerStore.players.filter {
                     self.searchText.isEmpty ? true : $0.display_name.lowercased().contains(self.searchText.lowercased())
                 }, id: \.self) { player in
-                    NavigationLink(destination: SelectPlayerView(playerNumber: self.playerNumber + 1, playersOfInterest: self.playersOfInterest + [player])) {
+                    NavigationLink(destination: self.getDestination(player:  player)) {
                         Text(player.display_name)
                     }
                 }
@@ -33,7 +33,18 @@ struct SelectPlayerView: View {
             .navigationBarTitle(Text("Select Player #\(playerNumber)"))
         }
     }
-}
+    
+    func getDestination(player : Player) -> AnyView {
+        if (playerNumber < 2) {
+            // Next page is a player selection
+            return AnyView(SelectPlayerView(playerNumber: self.playerNumber + 1, playersOfInterest: self.playersOfInterest + [player]))
+        }
+        else {
+            // Next page is the player comparison
+            return AnyView(PlayerComparisonView(player1: self.playersOfInterest[0], player2: player))
+        }
+    }
+ }
 
 struct SelectPlayerView_Previews: PreviewProvider {
     static var testPlayers = [
