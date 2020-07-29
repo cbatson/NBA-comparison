@@ -18,31 +18,82 @@ struct PlayerComparisonView: View {
     // TODO: convert to use generic data retrieval mechanism
     let ballDontLie = (UIApplication.shared.delegate as! AppDelegate).ballDontLie
 
-    var body: some View {
-        VStack {
+    struct HeadshotModifier: ViewModifier {
+        func body(content: Content) -> some View {
+            content
+                .frame(width: 200, height: 150, alignment: .bottom)
+                .aspectRatio(contentMode: .fit)
+                //.border(Color.red)
+        }
+    }
+    
+    struct BioDataModifier: ViewModifier {
+        func body(content: Content) -> some View {
+            content
+                .frame(width: 200, alignment: .center)
+        }
+    }
+    
+    struct StatValueModifier: ViewModifier {
+        func body(content: Content) -> some View {
+            content
+                .frame(width: 100, alignment: .center)
+        }
+    }
+    
+    struct StatNameModifier: ViewModifier {
+        func body(content: Content) -> some View {
+            content
+                .frame(maxWidth: .infinity, alignment: .center)
+                .multilineTextAlignment(.center)
+        }
+    }
+    
+    var headshot1 : some View {
+        PlayerHeadshotMap.getHeadshotFromId(id: player1.remoteId)
+            
+    }
+    var headshot2 : some View {
+        PlayerHeadshotMap.getHeadshotFromId(id: player2.remoteId)
+    }
+    
+    // Static Player View
+    var playerHeader : some View {
+        Group {
             // Static Player View
             HStack {
-                Text(player1.display_name)
-                    .frame(maxWidth: .infinity, alignment: .center)
-                Text("Info")
-                    .frame(maxWidth: .infinity, alignment: .center)
-                Text(player2.display_name)
-                    .frame(maxWidth: .infinity, alignment: .center)
+                headshot1.modifier(HeadshotModifier())
+                //Text("").modifier(StatNameModifier())
+                headshot2.modifier(HeadshotModifier())
+            }.frame(alignment: .bottom)
+            HStack {
+                Text(player1.display_name).modifier(BioDataModifier())
+                //Text("").modifier(StatNameModifier())
+                Text(player2.display_name).modifier(BioDataModifier())
             }
-            
+        }
+    }
+    
+    var body: some View {
+        VStack {
+            playerHeader
+
             // Stats Table
             List {
                 ForEach(commonStats()) { statRow in
                     HStack {
-                        Text(statRow.player1Value.displayValue).frame(maxWidth: .infinity)
-                        Text(statRow.displayName).frame(maxWidth: .infinity)
-                        Text(statRow.player2Value.displayValue).frame(maxWidth: .infinity)
+                        Text(statRow.player1Value.displayValue).modifier(StatValueModifier())
+                        Text(statRow.displayName).modifier(StatNameModifier())
+                        Text(statRow.player2Value.displayValue).modifier(StatValueModifier())
                     }
                 }
             }
-        }.onAppear {
+        }
+        .onAppear {
             self.loadSeasonAverages()
         }
+        .navigationBarTitle("", displayMode: .inline)
+        //.navigationBarHidden(true)
     }
     
     struct StatRow : Identifiable {
