@@ -27,25 +27,25 @@ class StatInfo {
 
 enum Stats {
     case GAMES_PLAYED
-    case MIN
-    case FGM
-    case FGA
-    case FG3M
-    case FG3A
-    case FTM
-    case FTA
-    case OREB
-    case DREB
-    case REB
-    case AST
-    case STL
-    case BLK
-    case TURNOVER
-    case PF
-    case PTS
-    case FG_PCT
-    case FG3_PCT
-    case FT_PCT
+    case MINUTES
+    case FIELD_GOALS_MADE
+    case FIELD_GOAL_ATTEMPTS
+    case THREE_POINTERS_MADE
+    case THREE_POINT_ATTEMPTS
+    case FREE_THROWS_MADE
+    case FREE_THROW_ATTEMPTS
+    case OFFENSIVE_REBOUNDS
+    case DEFENSIVE_REBOUNDS
+    case REBOUNDS
+    case ASSISTS
+    case STEALS
+    case BLOCKS
+    case TURNOVERS
+    case PERSONAL_FOULS
+    case POINTS
+    case FIELD_GOAL_PERCENTAGE
+    case THREE_POINT_PERCENTAGE
+    case FREE_THROW_PERCENTAGE
 }
 
 struct StatMap {
@@ -88,25 +88,25 @@ struct StatMap {
     static func getStatInfo(stat : Stats) -> StatInfo {
         switch (stat) {
         case .GAMES_PLAYED: return IntStat(displayName: "Games Played")
-        case .MIN: return StringStat(displayName: "Minutes Played")
-        case .FGM: return FloatStat(displayName: "FGM")
-        case .FGA: return FloatStat(displayName: "FGA")
-        case .FG3M: return FloatStat(displayName: "FG3M")
-        case .FG3A: return FloatStat(displayName: "FG3A")
-        case .FTM: return FloatStat(displayName: "FTM")
-        case .FTA: return FloatStat(displayName: "FTA")
-        case .OREB: return FloatStat(displayName: "OREB")
-        case .DREB: return FloatStat(displayName: "DREB")
-        case .REB: return FloatStat(displayName: "REB")
-        case .AST: return FloatStat(displayName: "AST")
-        case .STL: return FloatStat(displayName: "STL")
-        case .BLK: return FloatStat(displayName: "BLK")
-        case .TURNOVER: return FloatStat(displayName: "TURNOVER")
-        case .PF: return FloatStat(displayName: "PF")
-        case .PTS: return FloatStat(displayName: "PTS")
-        case .FG_PCT: return PercentStat(displayName: "FG_PCT")
-        case .FG3_PCT: return PercentStat(displayName: "FG3_PCT")
-        case .FT_PCT: return PercentStat(displayName: "FT_PCT")
+        case .MINUTES: return StringStat(displayName: "Minutes Per Game")
+        case .FIELD_GOALS_MADE: return FloatStat(displayName: "Field Goal Makes Per Game")
+        case .FIELD_GOAL_ATTEMPTS: return FloatStat(displayName: "Field Goal Attempts Per Game")
+        case .THREE_POINTERS_MADE: return FloatStat(displayName: "Three Point Makes Per Game")
+        case .THREE_POINT_ATTEMPTS: return FloatStat(displayName: "Three Point Attempts Per Game")
+        case .FREE_THROWS_MADE: return FloatStat(displayName: "Free Throw Makes Per Game")
+        case .FREE_THROW_ATTEMPTS: return FloatStat(displayName: "Free Throw Attempts Per Game")
+        case .OFFENSIVE_REBOUNDS: return FloatStat(displayName: "Offensive Rebounds Per Game")
+        case .DEFENSIVE_REBOUNDS: return FloatStat(displayName: "Defensive Rebounds Per Game")
+        case .REBOUNDS: return FloatStat(displayName: "Rebounds Per Game")
+        case .ASSISTS: return FloatStat(displayName: "Assists Per Game")
+        case .STEALS: return FloatStat(displayName: "Steals Per Game")
+        case .BLOCKS: return FloatStat(displayName: "Blocks Per Game")
+        case .TURNOVERS: return FloatStat(displayName: "Turnovers Per Game")
+        case .PERSONAL_FOULS: return FloatStat(displayName: "Personal Fouls Per Game")
+        case .POINTS: return FloatStat(displayName: "Points Per Game")
+        case .FIELD_GOAL_PERCENTAGE: return PercentStat(displayName: "Field Goal Percentage")
+        case .THREE_POINT_PERCENTAGE: return PercentStat(displayName: "Three Point Percentage")
+        case .FREE_THROW_PERCENTAGE: return PercentStat(displayName: "Free Throw Percentage")
         }
     }
 }
