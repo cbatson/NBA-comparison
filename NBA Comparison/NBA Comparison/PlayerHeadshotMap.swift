@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+// TODO: This depends on the player IDs from the balldontlie.io API
 struct PlayerHeadshotMap {
     static let balldontlieIdToHeadshotURL = [
         1: "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203518.png",
@@ -20,27 +21,27 @@ struct PlayerHeadshotMap {
     
     static var cache : ImageCache = TemporaryImageCache()
     
-    static var placeholderLoader = ImageLoader(url: URL(string: defaultHeadshotURL)!, cache: cache).startLoad()
+    static var placeholderView = AnyView(AsyncImage(
+        url: URL(string: defaultHeadshotURL)!,
+        cache: cache,
+        placeholder: placeholderImage,
+        configuration: {
+            configureImage(image: $0)
+        }
+    ))
     
     static func getHeadshotFromId(id: Int) -> AnyView {
         guard let url = Self.balldontlieIdToHeadshotURL[id] else {
-            return AnyView(getPlaceholderHeadshotView())
+            return placeholderView
         }
         return AnyView(AsyncImage(
             url: URL(string: url)!,
             cache: self.cache,
-            placeholder: getPlaceholderHeadshotView(),
+            placeholder: placeholderView,
             configuration: {
                 configureImage(image: $0)
             }
         ))
-    }
-    
-    static private func getPlaceholderHeadshotView() -> some View {
-        if placeholderLoader.image != nil {
-            return configureImage(image: Image(uiImage: placeholderLoader.image!))
-        }
-        return configureImage(image: placeholderImage)
     }
     
     static private func configureImage(image: Image) -> some View {

@@ -12,25 +12,30 @@ struct PlayerComparisonView: View {
     var player1 : Player
     var player2 : Player
     
-    @State var player1SeasonAverages = Dictionary<Stats, StatValue>()
-    @State var player2SeasonAverages = Dictionary<Stats, StatValue>()
+    @State private var player1SeasonAverages = Dictionary<Stats, StatValue>()
+    @State private var player2SeasonAverages = Dictionary<Stats, StatValue>()
 
-    // TODO: convert to use generic data retrieval mechanism
-    let ballDontLie = (UIApplication.shared.delegate as! AppDelegate).ballDontLie
+    @State private var player1Season = 2018
+    @State private var player2Season = 2018
 
     struct HeadshotModifier: ViewModifier {
         func body(content: Content) -> some View {
             content
                 .frame(width: 200, height: 150, alignment: .bottom)
-                .aspectRatio(contentMode: .fit)
+                .scaledToFit()
                 //.border(Color.red)
+                .shadow(color: .gray, radius: 4, x: 3, y: 3)
         }
     }
     
     struct BioDataModifier: ViewModifier {
         func body(content: Content) -> some View {
             content
-                .frame(width: 200, alignment: .center)
+                .frame(width: 180, alignment: .center)
+                .multilineTextAlignment(.center)
+                .lineLimit(1)
+                .truncationMode(.tail)
+                //.border(Color.red)
         }
     }
     
@@ -76,6 +81,16 @@ struct PlayerComparisonView: View {
                 Text(player1.team.displayName).modifier(BioDataModifier())
                 Text(player2.team.displayName).modifier(BioDataModifier())
             }
+            HStack {
+                Picker("Season", selection: $player1Season) {
+                    ForEach((1980...2020).reversed(), id: \.self) { year in
+                        Text(String(year))
+                    }
+                }.labelsHidden()
+                /*Picker {
+                    
+                }*/
+            }
         }
     }
     
@@ -114,8 +129,9 @@ struct PlayerComparisonView: View {
     }
     
     func commonStats() -> [StatRow] {
-        let commonStats = Set(player1SeasonAverages.keys).intersection(player2SeasonAverages.keys)
-        return Array(commonStats).map({
+        let commonStats = Array(Set(player1SeasonAverages.keys).intersection(player2SeasonAverages.keys))
+        let sortedStates = commonStats.sorted() { $0.rawValue < $1.rawValue }
+        return sortedStates.map({
             let player1Value = player1SeasonAverages[$0]!
             let player2Value = player2SeasonAverages[$0]!
             return StatRow(player1Value: player1Value, player2Value: player2Value)
@@ -124,7 +140,8 @@ struct PlayerComparisonView: View {
     
     func loadSeasonAverages() {
         let playerIds = [player1.remoteId, player2.remoteId]
-        ballDontLie.loadSeasonAverages(season: 2018, playerIds: playerIds, completionHandler: { (stats, error) in
+        // TODO: convert to use generic data retrieval mechanism
+        AppData.instance.ballDontLie.loadSeasonAverages(season: 2018, playerIds: playerIds, completionHandler: { (stats, error) in
             guard let stats = stats, error == nil else {
                 // TODO: Display error to user
                 print("ERROR: could not load season average stats")
