@@ -12,16 +12,19 @@ import UIKit
 class BallDontLie {
     let baseUrl = "https://www.balldontlie.io/api/v1/"
     
-    func populateAllPlayers(playerStore: PlayerStore) {
+    func populateAllPlayers(playerStore: PlayerStore, teamStore: TeamStore) {
         playerStore.reset()
         var pageNumber = 0
-        var completionHandler : (([Player]?, Dictionary<String, AnyObject>?, Error?) -> Void)!
-        completionHandler = {(players, meta, error) in
-            guard let players = players, let meta = meta, error == nil else {
+        var completionHandler : (([Dictionary<String, AnyObject>]?, Dictionary<String, AnyObject>?, Error?) -> Void)!
+        completionHandler = {(playerDicts, meta, error) in
+            guard let playerDicts = playerDicts, let meta = meta, error == nil else {
                 // TODO: Report an error to the user
                 return
             }
-            //print(players)
+            //print(playerDicts)
+            let players = playerDicts.map() { (playerDict) in
+                self.processJsonPlayer(playerDict: playerDict, teamStore: teamStore)
+            }
             playerStore.appendWithSort(players: players)
             pageNumber += 1
             let total_pages = meta["total_pages"] as! Int
@@ -33,7 +36,32 @@ class BallDontLie {
         loadPlayerPage(pageNumber: 0, completionHandler: completionHandler)
     }
     
-    func loadPlayerPage(pageNumber: Int, completionHandler: @escaping ([Player]?, Dictionary<String, AnyObject>?, Error?) -> Void) {
+    func processJsonPlayer(playerDict: Dictionary<String, AnyObject>, teamStore: TeamStore) -> Player {
+        // First find/create team
+        let teamDict = playerDict["team"] as! Dictionary<String, AnyObject>
+        let team = teamStore.findOrCreateTeamFromJson(teamDict: teamDict) { (teamDict) in
+            return Team(
+                remoteId: teamDict["id"] as! Int,
+                simpleName: teamDict["name"] as! String,
+                fullName: teamDict["full_name"] as! String,
+                abbreviatedName: teamDict["abbreviation"] as! String,
+                city: teamDict["city"] as! String,
+                conference: teamDict["conference"] as! String,
+                division: teamDict["division"] as! String)
+        }
+
+        // Instantiate Player object
+        let first_name = playerDict["first_name"] as! String
+        let last_name = playerDict["last_name"] as! String
+        let player = Player(
+            remoteId: playerDict["id"] as! Int,
+            firstName: first_name,
+            lastName: last_name,
+            team: team)
+        return player
+    }
+    
+    func loadPlayerPage(pageNumber: Int, completionHandler: @escaping ([Dictionary<String, AnyObject>]?, Dictionary<String, AnyObject>?, Error?) -> Void) {
         print("DEBUG: Loading page number \(pageNumber)")
         let urlString = baseUrl + "players?per_page=100&page=\(pageNumber)"
         jsonFromUrl(urlString: urlString, jsonCompletionHandler: {(data, error) in
@@ -46,20 +74,7 @@ class BallDontLie {
                 let json = try JSONSerialization.jsonObject(with: data) as! Dictionary<String, AnyObject>
                 let playerDict = json["data"] as! [Dictionary<String, AnyObject>]
                 let metaDict = json["meta"] as! Dictionary<String, AnyObject>
-                
-                var players: [Player] = []
-                for playerEntry in playerDict {
-                    let first_name = playerEntry["first_name"] as! String
-                    let last_name = playerEntry["last_name"] as! String
-                    let player = Player(
-                        remoteId: playerEntry["id"] as! Int,
-                        first_name: first_name,
-                        last_name: last_name,
-                        display_name: first_name + " " + last_name,
-                        sort_name: last_name + ", " + first_name)
-                    players.append(player)
-                }
-                completionHandler(players, metaDict, nil)
+                completionHandler(playerDict, metaDict, nil)
             }
             catch {
                 completionHandler(nil, nil, error)

@@ -7,7 +7,6 @@
 //
 
 import SwiftUI
-import Combine
 
 class PlayerStore : ObservableObject {
     @Published var players: [Player] = []
@@ -23,13 +22,7 @@ class PlayerStore : ObservableObject {
     func appendWithSort(players: [Player]) {
         DispatchQueue.main.async {
             // Publishing needs to happen on the main thread.
-            self.players = (self.players + players).sorted(by: { $0.sort_name < $1.sort_name })
+            self.players = (self.players + players).sorted(by: { $0.sortName < $1.sortName })
         }
-    }
-}
-
-struct PlayerStore_Previews: PreviewProvider {
-    static var previews: some View {
-        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
     }
 }

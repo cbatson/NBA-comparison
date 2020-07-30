@@ -8,11 +8,23 @@
 
 import Foundation
 
-struct Player : Identifiable, Hashable {
-    var id = UUID()
-    var remoteId : Int = -1
-    var first_name : String = ""
-    var last_name : String = ""
-    var display_name : String = ""
-    var sort_name : String = ""
+class Player : RemoteEntity {
+    let firstName: String
+    let lastName: String
+    let displayName: String
+    let sortName: String
+    weak var _team: Team?
+    
+    var team: Team {
+        self._team!
+    }
+
+    init(remoteId: Int, firstName: String, lastName: String, displayName: String? = nil, sortName: String? = nil, team: Team) {
+        self.firstName = firstName
+        self.lastName = lastName
+        self.displayName = displayName ?? firstName + " " + lastName
+        self.sortName = sortName ?? lastName + ", " + firstName
+        self._team = team
+        super.init(remoteId: remoteId)
+    }
 }

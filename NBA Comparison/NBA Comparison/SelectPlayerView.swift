@@ -22,10 +22,10 @@ struct SelectPlayerView: View {
 
             List {
                 ForEach(self.playerStore.players.filter {
-                    self.searchText.isEmpty ? true : $0.display_name.lowercased().contains(self.searchText.lowercased())
+                    self.searchText.isEmpty ? true : $0.displayName.lowercased().contains(self.searchText.lowercased())
                 }, id: \.self) { player in
                     NavigationLink(destination: self.getDestination(player:  player)) {
-                        Text(player.display_name)
+                        Text(player.displayName)
                     }
                 }
             }
@@ -47,9 +47,10 @@ struct SelectPlayerView: View {
  }
 
 struct SelectPlayerView_Previews: PreviewProvider {
+    static let testTeam = Team(remoteId: -1, simpleName: "Test", fullName: "Test Team", abbreviatedName: "TT", city: "Test City", conference: "Test Conference", division: "Test Division")
     static var testPlayers = [
-        Player(display_name: "Lebron James"),
-        Player(display_name: "Michael Jordan")
+        Player(remoteId: -1, firstName: "Lebron", lastName: "James", team: testTeam),
+        Player(remoteId: -1, firstName: "Michael", lastName: "Jordan", team: testTeam)
     ]
     static var previews: some View {
         Group {

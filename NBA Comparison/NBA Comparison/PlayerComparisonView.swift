@@ -38,6 +38,7 @@ struct PlayerComparisonView: View {
         func body(content: Content) -> some View {
             content
                 .frame(width: 100, alignment: .center)
+                .multilineTextAlignment(.center)
         }
     }
     
@@ -67,9 +68,13 @@ struct PlayerComparisonView: View {
                 headshot2.modifier(HeadshotModifier())
             }.frame(alignment: .bottom)
             HStack {
-                Text(player1.display_name).modifier(BioDataModifier())
+                Text(player1.displayName).modifier(BioDataModifier())
                 //Text("").modifier(StatNameModifier())
-                Text(player2.display_name).modifier(BioDataModifier())
+                Text(player2.displayName).modifier(BioDataModifier())
+            }
+            HStack {
+                Text(player1.team.displayName).modifier(BioDataModifier())
+                Text(player2.team.displayName).modifier(BioDataModifier())
             }
         }
     }
