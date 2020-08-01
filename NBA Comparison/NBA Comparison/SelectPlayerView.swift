@@ -14,7 +14,7 @@ struct SelectPlayerView: View {
 
     @State private var searchText : String = ""
 
-    @ObservedObject var playerStore = (UIApplication.shared.delegate as! AppDelegate).playerStore
+    @ObservedObject var playerStore = AppData.instance.playerStore
 
     var body: some View {
         VStack {
@@ -25,7 +25,7 @@ struct SelectPlayerView: View {
                     self.searchText.isEmpty ? true : $0.displayName.lowercased().contains(self.searchText.lowercased())
                 }, id: \.self) { player in
                     NavigationLink(destination: self.getDestination(player:  player)) {
-                        Text(player.displayName)
+                        PlayerListRow(player: player)
                     }
                 }
             }

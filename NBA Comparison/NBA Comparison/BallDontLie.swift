@@ -25,6 +25,8 @@ class BallDontLie {
             let players = playerDicts.map() { (playerDict) in
                 self.processJsonPlayer(playerDict: playerDict, teamStore: teamStore)
             }
+            // TODO: Don't append players that alread exist.
+            // The API pagination gives us some duplicate entries.
             playerStore.appendWithSort(players: players)
             pageNumber += 1
             let total_pages = meta["total_pages"] as! Int

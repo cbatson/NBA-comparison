@@ -1,0 +1,3369 @@
+id,firsName,LastName,displayName,teamName
+14,Ike,Anigbogu,Ike Anigbogu,Indiana Pacers
+25,Ron,Baker,Ron Baker,New York Knicks
+47,Jabari,Bird,Jabari Bird,Boston Celtics
+67,MarShon,Brooks,MarShon Brooks,Memphis Grizzlies
+71,Lorenzo,Brown,Lorenzo Brown,Toronto Raptors
+90,Omri,Casspi,Omri Casspi,Memphis Grizzlies
+1,Alex,Abrines,Alex Abrines,Oklahoma City Thunder
+119,Tyler,Davis,Tyler Davis,Oklahoma City Thunder
+149,Keenan,Evans,Keenan Evans,Detroit Pistons
+179,Marcin,Gortat,Marcin Gortat,LA Clippers
+1593,Andrew,Bogut,Andrew Bogut,Golden State Warriors
+241,Amir,Johnson,Amir Johnson,Philadelphia 76ers
+256,George,King,George King,Phoenix Suns
+281,Zach,Lofton,Zach Lofton,Detroit Pistons
+263,Kosta,Koufos,Kosta Koufos,Sacramento Kings
+348,James,Nunnally,James Nunnally,Minnesota Timberwolves
+382,Billy,Preston,Billy Preston,Cleveland Cavaliers
+384,Zhou,Qi,Zhou Qi,Houston Rockets
+388,Zach,Randolph,Zach Randolph,Sacramento Kings
+392,Malachi,Richardson,Malachi Richardson,Toronto Raptors
+430,DJ,Stephens,DJ Stephens,Memphis Grizzlies
+437,Milos,Teodosic,Milos Teodosic,LA Clippers
+448,Gary,Trent Jr.,Gary Trent Jr.,Portland Trail Blazers
+494,Michael,Smith,Michael Smith,Boston Celtics
+495,John,Morton,John Morton,Cleveland Cavaliers
+496,Howard,Wright,Howard Wright,Atlanta Hawks
+497,Michael,Ansley,Michael Ansley,Orlando Magic
+498,John,Salley,John Salley,Detroit Pistons
+499,Dan,Schayes,Dan Schayes,Milwaukee Bucks
+500,Mark,Eaton,Mark Eaton,Utah Jazz
+501,Kevin,Johnson,Kevin Johnson,Phoenix Suns
+502,Danny,Ainge,Danny Ainge,Portland Trail Blazers
+503,Kenny,Smith,Kenny Smith,Houston Rockets
+504,Randy,Breuer,Randy Breuer,Minnesota Timberwolves
+505,Herb,Williams,Herb Williams,Dallas Mavericks
+506,Joe,Wolf,Joe Wolf,Denver Nuggets
+507,Steve,Johnson,Steve Johnson,Golden State Warriors
+508,Glen,Rice,Glen Rice,Miami Heat
+509,Greg,Foster,Greg Foster,Washington Wizards
+510,Larry,Nance,Larry Nance,Cleveland Cavaliers
+511,Duane,Ferrell,Duane Ferrell,Atlanta Hawks
+512,Nick,Anderson,Nick Anderson,Orlando Magic
+513,Joe,Dumars,Joe Dumars,Detroit Pistons
+514,Jay,Humphries,Jay Humphries,Milwaukee Bucks
+515,Darrell,Griffith,Darrell Griffith,Utah Jazz
+516,Dan,Majerle,Dan Majerle,Phoenix Suns
+517,Tom,Chambers,Tom Chambers,Phoenix Suns
+518,Alaa,Abdelnaby,Alaa Abdelnaby,Portland Trail Blazers
+519,Adrian,Caldwell,Adrian Caldwell,Houston Rockets
+520,Vernon,Maxwell,Vernon Maxwell,Houston Rockets
+521,Doug,West,Doug West,Minnesota Timberwolves
+522,Tony,Campbell,Tony Campbell,Minnesota Timberwolves
+523,Roy,Tarpley,Roy Tarpley,Dallas Mavericks
+524,Anthony,Cook,Anthony Cook,Denver Nuggets
+525,Todd,Lichti,Todd Lichti,Denver Nuggets
+526,Tom,Tolbert,Tom Tolbert,Golden State Warriors
+527,Billy,Thompson,Billy Thompson,Miami Heat
+528,Byron,Irvin,Byron Irvin,Washington Wizards
+529,Mark,Price,Mark Price,Cleveland Cavaliers
+530,Dominique,Wilkins,Dominique Wilkins,Atlanta Hawks
+531,Dennis,Scott,Dennis Scott,Orlando Magic
+532,Terry,Catledge,Terry Catledge,Orlando Magic
+533,Bill,Laimbeer,Bill Laimbeer,Detroit Pistons
+534,William,Bedford,William Bedford,Detroit Pistons
+535,Ricky,Pierce,Ricky Pierce,Milwaukee Bucks
+536,Blue,Edwards,Blue Edwards,Utah Jazz
+537,Walter,Palmer,Walter Palmer,Utah Jazz
+538,Mark,West,Mark West,Phoenix Suns
+539,Clifford,Robinson,Clifford Robinson,Portland Trail Blazers
+540,Hakeem,Olajuwon,Hakeem Olajuwon,Houston Rockets
+541,Richard,Coffey,Richard Coffey,Minnesota Timberwolves
+542,James,Donaldson,James Donaldson,Dallas Mavericks
+543,Jerome,Lane,Jerome Lane,Denver Nuggets
+544,Sarunas,Marciulionis,Sarunas Marciulionis,Golden State Warriors
+545,Grant,Long,Grant Long,Miami Heat
+546,Willie,Burton,Willie Burton,Miami Heat
+547,Mark,Alarie,Mark Alarie,Washington Wizards
+548,Winston,Bennett,Winston Bennett,Cleveland Cavaliers
+549,Doc,Rivers,Doc Rivers,Atlanta Hawks
+550,Tim,McCormick,Tim McCormick,Atlanta Hawks
+551,Scott,Skiles,Scott Skiles,Orlando Magic
+552,Dennis,Rodman,Dennis Rodman,Detroit Pistons
+553,Greg,Anderson,Greg Anderson,Milwaukee Bucks
+554,Jeff,Malone,Jeff Malone,Utah Jazz
+555,Cedric,Ceballos,Cedric Ceballos,Phoenix Suns
+556,Tim,Perry,Tim Perry,Phoenix Suns
+557,Buck,Williams,Buck Williams,Portland Trail Blazers
+558,Dave,Jamerson,Dave Jamerson,Houston Rockets
+559,Scott,Brooks,Scott Brooks,Minnesota Timberwolves
+560,Rolando,Blackman,Rolando Blackman,Dallas Mavericks
+561,Avery,Johnson,Avery Johnson,Denver Nuggets
+562,Rod,Higgins,Rod Higgins,Golden State Warriors
+563,Jon,Sundvold,Jon Sundvold,Miami Heat
+564,A.J.,English,A.J. English,Washington Wizards
+565,John,Battle,John Battle,Atlanta Hawks
+566,Sam,Vincent,Sam Vincent,Orlando Magic
+567,Isiah,Thomas,Isiah Thomas,Detroit Pistons
+568,Brad,Lohaus,Brad Lohaus,Milwaukee Bucks
+569,Mike,Brown,Mike Brown,Utah Jazz
+570,Kenny,Battle,Kenny Battle,Phoenix Suns
+14,Ike,Anigbogu,Ike Anigbogu,Indiana Pacers
+25,Ron,Baker,Ron Baker,New York Knicks
+47,Jabari,Bird,Jabari Bird,Boston Celtics
+67,MarShon,Brooks,MarShon Brooks,Memphis Grizzlies
+71,Lorenzo,Brown,Lorenzo Brown,Toronto Raptors
+90,Omri,Casspi,Omri Casspi,Memphis Grizzlies
+1,Alex,Abrines,Alex Abrines,Oklahoma City Thunder
+119,Tyler,Davis,Tyler Davis,Oklahoma City Thunder
+149,Keenan,Evans,Keenan Evans,Detroit Pistons
+179,Marcin,Gortat,Marcin Gortat,LA Clippers
+1593,Andrew,Bogut,Andrew Bogut,Golden State Warriors
+241,Amir,Johnson,Amir Johnson,Philadelphia 76ers
+256,George,King,George King,Phoenix Suns
+281,Zach,Lofton,Zach Lofton,Detroit Pistons
+263,Kosta,Koufos,Kosta Koufos,Sacramento Kings
+348,James,Nunnally,James Nunnally,Minnesota Timberwolves
+382,Billy,Preston,Billy Preston,Cleveland Cavaliers
+384,Zhou,Qi,Zhou Qi,Houston Rockets
+388,Zach,Randolph,Zach Randolph,Sacramento Kings
+392,Malachi,Richardson,Malachi Richardson,Toronto Raptors
+430,DJ,Stephens,DJ Stephens,Memphis Grizzlies
+437,Milos,Teodosic,Milos Teodosic,LA Clippers
+448,Gary,Trent Jr.,Gary Trent Jr.,Portland Trail Blazers
+494,Michael,Smith,Michael Smith,Boston Celtics
+495,John,Morton,John Morton,Cleveland Cavaliers
+496,Howard,Wright,Howard Wright,Atlanta Hawks
+497,Michael,Ansley,Michael Ansley,Orlando Magic
+498,John,Salley,John Salley,Detroit Pistons
+499,Dan,Schayes,Dan Schayes,Milwaukee Bucks
+500,Mark,Eaton,Mark Eaton,Utah Jazz
+501,Kevin,Johnson,Kevin Johnson,Phoenix Suns
+502,Danny,Ainge,Danny Ainge,Portland Trail Blazers
+503,Kenny,Smith,Kenny Smith,Houston Rockets
+504,Randy,Breuer,Randy Breuer,Minnesota Timberwolves
+505,Herb,Williams,Herb Williams,Dallas Mavericks
+506,Joe,Wolf,Joe Wolf,Denver Nuggets
+507,Steve,Johnson,Steve Johnson,Golden State Warriors
+508,Glen,Rice,Glen Rice,Miami Heat
+509,Greg,Foster,Greg Foster,Washington Wizards
+510,Larry,Nance,Larry Nance,Cleveland Cavaliers
+511,Duane,Ferrell,Duane Ferrell,Atlanta Hawks
+512,Nick,Anderson,Nick Anderson,Orlando Magic
+513,Joe,Dumars,Joe Dumars,Detroit Pistons
+514,Jay,Humphries,Jay Humphries,Milwaukee Bucks
+515,Darrell,Griffith,Darrell Griffith,Utah Jazz
+516,Dan,Majerle,Dan Majerle,Phoenix Suns
+517,Tom,Chambers,Tom Chambers,Phoenix Suns
+518,Alaa,Abdelnaby,Alaa Abdelnaby,Portland Trail Blazers
+519,Adrian,Caldwell,Adrian Caldwell,Houston Rockets
+520,Vernon,Maxwell,Vernon Maxwell,Houston Rockets
+521,Doug,West,Doug West,Minnesota Timberwolves
+522,Tony,Campbell,Tony Campbell,Minnesota Timberwolves
+523,Roy,Tarpley,Roy Tarpley,Dallas Mavericks
+524,Anthony,Cook,Anthony Cook,Denver Nuggets
+525,Todd,Lichti,Todd Lichti,Denver Nuggets
+526,Tom,Tolbert,Tom Tolbert,Golden State Warriors
+527,Billy,Thompson,Billy Thompson,Miami Heat
+528,Byron,Irvin,Byron Irvin,Washington Wizards
+529,Mark,Price,Mark Price,Cleveland Cavaliers
+530,Dominique,Wilkins,Dominique Wilkins,Atlanta Hawks
+531,Dennis,Scott,Dennis Scott,Orlando Magic
+532,Terry,Catledge,Terry Catledge,Orlando Magic
+533,Bill,Laimbeer,Bill Laimbeer,Detroit Pistons
+534,William,Bedford,William Bedford,Detroit Pistons
+535,Ricky,Pierce,Ricky Pierce,Milwaukee Bucks
+536,Blue,Edwards,Blue Edwards,Utah Jazz
+537,Walter,Palmer,Walter Palmer,Utah Jazz
+538,Mark,West,Mark West,Phoenix Suns
+539,Clifford,Robinson,Clifford Robinson,Portland Trail Blazers
+540,Hakeem,Olajuwon,Hakeem Olajuwon,Houston Rockets
+541,Richard,Coffey,Richard Coffey,Minnesota Timberwolves
+542,James,Donaldson,James Donaldson,Dallas Mavericks
+543,Jerome,Lane,Jerome Lane,Denver Nuggets
+544,Sarunas,Marciulionis,Sarunas Marciulionis,Golden State Warriors
+545,Grant,Long,Grant Long,Miami Heat
+546,Willie,Burton,Willie Burton,Miami Heat
+547,Mark,Alarie,Mark Alarie,Washington Wizards
+548,Winston,Bennett,Winston Bennett,Cleveland Cavaliers
+549,Doc,Rivers,Doc Rivers,Atlanta Hawks
+550,Tim,McCormick,Tim McCormick,Atlanta Hawks
+551,Scott,Skiles,Scott Skiles,Orlando Magic
+552,Dennis,Rodman,Dennis Rodman,Detroit Pistons
+553,Greg,Anderson,Greg Anderson,Milwaukee Bucks
+554,Jeff,Malone,Jeff Malone,Utah Jazz
+555,Cedric,Ceballos,Cedric Ceballos,Phoenix Suns
+556,Tim,Perry,Tim Perry,Phoenix Suns
+557,Buck,Williams,Buck Williams,Portland Trail Blazers
+558,Dave,Jamerson,Dave Jamerson,Houston Rockets
+559,Scott,Brooks,Scott Brooks,Minnesota Timberwolves
+560,Rolando,Blackman,Rolando Blackman,Dallas Mavericks
+561,Avery,Johnson,Avery Johnson,Denver Nuggets
+562,Rod,Higgins,Rod Higgins,Golden State Warriors
+563,Jon,Sundvold,Jon Sundvold,Miami Heat
+564,A.J.,English,A.J. English,Washington Wizards
+565,John,Battle,John Battle,Atlanta Hawks
+566,Sam,Vincent,Sam Vincent,Orlando Magic
+567,Isiah,Thomas,Isiah Thomas,Detroit Pistons
+568,Brad,Lohaus,Brad Lohaus,Milwaukee Bucks
+569,Mike,Brown,Mike Brown,Utah Jazz
+570,Kenny,Battle,Kenny Battle,Phoenix Suns
+571,Danny,Young,Danny Young,Portland Trail Blazers
+572,Larry,Smith,Larry Smith,Houston Rockets
+573,Pooh,Richardson,Pooh Richardson,Minnesota Timberwolves
+574,Derek,Harper,Derek Harper,Dallas Mavericks
+575,Michael,Adams,Michael Adams,Denver Nuggets
+576,Tim,Hardaway,Tim Hardaway,Golden State Warriors
+577,Bimbo,Coles,Bimbo Coles,Miami Heat
+578,Darrell,Walker,Darrell Walker,Washington Wizards
+579,Kevin,Willis,Kevin Willis,Atlanta Hawks
+580,Otis,Smith,Otis Smith,Orlando Magic
+581,James,Edwards,James Edwards,Detroit Pistons
+582,Frank,Brickowski,Frank Brickowski,Milwaukee Bucks
+583,Karl,Malone,Karl Malone,Utah Jazz
+584,Ian,Lockhart,Ian Lockhart,Phoenix Suns
+585,Kevin,Duckworth,Kevin Duckworth,Portland Trail Blazers
+586,Otis,Thorpe,Otis Thorpe,Houston Rockets
+587,Gerald,Glass,Gerald Glass,Minnesota Timberwolves
+588,Alex,English,Alex English,Dallas Mavericks
+589,T.R.,Dunn,T.R. Dunn,Denver Nuggets
+590,Alton,Lister,Alton Lister,Golden State Warriors
+591,Sherman,Douglas,Sherman Douglas,Miami Heat
+592,Charles,Jones,Charles Jones,Washington Wizards
+593,Moses,Malone,Moses Malone,Atlanta Hawks
+594,Mark,Acres,Mark Acres,Orlando Magic
+595,Lance,Blanks,Lance Blanks,Detroit Pistons
+596,Jeff,Grayer,Jeff Grayer,Milwaukee Bucks
+597,Chris,Munk,Chris Munk,Utah Jazz
+598,Jeff,Hornacek,Jeff Hornacek,Phoenix Suns
+599,Jerome,Kersey,Jerome Kersey,Portland Trail Blazers
+600,Dave,Feitl,Dave Feitl,Houston Rockets
+601,Tod,Murphy,Tod Murphy,Minnesota Timberwolves
+602,Lafayette,Lever,Lafayette Lever,Dallas Mavericks
+603,Corey,Gaines,Corey Gaines,Denver Nuggets
+604,Mitch,Richmond,Mitch Richmond,Golden State Warriors
+605,Kevin,Edwards,Kevin Edwards,Miami Heat
+606,Haywoode,Workman,Haywoode Workman,Washington Wizards
+607,Tom,Hammonds,Tom Hammonds,Washington Wizards
+608,Rumeal,Robinson,Rumeal Robinson,Atlanta Hawks
+609,Greg,Kite,Greg Kite,Orlando Magic
+610,Vinnie,Johnson,Vinnie Johnson,Detroit Pistons
+611,Jack,Sikma,Jack Sikma,Milwaukee Bucks
+612,Delaney,Rudd,Delaney Rudd,Utah Jazz
+613,Ed,Nealy,Ed Nealy,Phoenix Suns
+614,Wayne,Cooper,Wayne Cooper,Portland Trail Blazers
+615,Sleepy,Floyd,Sleepy Floyd,Houston Rockets
+616,Felton,Spencer,Felton Spencer,Minnesota Timberwolves
+617,Tyrone,Corbin,Tyrone Corbin,Minnesota Timberwolves
+618,Marcus,Liberty,Marcus Liberty,Denver Nuggets
+619,Walter,Davis,Walter Davis,Denver Nuggets
+620,Tyrone,Hill,Tyrone Hill,Golden State Warriors
+621,Alec,Kessler,Alec Kessler,Miami Heat
+622,Terry,Davis,Terry Davis,Miami Heat
+623,Larry,Robinson,Larry Robinson,Washington Wizards
+624,Sidney,Moncrief,Sidney Moncrief,Atlanta Hawks
+625,Jeff,Turner,Jeff Turner,Orlando Magic
+626,Scott,Hastings,Scott Hastings,Detroit Pistons
+627,Alvin,Robertson,Alvin Robertson,Milwaukee Bucks
+628,Steve,Henson,Steve Henson,Milwaukee Bucks
+629,Andy,Toolson,Andy Toolson,Utah Jazz
+630,Thurl,Bailey,Thurl Bailey,Utah Jazz
+631,Kurt,Rambis,Kurt Rambis,Phoenix Suns
+632,Clyde,Drexler,Clyde Drexler,Portland Trail Blazers
+633,David,Wood,David Wood,Houston Rockets
+634,Sam,Mitchell,Sam Mitchell,Minnesota Timberwolves
+635,Rodney,McCray,Rodney McCray,Dallas Mavericks
+636,Blair,Rasmussen,Blair Rasmussen,Denver Nuggets
+637,Kevin,Pritchard,Kevin Pritchard,Golden State Warriors
+638,Milt,Wagner,Milt Wagner,Miami Heat
+639,Bernard,King,Bernard King,Washington Wizards
+640,Roy,Hinson,Roy Hinson,Brooklyn Nets
+641,Matt,Bullard,Matt Bullard,Houston Rockets
+642,Alan,Ogg,Alan Ogg,Miami Heat
+643,Kevin,Lynch,Kevin Lynch,Charlotte Hornets
+644,Larry,Krystkowiak,Larry Krystkowiak,Milwaukee Bucks
+645,Pete,Chilcutt,Pete Chilcutt,Sacramento Kings
+646,Randy,Brown,Randy Brown,Sacramento Kings
+647,Elliot,Perry,Elliot Perry,LA Clippers
+648,Jimmy,Oliver,Jimmy Oliver,Cleveland Cavaliers
+649,Terrell,Brandon,Terrell Brandon,Cleveland Cavaliers
+650,Greg,Sutton,Greg Sutton,San Antonio Spurs
+651,Tom,Copa,Tom Copa,San Antonio Spurs
+652,Donald,Hodge,Donald Hodge,Dallas Mavericks
+653,Joao,Vianna,Joao Vianna,Dallas Mavericks
+654,Mike,Iuzzolino,Mike Iuzzolino,Dallas Mavericks
+655,Greg,Anthony,Greg Anthony,New York Knicks
+656,Albert,King,Albert King,Washington Wizards
+657,Tellis,Frank,Tellis Frank,Minnesota Timberwolves
+658,David,Benoit,David Benoit,Utah Jazz
+659,Demetrius,Calip,Demetrius Calip,Los Angeles Lakers
+660,Dikembe,Mutombo,Dikembe Mutombo,Denver Nuggets
+661,Mark,Macon,Mark Macon,Denver Nuggets
+662,Chris,Gatling,Chris Gatling,Golden State Warriors
+663,Victor,Alexander,Victor Alexander,Golden State Warriors
+664,Mark,Randall,Mark Randall,Chicago Bulls
+665,Mitchell,Wiggins,Mitchell Wiggins,Philadelphia 76ers
+666,Tharon,Mayes,Tharon Mayes,Philadelphia 76ers
+667,Charles,Thomas,Charles Thomas,Detroit Pistons
+668,Robert,Pack,Robert Pack,Portland Trail Blazers
+669,John,Bagley,John Bagley,Boston Celtics
+670,Rick,Fox,Rick Fox,Boston Celtics
+671,Larry,Johnson,Larry Johnson,Charlotte Hornets
+672,Alexander,Volkov,Alexander Volkov,Atlanta Hawks
+673,Stacey,Augmon,Stacey Augmon,Atlanta Hawks
+674,Carl,Thomas,Carl Thomas,Sacramento Kings
+675,Steven,Smith,Steven Smith,Miami Heat
+676,Stanley,Roberts,Stanley Roberts,Orlando Magic
+677,Doug,Lee,Doug Lee,Brooklyn Nets
+678,Rafael,Addison,Rafael Addison,Brooklyn Nets
+679,Sean,Green,Sean Green,Indiana Pacers
+680,Corey,Crowder,Corey Crowder,Utah Jazz
+681,Eric,Murdock,Eric Murdock,Utah Jazz
+682,Kevin,Brooks,Kevin Brooks,Denver Nuggets
+683,Carlton,McKinney,Carlton McKinney,New York Knicks
+684,Billy,Owens,Billy Owens,Golden State Warriors
+685,Doug,Smith,Doug Smith,Dallas Mavericks
+686,Marty,Conlon,Marty Conlon,Oklahoma City Thunder
+687,Rich,King,Rich King,Oklahoma City Thunder
+688,Brad,Sellers,Brad Sellers,Detroit Pistons
+689,Rodney,Monroe,Rodney Monroe,Atlanta Hawks
+690,Lanard,Copeland,Lanard Copeland,LA Clippers
+691,LeRon,Ellis,LeRon Ellis,LA Clippers
+692,Larry,Stewart,Larry Stewart,Washington Wizards
+693,John,Turner,John Turner,Houston Rockets
+694,Charles,Shackleford,Charles Shackleford,Philadelphia 76ers
+695,Keith,Owens,Keith Owens,Los Angeles Lakers
+696,Paul,Graham,Paul Graham,Atlanta Hawks
+697,Kenny,Anderson,Kenny Anderson,Brooklyn Nets
+698,Carl,Herrera,Carl Herrera,Houston Rockets
+699,Myron,Brown,Myron Brown,Minnesota Timberwolves
+700,Dale,Davis,Dale Davis,Indiana Pacers
+701,Labradford,Smith,Labradford Smith,Washington Wizards
+702,Bison,Dele,Bison Dele,Orlando Magic
+703,Chuck,Nevitt,Chuck Nevitt,Chicago Bulls
+704,Patrick,Eddie,Patrick Eddie,New York Knicks
+705,David,Rivers,David Rivers,LA Clippers
+706,Luc,Longley,Luc Longley,Minnesota Timberwolves
+707,Bob,McCann,Bob McCann,Detroit Pistons
+708,Donald,Royal,Donald Royal,San Antonio Spurs
+709,Anthony,Bowie,Anthony Bowie,Orlando Magic
+710,Chris,Corchiani,Chris Corchiani,Orlando Magic
+711,Stephen,Thompson,Stephen Thompson,Orlando Magic
+712,Jeff,Ruland,Jeff Ruland,Philadelphia 76ers
+713,Ronnie,Grandison,Ronnie Grandison,Charlotte Hornets
+714,Lamont,Strothers,Lamont Strothers,Portland Trail Blazers
+715,Tracy,Moore,Tracy Moore,Dallas Mavericks
+716,Jaren,Jackson,Jaren Jackson,Golden State Warriors
+717,Ennis,Whatley,Ennis Whatley,Portland Trail Blazers
+718,Brian,Howard,Brian Howard,Dallas Mavericks
+719,Steve,Burtt,Steve Burtt,Phoenix Suns
+720,Cedric,Hunter,Cedric Hunter,Charlotte Hornets
+721,Stephen,Bardo,Stephen Bardo,San Antonio Spurs
+722,Cliff,T. Robinson,Cliff T. Robinson,Los Angeles Lakers
+723,Derek,Strong,Derek Strong,Washington Wizards
+724,Bobby,Phills,Bobby Phills,Cleveland Cavaliers
+725,Anthony,Avent,Anthony Avent,Milwaukee Bucks
+726,Lee,Mayberry,Lee Mayberry,Milwaukee Bucks
+727,Todd,Day,Todd Day,Milwaukee Bucks
+728,Tony,Bennett,Tony Bennett,Charlotte Hornets
+729,Brent,Price,Brent Price,Washington Wizards
+730,Don,MacLean,Don MacLean,Washington Wizards
+731,Tom,Gugliotta,Tom Gugliotta,Washington Wizards
+732,Walt,Williams,Walt Williams,Sacramento Kings
+733,Lloyd,Daniels,Lloyd Daniels,San Antonio Spurs
+734,Vinny,Del Negro,Vinny Del Negro,San Antonio Spurs
+735,Shaquille,O'Neal,Shaquille O'Neal,Orlando Magic
+736,Adam,Keefe,Adam Keefe,Atlanta Hawks
+737,Clar.,Weatherspoon,Clar. Weatherspoon,Philadelphia 76ers
+738,Robert,Horry,Robert Horry,Houston Rockets
+739,Chris,Smith,Chris Smith,Minnesota Timberwolves
+740,Christian,Laettner,Christian Laettner,Minnesota Timberwolves
+741,Gundars,Vetra,Gundars Vetra,Minnesota Timberwolves
+742,Corey,Williams,Corey Williams,Chicago Bulls
+743,Elmore,Spencer,Elmore Spencer,LA Clippers
+744,Anthony,Peeler,Anthony Peeler,Los Angeles Lakers
+745,Duane,Cooper,Duane Cooper,Los Angeles Lakers
+746,John,Crotty,John Crotty,Utah Jazz
+747,Stephen,Howard,Stephen Howard,Utah Jazz
+748,Byron,Houston,Byron Houston,Golden State Warriors
+749,Keith,Jennings,Keith Jennings,Golden State Warriors
+750,Latrell,Sprewell,Latrell Sprewell,Golden State Warriors
+751,Bryant,Stith,Bryant Stith,Denver Nuggets
+752,LaPhonso,Ellis,LaPhonso Ellis,Denver Nuggets
+753,Matt,Othick,Matt Othick,San Antonio Spurs
+754,Sam,Mack,Sam Mack,San Antonio Spurs
+755,Anthony,Pullard,Anthony Pullard,Milwaukee Bucks
+756,Malik,Sealy,Malik Sealy,Indiana Pacers
+757,Hubert,Davis,Hubert Davis,New York Knicks
+758,Sean,Rooks,Sean Rooks,Dallas Mavericks
+759,Walter,Bond,Walter Bond,Dallas Mavericks
+760,Harold,Miner,Harold Miner,Miami Heat
+761,Oliver,Miller,Oliver Miller,Phoenix Suns
+762,Lorenzo,Williams,Lorenzo Williams,Charlotte Hornets
+763,Dave,Johnson,Dave Johnson,Portland Trail Blazers
+764,Reggie,Smith,Reggie Smith,Portland Trail Blazers
+765,Tracy,Murray,Tracy Murray,Portland Trail Blazers
+766,Robert,Werdann,Robert Werdann,Denver Nuggets
+767,Alex,Stivrins,Alex Stivrins,Phoenix Suns
+768,Frank,Johnson,Frank Johnson,Phoenix Suns
+769,Randy,Woods,Randy Woods,LA Clippers
+770,Litterial,Green,Litterial Green,Orlando Magic
+771,Alonzo,Mourning,Alonzo Mourning,Charlotte Hornets
+772,Alex,Blackwell,Alex Blackwell,Los Angeles Lakers
+773,Isaiah,Morris,Isaiah Morris,Detroit Pistons
+774,Doug,Overton,Doug Overton,Washington Wizards
+775,Eric,Anderson,Eric Anderson,New York Knicks
+776,Tim,Kempton,Tim Kempton,Phoenix Suns
+777,Stan,Kimbrough,Stan Kimbrough,Sacramento Kings
+778,Jay,Guidinger,Jay Guidinger,Cleveland Cavaliers
+779,Gary,Plummer,Gary Plummer,Denver Nuggets
+780,Matt,Geiger,Matt Geiger,Miami Heat
+781,Marcus,Webb,Marcus Webb,Boston Celtics
+782,Jojo,English,Jojo English,Chicago Bulls
+783,Marlon,Maxey,Marlon Maxey,Minnesota Timberwolves
+784,Jon,Barry,Jon Barry,Milwaukee Bucks
+785,Richard,Dumas,Richard Dumas,Phoenix Suns
+786,Radisav,Curcic,Radisav Curcic,Dallas Mavericks
+787,Andre,Spencer,Andre Spencer,Atlanta Hawks
+788,Dexter,Cambridge,Dexter Cambridge,Dallas Mavericks
+789,Joe,Courtney,Joe Courtney,Chicago Bulls
+790,Duane,Washington,Duane Washington,LA Clippers
+791,Melvin,Newbern,Melvin Newbern,Detroit Pistons
+792,Ricky,Blanton,Ricky Blanton,Chicago Bulls
+793,Jim,Jackson,Jim Jackson,Dallas Mavericks
+794,Barry,Stevens,Barry Stevens,Golden State Warriors
+795,Doug,Christie,Doug Christie,Los Angeles Lakers
+796,Pat,Durham,Pat Durham,Golden State Warriors
+797,Thomas,Jordan,Thomas Jordan,Philadelphia 76ers
+798,Gary,Alexander,Gary Alexander,Miami Heat
+799,Anfernee,Hardaway,Anfernee Hardaway,Orlando Magic
+800,Keith,Tower,Keith Tower,Orlando Magic
+801,Chris,Whitney,Chris Whitney,San Antonio Spurs
+802,Josh,Grant,Josh Grant,Golden State Warriors
+803,Bobby,Hurley,Bobby Hurley,Sacramento Kings
+804,Mike,Peplowski,Mike Peplowski,Sacramento Kings
+805,Darnell,Mee,Darnell Mee,Denver Nuggets
+806,Rodney,Rogers,Rodney Rogers,Denver Nuggets
+807,Acie,Earl,Acie Earl,Boston Celtics
+808,Dino,Radja,Dino Radja,Boston Celtics
+809,Chris,Mills,Chris Mills,Cleveland Cavaliers
+810,Vin,Baker,Vin Baker,Milwaukee Bucks
+811,Antonio,Harvey,Antonio Harvey,Los Angeles Lakers
+812,Nick,Van Exel,Nick Van Exel,Los Angeles Lakers
+813,Terry,Dehere,Terry Dehere,LA Clippers
+814,James,Robinson,James Robinson,Portland Trail Blazers
+815,Corie,Blount,Corie Blount,Chicago Bulls
+816,Toni,Kukoc,Toni Kukoc,Chicago Bulls
+817,Michael,Curry,Michael Curry,Philadelphia 76ers
+818,Shawn,Bradley,Shawn Bradley,Philadelphia 76ers
+819,Warren,Kidd,Warren Kidd,Philadelphia 76ers
+820,Calbert,Cheaney,Calbert Cheaney,Washington Wizards
+821,Mitchell,Butler,Mitchell Butler,Washington Wizards
+822,Tito,Horford,Tito Horford,Washington Wizards
+823,Bryon,Russell,Bryon Russell,Utah Jazz
+824,Luther,Wright,Luther Wright,Utah Jazz
+825,Darren,Morningstar,Darren Morningstar,Dallas Mavericks
+826,Jamal,Mashburn,Jamal Mashburn,Dallas Mavericks
+827,Lucious,Harris,Lucious Harris,Dallas Mavericks
+828,Popeye,Jones,Popeye Jones,Dallas Mavericks
+829,Eric,Riley,Eric Riley,Houston Rockets
+830,Sam,Cassell,Sam Cassell,Houston Rockets
+831,P.J.,Brown,P.J. Brown,Brooklyn Nets
+832,Rex,Walters,Rex Walters,Brooklyn Nets
+833,Antonio,Davis,Antonio Davis,Indiana Pacers
+834,Allan,Houston,Allan Houston,Detroit Pistons
+835,Lindsey,Hunter,Lindsey Hunter,Detroit Pistons
+836,Brian,Davis,Brian Davis,Minnesota Timberwolves
+837,Isaiah,Rider,Isaiah Rider,Minnesota Timberwolves
+838,Matt,Wenstrom,Matt Wenstrom,Boston Celtics
+839,Scott,Haskin,Scott Haskin,Indiana Pacers
+840,Gerald,Madkins,Gerald Madkins,Cleveland Cavaliers
+841,Greg,Graham,Greg Graham,Philadelphia 76ers
+842,Ervin,Johnson,Ervin Johnson,Oklahoma City Thunder
+843,George,Lynch,George Lynch,Los Angeles Lakers
+844,Bob,Martin,Bob Martin,LA Clippers
+845,Ricky,Grace,Ricky Grace,Atlanta Hawks
+846,Sedric,Toney,Sedric Toney,Cleveland Cavaliers
+847,Chris,Webber,Chris Webber,Golden State Warriors
+848,Gheorghe,Muresan,Gheorghe Muresan,Washington Wizards
+849,Richard,Petruska,Richard Petruska,Houston Rockets
+850,Kevin,Thompson,Kevin Thompson,Portland Trail Blazers
+851,Adonis,Jordan,Adonis Jordan,Denver Nuggets
+852,Scott,Burrell,Scott Burrell,Charlotte Hornets
+853,Dell,Demps,Dell Demps,Golden State Warriors
+854,Evers,Burns,Evers Burns,Sacramento Kings
+855,Aaron,Williams,Aaron Williams,Utah Jazz
+856,Stanley,Jackson,Stanley Jackson,Minnesota Timberwolves
+857,David,Wesley,David Wesley,Brooklyn Nets
+858,Chris,King,Chris King,Oklahoma City Thunder
+859,Doug,Edwards,Doug Edwards,Atlanta Hawks
+860,Harold,Ellis,Harold Ellis,LA Clippers
+861,Malcolm,Mackey,Malcolm Mackey,Phoenix Suns
+862,Ben,Coleman,Ben Coleman,Detroit Pistons
+863,Roy,Marble,Roy Marble,Denver Nuggets
+864,Reggie,Jordan,Reggie Jordan,Los Angeles Lakers
+865,Chad,Gallagher,Chad Gallagher,Utah Jazz
+866,Bo,Outlaw,Bo Outlaw,LA Clippers
+867,Bill,Edwards,Bill Edwards,Philadelphia 76ers
+868,Andrew,Gaze,Andrew Gaze,Washington Wizards
+869,Alphonso,Ford,Alphonso Ford,Oklahoma City Thunder
+870,Andres,Guibert,Andres Guibert,Minnesota Timberwolves
+871,Skeeter,Henry,Skeeter Henry,Phoenix Suns
+872,Chris,Jent,Chris Jent,Houston Rockets
+873,Geert,Hammink,Geert Hammink,Orlando Magic
+874,Jalen,Rose,Jalen Rose,Denver Nuggets
+875,Reggie,Slater,Reggie Slater,Denver Nuggets
+876,Askia,Jones,Askia Jones,Minnesota Timberwolves
+877,Donyell,Marshall,Donyell Marshall,Minnesota Timberwolves
+878,Howard,Eisley,Howard Eisley,Minnesota Timberwolves
+879,Grant,Hill,Grant Hill,Detroit Pistons
+880,Anthony,Miller,Anthony Miller,Los Angeles Lakers
+881,Eddie,Jones,Eddie Jones,Los Angeles Lakers
+882,Dickey,Simpkins,Dickey Simpkins,Chicago Bulls
+883,Eric,Piatkowski,Eric Piatkowski,LA Clippers
+884,Lamond,Murray,Lamond Murray,LA Clippers
+885,Matt,Fish,Matt Fish,LA Clippers
+886,Aaron,McKie,Aaron McKie,Portland Trail Blazers
+887,Eric,Montross,Eric Montross,Boston Celtics
+888,Fred,Vinson,Fred Vinson,Atlanta Hawks
+889,Tom,Hovasse,Tom Hovasse,Atlanta Hawks
+890,Jamie,Watson,Jamie Watson,Utah Jazz
+891,Khalid,Reeves,Khalid Reeves,Miami Heat
+892,Brian,Grant,Brian Grant,Sacramento Kings
+893,Henry,Turner,Henry Turner,Sacramento Kings
+894,Michael,Smith,Michael Smith,Sacramento Kings
+895,Antonio,Lang,Antonio Lang,Phoenix Suns
+896,Wesley,Person,Wesley Person,Phoenix Suns
+897,B.J.,Tyler,B.J. Tyler,Philadelphia 76ers
+898,Derrick,Alston,Derrick Alston,Philadelphia 76ers
+899,Sharone,Wright,Sharone Wright,Philadelphia 76ers
+900,Eric,Mobley,Eric Mobley,Milwaukee Bucks
+901,Darrin,Hancock,Darrin Hancock,Charlotte Hornets
+902,Bill,Curley,Bill Curley,Detroit Pistons
+903,Anthony,Tucker,Anthony Tucker,Washington Wizards
+904,Tim,Breaux,Tim Breaux,Houston Rockets
+905,Zan,Tabak,Zan Tabak,Houston Rockets
+906,Brooks,Thompson,Brooks Thompson,Orlando Magic
+907,Glenn,Robinson,Glenn Robinson,Milwaukee Bucks
+908,Jason,Kidd,Jason Kidd,Dallas Mavericks
+909,Tony,Dumas,Tony Dumas,Dallas Mavericks
+910,Monty,Williams,Monty Williams,New York Knicks
+911,Carlos,Rogers,Carlos Rogers,Golden State Warriors
+912,Sergei,Bazarevich,Sergei Bazarevich,Atlanta Hawks
+913,Julius,Nwosu,Julius Nwosu,San Antonio Spurs
+914,Trevor,Ruffin,Trevor Ruffin,Phoenix Suns
+915,Yinka,Dare,Yinka Dare,Brooklyn Nets
+916,Greg,Minor,Greg Minor,Boston Celtics
+917,Clifford,Rozier,Clifford Rozier,Golden State Warriors
+918,Charlie,Ward,Charlie Ward,New York Knicks
+919,Dontonio,Wingfield,Dontonio Wingfield,Oklahoma City Thunder
+920,Aaron,Swinson,Aaron Swinson,Phoenix Suns
+921,Jim,McIlvaine,Jim McIlvaine,Washington Wizards
+922,Juwan,Howard,Juwan Howard,Washington Wizards
+923,James,Blackwell,James Blackwell,Charlotte Hornets
+924,Ivano,Newbill,Ivano Newbill,Detroit Pistons
+925,Dwayne,Morton,Dwayne Morton,Golden State Warriors
+926,Chris,Childs,Chris Childs,Brooklyn Nets
+927,Ryan,Lorthridge,Ryan Lorthridge,Golden State Warriors
+928,Elmer,Bennett,Elmer Bennett,Cleveland Cavaliers
+929,Darrick,Martin,Darrick Martin,Minnesota Timberwolves
+930,Jerome,Harmon,Jerome Harmon,Philadelphia 76ers
+931,Mark,Strickland,Mark Strickland,Indiana Pacers
+932,Eldridge,Recasner,Eldridge Recasner,Denver Nuggets
+933,Darrell,Armstrong,Darrell Armstrong,Orlando Magic
+934,Derrick,Phelps,Derrick Phelps,Sacramento Kings
+935,Cherokee,Parks,Cherokee Parks,Dallas Mavericks
+936,Loren,Meyer,Loren Meyer,Dallas Mavericks
+937,Charles,Claxton,Charles Claxton,Boston Celtics
+938,Eric,Williams,Eric Williams,Boston Celtics
+939,Junior,Burrough,Junior Burrough,Boston Celtics
+940,Brent,Barry,Brent Barry,LA Clippers
+941,Chris,Carr,Chris Carr,Phoenix Suns
+942,Michael,Finley,Michael Finley,Phoenix Suns
+943,Greg,Ostertag,Greg Ostertag,Utah Jazz
+944,Eric,Snow,Eric Snow,Oklahoma City Thunder
+945,Sherell,Ford,Sherell Ford,Oklahoma City Thunder
+946,Jerry,Stackhouse,Jerry Stackhouse,Philadelphia 76ers
+947,Jeff,Webster,Jeff Webster,Washington Wizards
+948,Rasheed,Wallace,Rasheed Wallace,Washington Wizards
+949,Arvydas,Sabonis,Arvydas Sabonis,Portland Trail Blazers
+950,Gary,Trent,Gary Trent,Portland Trail Blazers
+951,Randolph,Childress,Randolph Childress,Portland Trail Blazers
+952,Bryant,Reeves,Bryant Reeves,Memphis Grizzlies
+953,Lawrence,Moten,Lawrence Moten,Memphis Grizzlies
+954,Jason,Caffey,Jason Caffey,Chicago Bulls
+955,George,Zidek,George Zidek,Charlotte Hornets
+956,Alvin,Heggs,Alvin Heggs,Houston Rockets
+957,Joe,Smith,Joe Smith,Golden State Warriors
+958,Alan,Henderson,Alan Henderson,Atlanta Hawks
+959,Travis,Best,Travis Best,Indiana Pacers
+960,Damon,Stoudamire,Damon Stoudamire,Toronto Raptors
+961,Jimmy,King,Jimmy King,Toronto Raptors
+962,Ed,O'Bannon,Ed O'Bannon,Brooklyn Nets
+963,Lou,Roe,Lou Roe,Detroit Pistons
+964,Theo,Ratliff,Theo Ratliff,Detroit Pistons
+965,Antonio,McDyess,Antonio McDyess,Denver Nuggets
+966,Bob,Sura,Bob Sura,Cleveland Cavaliers
+967,Donny,Marshall,Donny Marshall,Cleveland Cavaliers
+968,John,Amaechi,John Amaechi,Cleveland Cavaliers
+969,Tyus,Edney,Tyus Edney,Sacramento Kings
+970,Jerome,Allen,Jerome Allen,Minnesota Timberwolves
+971,Kevin,Garnett,Kevin Garnett,Minnesota Timberwolves
+972,Mark,Davis,Mark Davis,Minnesota Timberwolves
+973,Marques,Bragg,Marques Bragg,Minnesota Timberwolves
+974,Shawn,Respert,Shawn Respert,Milwaukee Bucks
+975,Fred,Hoiberg,Fred Hoiberg,Indiana Pacers
+976,Frankie,King,Frankie King,Los Angeles Lakers
+977,Don,Reid,Don Reid,Detroit Pistons
+978,Kurt,Thomas,Kurt Thomas,Miami Heat
+979,Sasha,Danilovic,Sasha Danilovic,Miami Heat
+980,Terrence,Rencher,Terrence Rencher,Miami Heat
+981,Cory,Alexander,Cory Alexander,San Antonio Spurs
+982,Howard,Nathan,Howard Nathan,Atlanta Hawks
+983,Todd,Mundt,Todd Mundt,Atlanta Hawks
+984,David,Vaughn,David Vaughn,Orlando Magic
+985,Log,Vander Velden,Log Vander Velden,LA Clippers
+986,Ashraf,Amaya,Ashraf Amaya,Memphis Grizzlies
+987,Stefano,Rusconi,Stefano Rusconi,Phoenix Suns
+988,Larry,Sykes,Larry Sykes,Boston Celtics
+989,Vincenzo,Esposito,Vincenzo Esposito,Toronto Raptors
+990,Corliss,Williamson,Corliss Williamson,Sacramento Kings
+991,Rastko,Cvetkovic,Rastko Cvetkovic,Denver Nuggets
+992,Corey,Beck,Corey Beck,Charlotte Hornets
+993,Voshon,Lenard,Voshon Lenard,Miami Heat
+994,Anthony,Goldwire,Anthony Goldwire,Charlotte Hornets
+995,Andrew,DeClercq,Andrew DeClercq,Golden State Warriors
+996,Richard,Manning,Richard Manning,Memphis Grizzlies
+997,Clint,McDaniel,Clint McDaniel,Sacramento Kings
+998,Martin,Lewis,Martin Lewis,Toronto Raptors
+999,Dwayne,Whitfield,Dwayne Whitfield,Toronto Raptors
+1000,Mario,Bennett,Mario Bennett,Phoenix Suns
+1001,Melvin,Booker,Melvin Booker,Houston Rockets
+1002,Darryl,Johnson,Darryl Johnson,Cleveland Cavaliers
+1003,John,Coker,John Coker,Phoenix Suns
+1004,Donnie,Boyce,Donnie Boyce,Atlanta Hawks
+1005,Thomas,Hamilton,Thomas Hamilton,Boston Celtics
+1006,Robert,Churchwell,Robert Churchwell,Golden State Warriors
+1007,Cuonzo,Martin,Cuonzo Martin,Memphis Grizzlies
+1008,Cedric,Lewis,Cedric Lewis,Washington Wizards
+1009,Antoine,Walker,Antoine Walker,Boston Celtics
+1010,Brett,Szabo,Brett Szabo,Boston Celtics
+1011,Brent,Scott,Brent Scott,Indiana Pacers
+1012,Erick,Dampier,Erick Dampier,Indiana Pacers
+1013,Jerome,Williams,Jerome Williams,Detroit Pistons
+1014,John,Wallace,John Wallace,New York Knicks
+1015,Walter,McCarty,Walter McCarty,New York Knicks
+1016,Marcus,Camby,Marcus Camby,Toronto Raptors
+1017,Donald,Whiteside,Donald Whiteside,Toronto Raptors
+1018,Shareef,Abdur-Rahim,Shareef Abdur-Rahim,Memphis Grizzlies
+1019,Roy,Rogers,Roy Rogers,Memphis Grizzlies
+1020,Ben,Wallace,Ben Wallace,Washington Wizards
+1021,Reggie,Geary,Reggie Geary,Cleveland Cavaliers
+1022,Vitaly,Potapenko,Vitaly Potapenko,Cleveland Cavaliers
+1023,Ed,O'Bannon,Ed O'Bannon,Brooklyn Nets
+1024,Kerry,Kittles,Kerry Kittles,Brooklyn Nets
+1025,Erick,Strickland,Erick Strickland,Dallas Mavericks
+1026,Darvin,Ham,Darvin Ham,Denver Nuggets
+1027,Stephon,Marbury,Stephon Marbury,Minnesota Timberwolves
+1028,Shane,Heal,Shane Heal,Minnesota Timberwolves
+1029,Dean,Garrett,Dean Garrett,Minnesota Timberwolves
+1030,Priest,Lauderdale,Priest Lauderdale,Atlanta Hawks
+1031,Ike,Austin,Ike Austin,Miami Heat
+1032,Loy,Vaught,Loy Vaught,LA Clippers
+1033,Lorenzen,Wright,Lorenzen Wright,LA Clippers
+1034,Todd,Fuller,Todd Fuller,Golden State Warriors
+1035,Ray,Owes,Ray Owes,Golden State Warriors
+1036,Ray,Allen,Ray Allen,Milwaukee Bucks
+1037,Allen,Iverson,Allen Iverson,Philadelphia 76ers
+1038,Mark,Bradtke,Mark Bradtke,Philadelphia 76ers
+1039,Steve,Nash,Steve Nash,Phoenix Suns
+1040,Ben,Davis,Ben Davis,Phoenix Suns
+1041,Derek,Fisher,Derek Fisher,Los Angeles Lakers
+1042,Travis,Knight,Travis Knight,Los Angeles Lakers
+1043,Kobe,Bryant,Kobe Bryant,Los Angeles Lakers
+1044,Matt,Maloney,Matt Maloney,Houston Rockets
+1045,Othella,Harrington,Othella Harrington,Houston Rockets
+1046,Randy,Livingston,Randy Livingston,Houston Rockets
+1047,Emanual,Davis,Emanual Davis,Houston Rockets
+1048,Shandon,Anderson,Shandon Anderson,Utah Jazz
+1049,Malik,Rose,Malik Rose,Charlotte Hornets
+1050,Tony,Delk,Tony Delk,Charlotte Hornets
+1051,Jeff,McInnis,Jeff McInnis,Denver Nuggets
+1052,Dontae',Jones,Dontae' Jones,New York Knicks
+1053,Nate,Driggers,Nate Driggers,Boston Celtics
+1054,Samaki,Walker,Samaki Walker,Dallas Mavericks
+1055,Amal,McCaskill,Amal McCaskill,Orlando Magic
+1056,James,Scott,James Scott,Miami Heat
+1057,Mark,Hendrickson,Mark Hendrickson,Philadelphia 76ers
+1058,Aleksandar,Djordjevic,Aleksandar Djordjevic,Portland Trail Blazers
+1059,Jermaine,O'Neal,Jermaine O'Neal,Portland Trail Blazers
+1060,Chris,Robinson,Chris Robinson,Memphis Grizzlies
+1061,Kevin,Salvadori,Kevin Salvadori,Sacramento Kings
+1062,Evric,Gray,Evric Gray,Brooklyn Nets
+1063,Moochie,Norris,Moochie Norris,Memphis Grizzlies
+1064,Devin,Gray,Devin Gray,Sacramento Kings
+1065,Martin,Muursepp,Martin Muursepp,Miami Heat
+1066,Gaylon,Nickerson,Gaylon Nickerson,San Antonio Spurs
+1067,Marcus,Brown,Marcus Brown,Portland Trail Blazers
+1068,Robert,Werdann,Robert Werdann,Brooklyn Nets
+1069,Ruben,Nembhard,Ruben Nembhard,Utah Jazz
+1070,Jamie,Feick,Jamie Feick,Charlotte Hornets
+1071,Jason,Sasser,Jason Sasser,San Antonio Spurs
+1072,Tony,Farmer,Tony Farmer,Miami Heat
+1073,Shawnelle,Scott,Shawnelle Scott,Cleveland Cavaliers
+1074,Brian,Evans,Brian Evans,Orlando Magic
+1075,Steve,Hamer,Steve Hamer,Boston Celtics
+1076,Dexter,Boney,Dexter Boney,Phoenix Suns
+1077,Michael,Hawkins,Michael Hawkins,Boston Celtics
+1078,Joe,Stephens,Joe Stephens,Houston Rockets
+1079,Horacio,Llamas,Horacio Llamas,Phoenix Suns
+1080,Jimmy,Carruth,Jimmy Carruth,Milwaukee Bucks
+1081,Bruce,Bowen,Bruce Bowen,Miami Heat
+1082,Stevin,Smith,Stevin Smith,Dallas Mavericks
+1083,Matt,Steigenga,Matt Steigenga,Chicago Bulls
+1084,Kevin,Ollie,Kevin Ollie,Dallas Mavericks
+1085,Bubba,Wells,Bubba Wells,Dallas Mavericks
+1086,Antonio,Daniels,Antonio Daniels,Memphis Grizzlies
+1087,Tracy,McGrady,Tracy McGrady,Toronto Raptors
+1088,Chris,Garner,Chris Garner,Toronto Raptors
+1089,Tim,Duncan,Tim Duncan,San Antonio Spurs
+1090,Tony,Battie,Tony Battie,Denver Nuggets
+1091,Bobby,Jackson,Bobby Jackson,Denver Nuggets
+1092,Danny,Fortson,Danny Fortson,Denver Nuggets
+1093,Eric,Washington,Eric Washington,Denver Nuggets
+1094,Etdrick,Bohannon,Etdrick Bohannon,Indiana Pacers
+1095,Mark,Pope,Mark Pope,Indiana Pacers
+1096,Ron,Mercer,Ron Mercer,Boston Celtics
+1097,Chauncey,Billups,Chauncey Billups,Boston Celtics
+1098,John,Thomas,John Thomas,Boston Celtics
+1099,Kelvin,Cato,Kelvin Cato,Portland Trail Blazers
+1100,Alvin,Williams,Alvin Williams,Portland Trail Blazers
+1101,Maurice,Taylor,Maurice Taylor,LA Clippers
+1102,Keith,Closs,Keith Closs,LA Clippers
+1103,Adonal,Foyle,Adonal Foyle,Golden State Warriors
+1104,DeJuan,Wheat,DeJuan Wheat,Minnesota Timberwolves
+1105,Ed,Gray,Ed Gray,Atlanta Hawks
+1106,Chris,Crawford,Chris Crawford,Atlanta Hawks
+1107,Zydrunas,Ilgauskas,Zydrunas Ilgauskas,Cleveland Cavaliers
+1108,Derek,Anderson,Derek Anderson,Cleveland Cavaliers
+1109,Brevin,Knight,Brevin Knight,Cleveland Cavaliers
+1110,Cedric,Henderson,Cedric Henderson,Cleveland Cavaliers
+1111,Rodrick,Rhodes,Rodrick Rhodes,Houston Rockets
+1112,Jacque,Vaughn,Jacque Vaughn,Utah Jazz
+1113,Troy,Hudson,Troy Hudson,Utah Jazz
+1114,Jerald,Honeycutt,Jerald Honeycutt,Milwaukee Bucks
+1115,Jeff,Nordgaard,Jeff Nordgaard,Milwaukee Bucks
+1116,Tim,Thomas,Tim Thomas,Philadelphia 76ers
+1117,God,Shammgod,God Shammgod,Washington Wizards
+1118,Scot,Pollard,Scot Pollard,Detroit Pistons
+1119,Keith,Van Horn,Keith Van Horn,Brooklyn Nets
+1120,Michael,Stewart,Michael Stewart,Sacramento Kings
+1121,Anthony,Johnson,Anthony Johnson,Sacramento Kings
+1122,Derek,Grimm,Derek Grimm,Sacramento Kings
+1123,Lawrence,Funderburke,Lawrence Funderburke,Sacramento Kings
+1124,Chris,Anstey,Chris Anstey,Dallas Mavericks
+1125,Rick,Brunson,Rick Brunson,Portland Trail Blazers
+1126,Travis,Williams,Travis Williams,Charlotte Hornets
+1127,Tariq,Abdul-Wahad,Tariq Abdul-Wahad,Sacramento Kings
+1128,Charles,Smith,Charles Smith,Miami Heat
+1129,Keith,Booth,Keith Booth,Chicago Bulls
+1130,Ed,Stokes,Ed Stokes,Toronto Raptors
+1131,Charles,O'Bannon,Charles O'Bannon,Detroit Pistons
+1132,Austin,Croshere,Austin Croshere,Indiana Pacers
+1133,Rusty,LaRue,Rusty LaRue,Chicago Bulls
+1134,Kiwane,Garris,Kiwane Garris,Denver Nuggets
+1135,Marko,Milic,Marko Milic,Phoenix Suns
+1136,Johnny,Taylor,Johnny Taylor,Orlando Magic
+1137,James,Cotton,James Cotton,Oklahoma City Thunder
+1138,James,Collins,James Collins,LA Clippers
+1139,Anthony,Parker,Anthony Parker,Philadelphia 76ers
+1140,Jason,Lawson,Jason Lawson,Orlando Magic
+1141,Kebu,Stewart,Kebu Stewart,Philadelphia 76ers
+1142,Kelly,McCarty,Kelly McCarty,Indiana Pacers
+1143,Drew,Barry,Drew Barry,Atlanta Hawks
+1144,Michael,McDonald,Michael McDonald,Charlotte Hornets
+1145,Brandon,Williams,Brandon Williams,Golden State Warriors
+1146,William,Cunningham,William Cunningham,Utah Jazz
+1147,Shea,Seals,Shea Seals,Los Angeles Lakers
+1148,Reggie,Hanson,Reggie Hanson,Boston Celtics
+1149,Rashard,Lewis,Rashard Lewis,Oklahoma City Thunder
+1150,Jelani,McCoy,Jelani McCoy,Oklahoma City Thunder
+1151,Vladimir,Stepania,Vladimir Stepania,Oklahoma City Thunder
+1152,Larry,Hughes,Larry Hughes,Philadelphia 76ers
+1153,Casey,Shaw,Casey Shaw,Philadelphia 76ers
+1154,Nazr,Mohammed,Nazr Mohammed,Philadelphia 76ers
+1155,Ricky,Davis,Ricky Davis,Charlotte Hornets
+1156,Brad,Miller,Brad Miller,Charlotte Hornets
+1157,Mikki,Moore,Mikki Moore,Detroit Pistons
+1158,Michael,Doleac,Michael Doleac,Orlando Magic
+1159,Matt,Harpring,Matt Harpring,Orlando Magic
+1160,Miles,Simon,Miles Simon,Orlando Magic
+1161,Jason,Williams,Jason Williams,Sacramento Kings
+1162,Peja,Stojakovic,Peja Stojakovic,Sacramento Kings
+1163,Jerome,James,Jerome James,Sacramento Kings
+1164,Peter,Aluma,Peter Aluma,Sacramento Kings
+1165,Gerard,King,Gerard King,San Antonio Spurs
+1166,Mark,Baker,Mark Baker,Toronto Raptors
+1167,Sean,Marks,Sean Marks,Toronto Raptors
+1168,Paul,Pierce,Paul Pierce,Boston Celtics
+1169,Marlon,Garnett,Marlon Garnett,Boston Celtics
+1170,Jahidi,White,Jahidi White,Washington Wizards
+1171,Randell,Jackson,Randell Jackson,Washington Wizards
+1172,Al,Harrington,Al Harrington,Indiana Pacers
+1173,Shammond,Williams,Shammond Williams,Atlanta Hawks
+1174,Jeff,Sheppard,Jeff Sheppard,Atlanta Hawks
+1175,Roshown,McLeod,Roshown McLeod,Atlanta Hawks
+1176,Pat,Garrity,Pat Garrity,Phoenix Suns
+1177,Gerald,Brown,Gerald Brown,Phoenix Suns
+1178,Toby,Bailey,Toby Bailey,Phoenix Suns
+1179,Michael,Olowokandi,Michael Olowokandi,LA Clippers
+1180,Tyrone,Nesby,Tyrone Nesby,LA Clippers
+1181,Michael,Dickerson,Michael Dickerson,Houston Rockets
+1182,Bryce,Drew,Bryce Drew,Houston Rockets
+1183,John,Coker,John Coker,Houston Rockets
+1184,Cuttino,Mobley,Cuttino Mobley,Houston Rockets
+1185,Ruben,Patterson,Ruben Patterson,Los Angeles Lakers
+1186,Sam,Jacobson,Sam Jacobson,Los Angeles Lakers
+1187,Tyronn,Lue,Tyronn Lue,Los Angeles Lakers
+1188,Kornel,David,Kornel David,Chicago Bulls
+1189,Cory,Carr,Cory Carr,Chicago Bulls
+1190,Corey,Benjamin,Corey Benjamin,Chicago Bulls
+1191,Paul,Grant,Paul Grant,Minnesota Timberwolves
+1192,Andrae,Patterson,Andrae Patterson,Minnesota Timberwolves
+1193,Raef,LaFrentz,Raef LaFrentz,Denver Nuggets
+1194,Keon,Clark,Keon Clark,Denver Nuggets
+1195,Tyson,Wheeler,Tyson Wheeler,Denver Nuggets
+1196,Robert,Traylor,Robert Traylor,Milwaukee Bucks
+1197,Earl,Boykins,Earl Boykins,Brooklyn Nets
+1198,Antawn,Jamison,Antawn Jamison,Golden State Warriors
+1199,Mike,Bibby,Mike Bibby,Memphis Grizzlies
+1200,Felipe,Lopez,Felipe Lopez,Memphis Grizzlies
+1201,J.R.,Henderson,J.R. Henderson,Memphis Grizzlies
+1202,Bonzi,Wells,Bonzi Wells,Portland Trail Blazers
+1203,Damon,Jones,Damon Jones,Brooklyn Nets
+1204,Charles,R. Jones,Charles R. Jones,Chicago Bulls
+1205,Ryan,Stack,Ryan Stack,Cleveland Cavaliers
+1206,Brian,Skinner,Brian Skinner,LA Clippers
+1207,Jonathan,Kerner,Jonathan Kerner,Orlando Magic
+1208,Korleone,Young,Korleone Young,Detroit Pistons
+1209,Trevor,Winter,Trevor Winter,Minnesota Timberwolves
+1210,Bruno,Sundov,Bruno Sundov,Dallas Mavericks
+1211,Mirsad,Turkcan,Mirsad Turkcan,New York Knicks
+1212,Alvin,Sims,Alvin Sims,Phoenix Suns
+1213,Rasho,Nesterovic,Rasho Nesterovic,Minnesota Timberwolves
+1214,Todd,MacCulloch,Todd MacCulloch,Philadelphia 76ers
+1215,Jumaine,Jones,Jumaine Jones,Philadelphia 76ers
+1216,Lamar,Odom,Lamar Odom,LA Clippers
+1217,Obinna,Ekezie,Obinna Ekezie,Memphis Grizzlies
+1218,Milt,Palacio,Milt Palacio,Memphis Grizzlies
+1219,Devean,George,Devean George,Los Angeles Lakers
+1220,Quincy,Lewis,Quincy Lewis,Utah Jazz
+1221,Scott,Padgett,Scott Padgett,Utah Jazz
+1222,Andre,Miller,Andre Miller,Cleveland Cavaliers
+1223,Trajan,Langdon,Trajan Langdon,Cleveland Cavaliers
+1224,Anthony,Carter,Anthony Carter,Miami Heat
+1225,Rodney,Buford,Rodney Buford,Miami Heat
+1226,Shawn,Marion,Shawn Marion,Phoenix Suns
+1227,James,Posey,James Posey,Denver Nuggets
+1228,Ryan,Bowen,Ryan Bowen,Denver Nuggets
+1229,Adrian,Griffin,Adrian Griffin,Boston Celtics
+1230,Wayne,Turner,Wayne Turner,Boston Celtics
+1231,Aleksandar,Radojevic,Aleksandar Radojevic,Toronto Raptors
+1232,Steve,Francis,Steve Francis,Houston Rockets
+1233,Kenny,Thomas,Kenny Thomas,Houston Rockets
+1234,Vonteego,Cummings,Vonteego Cummings,Golden State Warriors
+1235,Corey,Maggette,Corey Maggette,Orlando Magic
+1236,Chucky,Atkins,Chucky Atkins,Orlando Magic
+1237,Baron,Davis,Baron Davis,Charlotte Hornets
+1238,Jason,Miskiri,Jason Miskiri,Charlotte Hornets
+1239,Eddie,Robinson,Eddie Robinson,Charlotte Hornets
+1240,Derek,Hood,Derek Hood,Charlotte Hornets
+1241,Jeff,Foster,Jeff Foster,Indiana Pacers
+1242,Jason,Terry,Jason Terry,Atlanta Hawks
+1243,Cal,Bowdler,Cal Bowdler,Atlanta Hawks
+1244,Dion,Glover,Dion Glover,Atlanta Hawks
+1245,Richard,Hamilton,Richard Hamilton,Washington Wizards
+1246,Laron,Profit,Laron Profit,Washington Wizards
+1247,Elton,Brand,Elton Brand,Chicago Bulls
+1248,Michael,Ruffin,Michael Ruffin,Chicago Bulls
+1249,Metta,World Peace,Metta World Peace,Chicago Bulls
+1250,Dedric,Willoughby,Dedric Willoughby,Chicago Bulls
+1251,Wally,Szczerbiak,Wally Szczerbiak,Minnesota Timberwolves
+1252,William,Avery,William Avery,Minnesota Timberwolves
+1253,Rick,Hughes,Rick Hughes,Dallas Mavericks
+1254,Leon,Smith,Leon Smith,Dallas Mavericks
+1255,Lazaro,Borrell,Lazaro Borrell,Oklahoma City Thunder
+1256,Jermaine,Jackson,Jermaine Jackson,Detroit Pistons
+1257,Chris,Herren,Chris Herren,Denver Nuggets
+1258,John,Celestand,John Celestand,Los Angeles Lakers
+1259,Lari,Ketner,Lari Ketner,Chicago Bulls
+1260,Tim,Young,Tim Young,Golden State Warriors
+1261,DeMarco,Johnson,DeMarco Johnson,New York Knicks
+1262,A.J.,Bramlett,A.J. Bramlett,Cleveland Cavaliers
+1263,Harold,Jamison,Harold Jamison,Miami Heat
+1264,Jonathan,Bender,Jonathan Bender,Indiana Pacers
+1265,Jamel,Thomas,Jamel Thomas,Boston Celtics
+1266,Evan,Eschmeyer,Evan Eschmeyer,Brooklyn Nets
+1267,Greg,Buckner,Greg Buckner,Dallas Mavericks
+1268,Tim,James,Tim James,Miami Heat
+1269,Rafer,Alston,Rafer Alston,Milwaukee Bucks
+1270,Ira,Bowman,Ira Bowman,Philadelphia 76ers
+1271,Derrick,Dial,Derrick Dial,San Antonio Spurs
+1272,Calvin,Booth,Calvin Booth,Washington Wizards
+1273,Maceo,Baston,Maceo Baston,Milwaukee Bucks
+1274,Jamaal,Magloire,Jamaal Magloire,Charlotte Hornets
+1275,Hanno,Mottola,Hanno Mottola,Atlanta Hawks
+1276,DerMarr,Johnson,DerMarr Johnson,Atlanta Hawks
+1277,Pepe,Sanchez,Pepe Sanchez,Philadelphia 76ers
+1278,Lavor,Postell,Lavor Postell,New York Knicks
+1279,Chris,Mihm,Chris Mihm,Cleveland Cavaliers
+1280,Stephen,Jackson,Stephen Jackson,Brooklyn Nets
+1281,Kenyon,Martin,Kenyon Martin,Brooklyn Nets
+1282,Soumaila,Samake,Soumaila Samake,Brooklyn Nets
+1283,Desmond,Mason,Desmond Mason,Oklahoma City Thunder
+1284,Ruben,Wolkowyski,Ruben Wolkowyski,Oklahoma City Thunder
+1285,Stromile,Swift,Stromile Swift,Memphis Grizzlies
+1286,Joel,Przybilla,Joel Przybilla,Milwaukee Bucks
+1287,Michael,Redd,Michael Redd,Milwaukee Bucks
+1288,Eduardo,Najera,Eduardo Najera,Dallas Mavericks
+1289,Courtney,Alexander,Courtney Alexander,Dallas Mavericks
+1290,Hedo,Turkoglu,Hedo Turkoglu,Sacramento Kings
+1291,Khalid,El-Amin,Khalid El-Amin,Chicago Bulls
+1292,Marcus,Fizer,Marcus Fizer,Chicago Bulls
+1293,A.J.,Guyton,A.J. Guyton,Chicago Bulls
+1294,Dragan,Tarlac,Dragan Tarlac,Chicago Bulls
+1295,Darius,Miles,Darius Miles,LA Clippers
+1296,Keyon,Dooling,Keyon Dooling,LA Clippers
+1297,Quentin,Richardson,Quentin Richardson,LA Clippers
+1298,DeShawn,Stevenson,DeShawn Stevenson,Utah Jazz
+1299,Mike,Miller,Mike Miller,Orlando Magic
+1300,Mark,Madsen,Mark Madsen,Los Angeles Lakers
+1301,Erick,Barkley,Erick Barkley,Portland Trail Blazers
+1302,Mateen,Cleaves,Mateen Cleaves,Detroit Pistons
+1303,Morris,Peterson,Morris Peterson,Toronto Raptors
+1304,Jason,Collier,Jason Collier,Houston Rockets
+1305,Daniel,Santiago,Daniel Santiago,Phoenix Suns
+1306,Paul,McPherson,Paul McPherson,Phoenix Suns
+1307,Ruben,Garces,Ruben Garces,Phoenix Suns
+1308,Jake,Tsakalidis,Jake Tsakalidis,Phoenix Suns
+1309,Marc,Jackson,Marc Jackson,Golden State Warriors
+1310,Chris,Porter,Chris Porter,Golden State Warriors
+1311,Jamal,Robinson,Jamal Robinson,Miami Heat
+1312,Eddie,House,Eddie House,Miami Heat
+1313,Jerome,Moiso,Jerome Moiso,Boston Celtics
+1314,Mark,Blount,Mark Blount,Boston Celtics
+1315,Dan,Langhi,Dan Langhi,Houston Rockets
+1316,Garth,Joseph,Garth Joseph,Toronto Raptors
+1317,Jake,Voskuhl,Jake Voskuhl,Chicago Bulls
+1318,Mike,Penberthy,Mike Penberthy,Los Angeles Lakers
+1319,Lee,Nailon,Lee Nailon,Charlotte Hornets
+1320,Zendon,Hamilton,Zendon Hamilton,LA Clippers
+1321,Terrance,Roberson,Terrance Roberson,Charlotte Hornets
+1322,Dalibor,Bagaric,Dalibor Bagaric,Chicago Bulls
+1323,Ira,Newble,Ira Newble,San Antonio Spurs
+1324,Donnell,Harvey,Donnell Harvey,Dallas Mavericks
+1325,Brian,Cardinal,Brian Cardinal,Detroit Pistons
+1326,Slava,Medvedenko,Slava Medvedenko,Los Angeles Lakers
+1327,Olumide,Oyedeji,Olumide Oyedeji,Oklahoma City Thunder
+1328,Andy,Panko,Andy Panko,Atlanta Hawks
+1329,Jabari,Smith,Jabari Smith,Sacramento Kings
+1330,Mamadou,N'diaye,Mamadou N'diaye,Toronto Raptors
+1331,Sean,Colson,Sean Colson,Atlanta Hawks
+1332,Art,Long,Art Long,Sacramento Kings
+1333,Mike,Smith,Mike Smith,Washington Wizards
+1334,David,Vanterpool,David Vanterpool,Washington Wizards
+1335,Steve,Goodrich,Steve Goodrich,Chicago Bulls
+1336,Eddie,Gill,Eddie Gill,Brooklyn Nets
+1337,Wang,Zhi-zhi,Wang Zhi-zhi,Dallas Mavericks
+1338,Dan,McClintock,Dan McClintock,Denver Nuggets
+1339,Raja,Bell,Raja Bell,Philadelphia 76ers
+1340,Jason,Hart,Jason Hart,Milwaukee Bucks
+1341,Vladimir,Radmanovic,Vladimir Radmanovic,Oklahoma City Thunder
+1342,Earl,Watson,Earl Watson,Oklahoma City Thunder
+1343,Gerald,Wallace,Gerald Wallace,Sacramento Kings
+1344,Jamaal,Tinsley,Jamaal Tinsley,Indiana Pacers
+1345,Primoz,Brezec,Primoz Brezec,Indiana Pacers
+1346,Richard,Jefferson,Richard Jefferson,Brooklyn Nets
+1347,Brandon,Armstrong,Brandon Armstrong,Brooklyn Nets
+1348,Jason,Collins,Jason Collins,Brooklyn Nets
+1349,Carlos,Arroyo,Carlos Arroyo,Toronto Raptors
+1350,Michael,Bradley,Michael Bradley,Toronto Raptors
+1351,Steven,Hunter,Steven Hunter,Orlando Magic
+1352,Andrei,Kirilenko,Andrei Kirilenko,Utah Jazz
+1353,Alton,Ford,Alton Ford,Phoenix Suns
+1354,Charlie,Bell,Charlie Bell,Phoenix Suns
+1355,Speedy,Claxton,Speedy Claxton,Philadelphia 76ers
+1356,Damone,Brown,Damone Brown,Philadelphia 76ers
+1357,Loren,Woods,Loren Woods,Minnesota Timberwolves
+1358,Eddie,Griffin,Eddie Griffin,Houston Rockets
+1359,Oscar,Torres,Oscar Torres,Houston Rockets
+1360,Tierre,Brown,Tierre Brown,Houston Rockets
+1361,Terence,Morris,Terence Morris,Houston Rockets
+1362,Zeljko,Rebraca,Zeljko Rebraca,Detroit Pistons
+1363,Rodney,White,Rodney White,Detroit Pistons
+1365,Joseph,Forte,Joseph Forte,Boston Celtics
+1366,Kedrick,Brown,Kedrick Brown,Boston Celtics
+1367,DeSagana,Diop,DeSagana Diop,Cleveland Cavaliers
+1368,Kwame,Brown,Kwame Brown,Washington Wizards
+1369,Bobby,Simmons,Bobby Simmons,Washington Wizards
+1370,Etan,Thomas,Etan Thomas,Washington Wizards
+1371,Ruben,Boumtje-Boumtje,Ruben Boumtje-Boumtje,Portland Trail Blazers
+1372,Jason,Richardson,Jason Richardson,Golden State Warriors
+1373,Troy,Murphy,Troy Murphy,Golden State Warriors
+1374,Gilbert,Arenas,Gilbert Arenas,Golden State Warriors
+1375,Trenton,Hassell,Trenton Hassell,Chicago Bulls
+1376,Eddy,Curry,Eddy Curry,Chicago Bulls
+1377,Tang,Hamilton,Tang Hamilton,Miami Heat
+1378,Shane,Battier,Shane Battier,Memphis Grizzlies
+1379,Will,Solomon,Will Solomon,Memphis Grizzlies
+1380,Antonis,Fotsis,Antonis Fotsis,Memphis Grizzlies
+1381,Alvin,Jones,Alvin Jones,Philadelphia 76ers
+1382,Jeff,Trepagnier,Jeff Trepagnier,Cleveland Cavaliers
+1383,Joe,Crispin,Joe Crispin,Los Angeles Lakers
+1384,Ernest,Brown,Ernest Brown,Miami Heat
+1385,Jarron,Collins,Jarron Collins,Utah Jazz
+1386,Jamison,Brewer,Jamison Brewer,Indiana Pacers
+1387,Malik,Allen,Malik Allen,Miami Heat
+1388,Predrag,Drobnjak,Predrag Drobnjak,Oklahoma City Thunder
+1389,Chris,Andersen,Chris Andersen,Denver Nuggets
+1390,Kenny,Satterfield,Kenny Satterfield,Denver Nuggets
+1391,Brendan,Haywood,Brendan Haywood,Washington Wizards
+1392,Kirk,Haston,Kirk Haston,Charlotte Hornets
+1393,Samuel,Dalembert,Samuel Dalembert,Philadelphia 76ers
+1394,Mike,James,Mike James,Miami Heat
+1395,Maurice,Evans,Maurice Evans,Minnesota Timberwolves
+1396,Jeryl,Sasser,Jeryl Sasser,Orlando Magic
+1397,Dean,Oliver,Dean Oliver,Golden State Warriors
+1398,Norman,Richardson,Norman Richardson,Indiana Pacers
+1399,Brian,Scalabrine,Brian Scalabrine,Brooklyn Nets
+1400,Ratko,Varda,Ratko Varda,Detroit Pistons
+1401,Tremaine,Fowlkes,Tremaine Fowlkes,LA Clippers
+1402,Mengke,Bateer,Mengke Bateer,Denver Nuggets
+1403,Ike,Fontaine,Ike Fontaine,Memphis Grizzlies
+1404,Ansu,Sesay,Ansu Sesay,Oklahoma City Thunder
+1405,Omar,Cook,Omar Cook,Boston Celtics
+1406,John,Salmons,John Salmons,Philadelphia 76ers
+1407,Efthimios,Rentzias,Efthimios Rentzias,Philadelphia 76ers
+1408,Pat,Burke,Pat Burke,Orlando Magic
+1409,Ryan,Humphrey,Ryan Humphrey,Orlando Magic
+1410,Carlos,Boozer,Carlos Boozer,Cleveland Cavaliers
+1411,Smush,Parker,Smush Parker,Cleveland Cavaliers
+1412,Manu,Ginobili,Manu Ginobili,San Antonio Spurs
+1413,Jannero,Pargo,Jannero Pargo,Los Angeles Lakers
+1414,Kareem,Rush,Kareem Rush,Los Angeles Lakers
+1415,Frank,Williams,Frank Williams,New York Knicks
+1416,Tayshaun,Prince,Tayshaun Prince,Detroit Pistons
+1417,Mehmet,Okur,Mehmet Okur,Detroit Pistons
+1418,Jared,Jeffries,Jared Jeffries,Washington Wizards
+1419,Juan,Dixon,Juan Dixon,Washington Wizards
+1420,Nate,Huffman,Nate Huffman,Toronto Raptors
+1421,Chris,Jefferies,Chris Jefferies,Toronto Raptors
+1422,Chris,Wilcox,Chris Wilcox,LA Clippers
+1423,Marko,Jaric,Marko Jaric,LA Clippers
+1424,Qyntel,Woods,Qyntel Woods,Portland Trail Blazers
+1425,Jay,Williams,Jay Williams,Chicago Bulls
+1426,Lonny,Baxter,Lonny Baxter,Chicago Bulls
+1427,J.R.,Bremer,J.R. Bremer,Boston Celtics
+1428,Jiri,Welsch,Jiri Welsch,Golden State Warriors
+1429,Mike,Dunleavy,Mike Dunleavy,Golden State Warriors
+1430,Nikoloz,Tskitishvili,Nikoloz Tskitishvili,Denver Nuggets
+1431,Junior,Harrington,Junior Harrington,Denver Nuggets
+1432,Igor,Rakocevic,Igor Rakocevic,Minnesota Timberwolves
+1433,Amar'e,Stoudemire,Amar'e Stoudemire,Phoenix Suns
+1434,Casey,Jacobsen,Casey Jacobsen,Phoenix Suns
+1435,Reggie,Evans,Reggie Evans,Oklahoma City Thunder
+1436,Dan,Gadzuric,Dan Gadzuric,Milwaukee Bucks
+1437,Marcus,Haislip,Marcus Haislip,Milwaukee Bucks
+1438,Flip,Murray,Flip Murray,Milwaukee Bucks
+1439,Caron,Butler,Caron Butler,Miami Heat
+1440,Rasual,Butler,Rasual Butler,Miami Heat
+1441,Drew,Gooden,Drew Gooden,Memphis Grizzlies
+1442,Gordan,Giricek,Gordan Giricek,Memphis Grizzlies
+1443,Mike,Batiste,Mike Batiste,Memphis Grizzlies
+1444,Juaquin,Hawkins,Juaquin Hawkins,Houston Rockets
+1445,Yao,Ming,Yao Ming,Houston Rockets
+1446,Bostjan,Nachbar,Bostjan Nachbar,Houston Rockets
+1447,Fred,Jones,Fred Jones,Indiana Pacers
+1448,Dan,Dickau,Dan Dickau,Atlanta Hawks
+1449,Tamar,Slay,Tamar Slay,Brooklyn Nets
+1450,Guy,Rucker,Guy Rucker,Golden State Warriors
+1451,Devin,Brown,Devin Brown,San Antonio Spurs
+1452,Robert,Archibald,Robert Archibald,Memphis Grizzlies
+1453,Adam,Harrington,Adam Harrington,Dallas Mavericks
+1454,Ken,Johnson,Ken Johnson,Miami Heat
+1455,Cezary,Trybanski,Cezary Trybanski,Memphis Grizzlies
+1456,Dajuan,Wagner,Dajuan Wagner,Cleveland Cavaliers
+1457,Predrag,Savovic,Predrag Savovic,Denver Nuggets
+1458,Tito,Maddox,Tito Maddox,Houston Rockets
+1459,Melvin,Ely,Melvin Ely,LA Clippers
+1460,Sean,Lampley,Sean Lampley,Miami Heat
+1461,Vincent,Yarbrough,Vincent Yarbrough,Denver Nuggets
+1462,Mike,Wilks,Mike Wilks,Atlanta Hawks
+1463,Paul,Shirley,Paul Shirley,Atlanta Hawks
+1464,Antoine,Rigaudeau,Antoine Rigaudeau,Dallas Mavericks
+1465,Jamal,Sampson,Jamal Sampson,Milwaukee Bucks
+1466,Roger,Mason Jr.,Roger Mason Jr.,Chicago Bulls
+1467,Chris,Owens,Chris Owens,Memphis Grizzlies
+1468,T.J.,Ford,T.J. Ford,Milwaukee Bucks
+1469,Zoran,Planinic,Zoran Planinic,Brooklyn Nets
+1470,Josh,Howard,Josh Howard,Dallas Mavericks
+1471,Marquis,Daniels,Marquis Daniels,Dallas Mavericks
+1472,Luke,Walton,Luke Walton,Los Angeles Lakers
+1473,Jerome,Beasley,Jerome Beasley,Miami Heat
+1474,Willie,Green,Willie Green,Philadelphia 76ers
+1475,Zarko,Cabarkapa,Zarko Cabarkapa,Phoenix Suns
+1476,Leandro,Barbosa,Leandro Barbosa,Phoenix Suns
+1477,Keith,McLeod,Keith McLeod,Minnesota Timberwolves
+1478,Ndudi,Ebi,Ndudi Ebi,Minnesota Timberwolves
+1479,Boris,Diaw,Boris Diaw,Atlanta Hawks
+1480,Travis,Hansen,Travis Hansen,Atlanta Hawks
+1481,David,West,David West,New Orleans Pelicans
+1482,Chris,Bosh,Chris Bosh,Toronto Raptors
+1483,Ben,Handlogten,Ben Handlogten,Utah Jazz
+1484,Sasha,Pavlovic,Sasha Pavlovic,Utah Jazz
+1485,Raul,Lopez,Raul Lopez,Utah Jazz
+1486,Mo,Williams,Mo Williams,Utah Jazz
+1487,Jason,Kapono,Jason Kapono,Cleveland Cavaliers
+1488,Darius,Songaila,Darius Songaila,Sacramento Kings
+1489,Mickael,Pietrus,Mickael Pietrus,Golden State Warriors
+1490,Britton,Johnsen,Britton Johnsen,Orlando Magic
+1491,Reece,Gaines,Reece Gaines,Orlando Magic
+1492,Michael,Sweetney,Michael Sweetney,New York Knicks
+1493,Marcus,Banks,Marcus Banks,Boston Celtics
+1494,Francisco,Elson,Francisco Elson,Denver Nuggets
+1495,Darko,Milicic,Darko Milicic,Detroit Pistons
+1496,Jarvis,Hayes,Jarvis Hayes,Washington Wizards
+1497,Steve,Blake,Steve Blake,Washington Wizards
+1498,Torraye,Braggs,Torraye Braggs,Houston Rockets
+1499,Chris,Kaman,Chris Kaman,LA Clippers
+1500,Luke,Ridnour,Luke Ridnour,Oklahoma City Thunder
+1501,Richie,Frahm,Richie Frahm,Oklahoma City Thunder
+1502,Troy,Bell,Troy Bell,Memphis Grizzlies
+1503,Kirk,Penney,Kirk Penney,Miami Heat
+1504,Matt,Carroll,Matt Carroll,Portland Trail Blazers
+1505,Kirk,Hinrich,Kirk Hinrich,Chicago Bulls
+1506,Linton,Johnson,Linton Johnson,Chicago Bulls
+1507,Keith,Bogans,Keith Bogans,Orlando Magic
+1508,Alex,Garcia,Alex Garcia,San Antonio Spurs
+1509,Maciej,Lampe,Maciej Lampe,Phoenix Suns
+1510,Theron,Smith,Theron Smith,Memphis Grizzlies
+1511,Curtis,Borchardt,Curtis Borchardt,Utah Jazz
+1512,Travis,Outlaw,Travis Outlaw,Portland Trail Blazers
+1513,Kendrick,Perkins,Kendrick Perkins,Boston Celtics
+1514,Dahntay,Jones,Dahntay Jones,Memphis Grizzlies
+1515,Kaniel,Dickens,Kaniel Dickens,Portland Trail Blazers
+1516,Brian,Cook,Brian Cook,Los Angeles Lakers
+1517,James,Jones,James Jones,Indiana Pacers
+1518,Brandon,Hunter,Brandon Hunter,Boston Celtics
+1519,Slavko,Vranes,Slavko Vranes,Portland Trail Blazers
+1520,Ronald,Dupree,Ronald Dupree,Chicago Bulls
+1521,Ime,Udoka,Ime Udoka,Los Angeles Lakers
+1522,Matt,Barnes,Matt Barnes,LA Clippers
+1523,Maurice,Carter,Maurice Carter,Los Angeles Lakers
+1524,Desmond,Penigar,Desmond Penigar,Orlando Magic
+1525,Hiram,Fuller,Hiram Fuller,Atlanta Hawks
+1526,Josh,Davis,Josh Davis,Atlanta Hawks
+1527,Desmond,Ferguson,Desmond Ferguson,Portland Trail Blazers
+1528,Sasha,Vujacic,Sasha Vujacic,Los Angeles Lakers
+1529,Carlos,Delfino,Carlos Delfino,Detroit Pistons
+1530,Kevin,Martin,Kevin Martin,Sacramento Kings
+1531,Erik,Daniels,Erik Daniels,Sacramento Kings
+1532,DJ,Mbenga,DJ Mbenga,Dallas Mavericks
+1533,Jameer,Nelson,Jameer Nelson,Orlando Magic
+1534,Kirk,Snyder,Kirk Snyder,Utah Jazz
+1535,Kris,Humphries,Kris Humphries,Utah Jazz
+1536,Nick,Collison,Nick Collison,Oklahoma City Thunder
+1537,Robert,Swift,Robert Swift,Oklahoma City Thunder
+1538,Damien,Wilkins,Damien Wilkins,Oklahoma City Thunder
+1539,Lionel,Chalmers,Lionel Chalmers,LA Clippers
+1540,Quinton,Ross,Quinton Ross,LA Clippers
+1541,Josh,Smith,Josh Smith,Atlanta Hawks
+1542,Josh,Childress,Josh Childress,Atlanta Hawks
+1543,Royal,Ivey,Royal Ivey,Atlanta Hawks
+1544,Jackson,Vroman,Jackson Vroman,Phoenix Suns
+1545,Yuta,Tabuse,Yuta Tabuse,Phoenix Suns
+1546,Peter,John Ramos,Peter John Ramos,Washington Wizards
+1547,Sebastian,Telfair,Sebastian Telfair,Portland Trail Blazers
+1548,Andris,Biedrins,Andris Biedrins,Golden State Warriors
+1549,Rafael,Araujo,Rafael Araujo,Toronto Raptors
+1550,Matt,Bonner,Matt Bonner,Toronto Raptors
+1551,Beno,Udrih,Beno Udrih,San Antonio Spurs
+1552,Tony,Allen,Tony Allen,Boston Celtics
+1553,Al,Jefferson,Al Jefferson,Boston Celtics
+1554,David,Harrison,David Harrison,Indiana Pacers
+1555,John,Edwards,John Edwards,Indiana Pacers
+1556,Luke,Jackson,Luke Jackson,Cleveland Cavaliers
+1557,Anderson,Varejao,Anderson Varejao,Cleveland Cavaliers
+1558,Nenad,Krstic,Nenad Krstic,Brooklyn Nets
+1559,Emeka,Okafor,Emeka Okafor,Charlotte Hornets
+1560,Bernard,Robinson,Bernard Robinson,Charlotte Hornets
+1561,Andres,Nocioni,Andres Nocioni,Chicago Bulls
+1562,Ben,Gordon,Ben Gordon,Chicago Bulls
+1563,Jared,Reiner,Jared Reiner,Chicago Bulls
+1564,Chris,Duhon,Chris Duhon,Chicago Bulls
+1565,Mario,Kasun,Mario Kasun,Orlando Magic
+1566,Pape,Sow,Pape Sow,Toronto Raptors
+1567,Geno,Carlisle,Geno Carlisle,Portland Trail Blazers
+1568,Awvee,Storey,Awvee Storey,Brooklyn Nets
+1569,Tim,Pickett,Tim Pickett,New Orleans Pelicans
+1570,Matt,Freije,Matt Freije,New Orleans Pelicans
+1571,Andre,Barrett,Andre Barrett,Houston Rockets
+1572,Justin,Reed,Justin Reed,Boston Celtics
+1573,Donta,Smith,Donta Smith,Atlanta Hawks
+1574,Delonte,West,Delonte West,Boston Celtics
+1575,Horace,Jenkins,Horace Jenkins,Detroit Pistons
+1576,Corsley,Edwards,Corsley Edwards,New Orleans Pelicans
+1577,Antonio,Burks,Antonio Burks,Memphis Grizzlies
+1578,Tony,Bobbitt,Tony Bobbitt,Los Angeles Lakers
+1579,Luis,Flores,Luis Flores,Golden State Warriors
+1580,Ibrahim,Kutluay,Ibrahim Kutluay,Oklahoma City Thunder
+1581,Ha,Ha,Ha Ha,Portland Trail Blazers
+1582,James,Thomas,James Thomas,Portland Trail Blazers
+1583,Andre,Emmett,Andre Emmett,Memphis Grizzlies
+1584,Brandin,Knight,Brandin Knight,Houston Rockets
+1585,Billy,Thomas,Billy Thomas,Brooklyn Nets
+1586,Viktor,Khryapa,Viktor Khryapa,Portland Trail Blazers
+1587,Dorell,Wright,Dorell Wright,Miami Heat
+1588,Maurice,Baker,Maurice Baker,LA Clippers
+1589,Pavel,Podkolzin,Pavel Podkolzin,Dallas Mavericks
+1590,Jackie,Butler,Jackie Butler,New York Knicks
+1591,Mark,Jones,Mark Jones,Orlando Magic
+1592,Fabricio,Oberto,Fabricio Oberto,San Antonio Spurs
+1594,Deng,Gai,Deng Gai,Philadelphia 76ers
+1595,Josh,Powell,Josh Powell,Dallas Mavericks
+1596,Dijon,Thompson,Dijon Thompson,Phoenix Suns
+1597,Francisco,Garcia,Francisco Garcia,Sacramento Kings
+1598,Ronnie,Price,Ronnie Price,Sacramento Kings
+1599,Brandon,Bass,Brandon Bass,New Orleans Pelicans
+1600,Arvydas,Macijauskas,Arvydas Macijauskas,New Orleans Pelicans
+1601,Deron,Williams,Deron Williams,Utah Jazz
+1602,Robert,Whaley,Robert Whaley,Utah Jazz
+1603,Earl,Barron,Earl Barron,Miami Heat
+1604,Wayne,Simien,Wayne Simien,Miami Heat
+1605,Matt,Walsh,Matt Walsh,Miami Heat
+1606,Lawrence,Roberts,Lawrence Roberts,Memphis Grizzlies
+1607,Hakim,Warrick,Hakim Warrick,Memphis Grizzlies
+1608,Andrew,Bynum,Andrew Bynum,Los Angeles Lakers
+1609,Linas,Kleiza,Linas Kleiza,Denver Nuggets
+1610,Daniel,Ewing,Daniel Ewing,LA Clippers
+1611,James,Singleton,James Singleton,LA Clippers
+1612,Yaroslav,Korolev,Yaroslav Korolev,LA Clippers
+1613,Boniface,Ndong,Boniface Ndong,LA Clippers
+1614,Johan,Petro,Johan Petro,Oklahoma City Thunder
+1615,Sean,May,Sean May,Charlotte Hornets
+1616,Sarunas,Jasikevicius,Sarunas Jasikevicius,Indiana Pacers
+1617,Danny,Granger,Danny Granger,Indiana Pacers
+1618,Travis,Diener,Travis Diener,Orlando Magic
+1619,Jarrett,Jack,Jarrett Jack,Portland Trail Blazers
+1620,Martell,Webster,Martell Webster,Portland Trail Blazers
+1621,Rashad,McCants,Rashad McCants,Minnesota Timberwolves
+1622,Nate,Robinson,Nate Robinson,New York Knicks
+1623,Ryan,Gomes,Ryan Gomes,Boston Celtics
+1624,Orien,Greene,Orien Greene,Boston Celtics
+1625,Donell,Taylor,Donell Taylor,Washington Wizards
+1626,Joey,Graham,Joey Graham,Toronto Raptors
+1627,Charlie,Villanueva,Charlie Villanueva,Toronto Raptors
+1628,Jason,Maxiell,Jason Maxiell,Detroit Pistons
+1629,Luther,Head,Luther Head,Houston Rockets
+1630,Salim,Stoudamire,Salim Stoudamire,Atlanta Hawks
+1631,Esteban,Batista,Esteban Batista,Atlanta Hawks
+1632,Chris,Taft,Chris Taft,Golden State Warriors
+1633,Aaron,Miles,Aaron Miles,Golden State Warriors
+1634,Devin,Green,Devin Green,Los Angeles Lakers
+1635,Monta,Ellis,Monta Ellis,Golden State Warriors
+1636,Kevin,Burleson,Kevin Burleson,Charlotte Hornets
+1637,Sergei,Monia,Sergei Monia,Portland Trail Blazers
+1638,Andre,Owens,Andre Owens,Utah Jazz
+1639,Eddie,Basden,Eddie Basden,Chicago Bulls
+1640,Martynas,Andriuskevicius,Martynas Andriuskevicius,Cleveland Cavaliers
+1641,David,Lee,David Lee,New York Knicks
+1642,Von,Wafer,Von Wafer,Los Angeles Lakers
+1643,Andray,Blatche,Andray Blatche,Washington Wizards
+1644,Melvin,Sanders,Melvin Sanders,San Antonio Spurs
+1645,Shavlik,Randolph,Shavlik Randolph,Philadelphia 76ers
+1646,Sharrod,Ford,Sharrod Ford,Phoenix Suns
+1647,Alan,Anderson,Alan Anderson,Charlotte Hornets
+1648,Julius,Hodge,Julius Hodge,Denver Nuggets
+1649,Rawle,Marshall,Rawle Marshall,Dallas Mavericks
+1650,Alex,Scales,Alex Scales,San Antonio Spurs
+1651,Gerald,Fitch,Gerald Fitch,Miami Heat
+1652,Ike,Diogu,Ike Diogu,Golden State Warriors
+1653,Antoine,Wright,Antoine Wright,Brooklyn Nets
+1654,Anthony,Roberson,Anthony Roberson,Memphis Grizzlies
+1655,Stephen,Graham,Stephen Graham,Houston Rockets
+1656,John,Lucas III,John Lucas III,Houston Rockets
+1657,Randy,Holcomb,Randy Holcomb,Chicago Bulls
+1658,Sean,Banks,Sean Banks,New Orleans Pelicans
+1659,Alex,Acker,Alex Acker,Detroit Pistons
+1660,Bracey,Wright,Bracey Wright,Minnesota Timberwolves
+1661,Chuck,Hayes,Chuck Hayes,Houston Rockets
+1662,Ronny,Turiaf,Ronny Turiaf,Los Angeles Lakers
+1663,Dwayne,Jones,Dwayne Jones,Boston Celtics
+1664,James,Lang,James Lang,Atlanta Hawks
+1665,Noel,Felix,Noel Felix,Oklahoma City Thunder
+1666,Luke,Schenscher,Luke Schenscher,Chicago Bulls
+1667,Will,Bynum,Will Bynum,Golden State Warriors
+1668,Anthony,Grundy,Anthony Grundy,Atlanta Hawks
+1669,Derrick,Zimmerman,Derrick Zimmerman,Brooklyn Nets
+1670,Jordan,Farmar,Jordan Farmar,Los Angeles Lakers
+1671,Tyrus,Thomas,Tyrus Thomas,Chicago Bulls
+1672,Chris,Quinn,Chris Quinn,Miami Heat
+1673,Robert,Hite,Robert Hite,Miami Heat
+1674,Cedric,Simmons,Cedric Simmons,New Orleans Pelicans
+1675,Hilton,Armstrong,Hilton Armstrong,New Orleans Pelicans
+1676,Leon,Powe,Leon Powe,Boston Celtics
+1677,Randy,Foye,Randy Foye,Minnesota Timberwolves
+1678,Craig,Smith,Craig Smith,Minnesota Timberwolves
+1679,Patrick,O'Bryant,Patrick O'Bryant,Golden State Warriors
+1680,Damir,Markota,Damir Markota,Milwaukee Bucks
+1681,David,Noel,David Noel,Milwaukee Bucks
+1682,Paul,Davis,Paul Davis,LA Clippers
+1683,Renaldo,Balkman,Renaldo Balkman,New York Knicks
+1684,Mardy,Collins,Mardy Collins,New York Knicks
+1685,Alexander,Johnson,Alexander Johnson,Memphis Grizzlies
+1686,Steve,Novak,Steve Novak,Houston Rockets
+1687,Vassilis,Spanoulis,Vassilis Spanoulis,Houston Rockets
+1688,Ronnie,Brewer,Ronnie Brewer,Utah Jazz
+1689,Brandon,Roy,Brandon Roy,Portland Trail Blazers
+1690,Mouhamed,Sene,Mouhamed Sene,Oklahoma City Thunder
+1691,Mickael,Gelabale,Mickael Gelabale,Oklahoma City Thunder
+1692,Adam,Morrison,Adam Morrison,Charlotte Hornets
+1693,Walter,Herrmann,Walter Herrmann,Charlotte Hornets
+1694,Shelden,Williams,Shelden Williams,Atlanta Hawks
+1695,Solomon,Jones,Solomon Jones,Atlanta Hawks
+1696,Cedric,Bozeman,Cedric Bozeman,Atlanta Hawks
+1697,Rodney,Carney,Rodney Carney,Philadelphia 76ers
+1698,Ivan,McFarlin,Ivan McFarlin,Philadelphia 76ers
+1699,Jorge,Garbajosa,Jorge Garbajosa,Toronto Raptors
+1700,Andrea,Bargnani,Andrea Bargnani,Toronto Raptors
+1701,Marcus,Williams,Marcus Williams,Brooklyn Nets
+1702,Hassan,Adams,Hassan Adams,Brooklyn Nets
+1703,Mile,Ilic,Mile Ilic,Brooklyn Nets
+1704,Yakhouba,Diawara,Yakhouba Diawara,Denver Nuggets
+1705,Maurice,Ager,Maurice Ager,Dallas Mavericks
+1706,Pops,Mensah-Bonsu,Pops Mensah-Bonsu,Dallas Mavericks
+1707,Sergio,Rodriguez,Sergio Rodriguez,Portland Trail Blazers
+1708,Shannon,Brown,Shannon Brown,Cleveland Cavaliers
+1709,Dee,Brown,Dee Brown,Utah Jazz
+1710,Andreas,Glyniadakis,Andreas Glyniadakis,Oklahoma City Thunder
+1711,Bobby,Jones,Bobby Jones,Philadelphia 76ers
+1712,Roger,Powell,Roger Powell,Utah Jazz
+1713,Tarence,Kinsey,Tarence Kinsey,Memphis Grizzlies
+1714,Allan,Ray,Allan Ray,Boston Celtics
+1715,Quincy,Douby,Quincy Douby,Sacramento Kings
+1716,Daniel,Gibson,Daniel Gibson,Cleveland Cavaliers
+1717,Marcus,Vinicius,Marcus Vinicius,New Orleans Pelicans
+1718,Chris,McCray,Chris McCray,Milwaukee Bucks
+1719,Desmon,Farmer,Desmon Farmer,Oklahoma City Thunder
+1720,Steven,Smith,Steven Smith,Philadelphia 76ers
+1721,Lynn,Greer,Lynn Greer,Milwaukee Bucks
+1722,Uros,Slokar,Uros Slokar,Toronto Raptors
+1723,Josh,Boone,Josh Boone,Brooklyn Nets
+1724,Will,Blalock,Will Blalock,Detroit Pistons
+1725,James,White,James White,San Antonio Spurs
+1726,Andre,Brown,Andre Brown,Oklahoma City Thunder
+1727,Renaldo,Major,Renaldo Major,Golden State Warriors
+1728,Shawne,Williams,Shawne Williams,Indiana Pacers
+1729,James,Augustine,James Augustine,Orlando Magic
+1730,Kelenna,Azubuike,Kelenna Azubuike,Golden State Warriors
+1731,Justin,Williams,Justin Williams,Sacramento Kings
+1732,Ryan,Hollins,Ryan Hollins,Charlotte Hornets
+1733,Will,Conroy,Will Conroy,Memphis Grizzlies
+1734,Jeremy,Richardson,Jeremy Richardson,Atlanta Hawks
+1735,Lou,Amundson,Lou Amundson,Utah Jazz
+1736,Randolph,Morris,Randolph Morris,New York Knicks
+1737,Mike,Hall,Mike Hall,Washington Wizards
+1738,Kevinn,Pinkney,Kevinn Pinkney,Boston Celtics
+1739,Luis,Scola,Luis Scola,Houston Rockets
+1740,Coby,Karl,Coby Karl,Los Angeles Lakers
+1741,Taurean,Green,Taurean Green,Portland Trail Blazers
+1742,Darius,Washington,Darius Washington,San Antonio Spurs
+1743,Aaron,Gray,Aaron Gray,Chicago Bulls
+1744,Sean,Williams,Sean Williams,Brooklyn Nets
+1745,Yi,Jianlian,Yi Jianlian,Milwaukee Bucks
+1746,Nick,Young,Nick Young,Washington Wizards
+1747,Dominic,McGuire,Dominic McGuire,Washington Wizards
+1748,Oleksiy,Pecherov,Oleksiy Pecherov,Washington Wizards
+1749,Courtney,Sims,Courtney Sims,Indiana Pacers
+1750,Juan,Carlos Navarro,Juan Carlos Navarro,Memphis Grizzlies
+1751,Nick,Fazekas,Nick Fazekas,Dallas Mavericks
+1752,Darryl,Watkins,Darryl Watkins,Sacramento Kings
+1753,Mustafa,Shakur,Mustafa Shakur,Sacramento Kings
+1754,Julian,Wright,Julian Wright,New Orleans Pelicans
+1755,DJ,Strawberry,DJ Strawberry,Phoenix Suns
+1756,Alando,Tucker,Alando Tucker,Phoenix Suns
+1757,Arron,Afflalo,Arron Afflalo,Detroit Pistons
+1758,Daequan,Cook,Daequan Cook,Miami Heat
+1759,Jermareo,Davidson,Jermareo Davidson,Charlotte Hornets
+1760,Acie,Law,Acie Law,Atlanta Hawks
+1761,Mario,West,Mario West,Atlanta Hawks
+1762,Javaris,Crittenton,Javaris Crittenton,Los Angeles Lakers
+1763,Glen,Davis,Glen Davis,Boston Celtics
+1765,Chris,Richard,Chris Richard,Minnesota Timberwolves
+1766,Stephane,Lasme,Stephane Lasme,Golden State Warriors
+1767,Al,Thornton,Al Thornton,LA Clippers
+1768,Brandan,Wright,Brandan Wright,Golden State Warriors
+1769,Jamario,Moon,Jamario Moon,Toronto Raptors
+1770,Demetris,Nichols,Demetris Nichols,Cleveland Cavaliers
+1772,Morris,Almond,Morris Almond,Utah Jazz
+1773,Gabe,Pruitt,Gabe Pruitt,Boston Celtics
+1774,Joel,Anthony,Joel Anthony,Miami Heat
+1775,Spencer,Hawes,Spencer Hawes,Sacramento Kings
+1776,Brandon,Wallace,Brandon Wallace,Boston Celtics
+1777,Aaron,Brooks,Aaron Brooks,Houston Rockets
+1778,Cheikh,Samb,Cheikh Samb,Detroit Pistons
+1779,Kosta,Perovic,Kosta Perovic,Golden State Warriors
+1780,Thomas,Gardner,Thomas Gardner,Chicago Bulls
+1781,Carl,Landry,Carl Landry,Houston Rockets
+1782,Josh,McRoberts,Josh McRoberts,Portland Trail Blazers
+1783,Kyrylo,Fesenko,Kyrylo Fesenko,Utah Jazz
+1784,Rodney,Stuckey,Rodney Stuckey,Detroit Pistons
+1785,Marcus,Williams,Marcus Williams,San Antonio Spurs
+1786,Keith,Langford,Keith Langford,San Antonio Spurs
+1787,Guillermo,Diaz,Guillermo Diaz,LA Clippers
+1788,C.J.,Watson,C.J. Watson,Golden State Warriors
+1789,Adam,Haluska,Adam Haluska,New Orleans Pelicans
+1790,JamesOn,Curry,JamesOn Curry,Chicago Bulls
+1791,Ramon,Sessions,Ramon Sessions,Milwaukee Bucks
+1792,Mike,Harris,Mike Harris,Houston Rockets
+1793,Lance,Allred,Lance Allred,Cleveland Cavaliers
+1794,Blake,Ahearn,Blake Ahearn,Miami Heat
+1795,Kasib,Powell,Kasib Powell,Miami Heat
+1796,JJ,Hickson,JJ Hickson,Cleveland Cavaliers
+1797,Joe,Alexander,Joe Alexander,Milwaukee Bucks
+1798,Greg,Oden,Greg Oden,Portland Trail Blazers
+1799,Rudy,Fernandez,Rudy Fernandez,Portland Trail Blazers
+1800,Chris,Douglas-Roberts,Chris Douglas-Roberts,Brooklyn Nets
+1801,Mario,Chalmers,Mario Chalmers,Miami Heat
+1802,Kyle,Weaver,Kyle Weaver,Oklahoma City Thunder
+1803,Brandon,Rush,Brandon Rush,Indiana Pacers
+1804,Roy,Hibbert,Roy Hibbert,Indiana Pacers
+1805,DeMarcus,Nelson,DeMarcus Nelson,Golden State Warriors
+1806,Anthony,Randolph,Anthony Randolph,Golden State Warriors
+1807,Sean,Singletary,Sean Singletary,Phoenix Suns
+1808,Jason,Thompson,Jason Thompson,Sacramento Kings
+1809,Bobby,Brown,Bobby Brown,Sacramento Kings
+1810,Mike,Taylor,Mike Taylor,LA Clippers
+1811,O.J.,Mayo,O.J. Mayo,Memphis Grizzlies
+1812,Darrell,Arthur,Darrell Arthur,Memphis Grizzlies
+1813,Hamed,Haddadi,Hamed Haddadi,Memphis Grizzlies
+1814,Joey,Dorsey,Joey Dorsey,Houston Rockets
+1815,Roko,Ukic,Roko Ukic,Toronto Raptors
+1816,Alexis,Ajinca,Alexis Ajinca,Charlotte Hornets
+1817,Sonny,Weems,Sonny Weems,Denver Nuggets
+1818,Marreese,Speights,Marreese Speights,Philadelphia 76ers
+1819,Donte,Greene,Donte Greene,Sacramento Kings
+1820,Walter,Sharpe,Walter Sharpe,Detroit Pistons
+1821,Rob,Kurz,Rob Kurz,Golden State Warriors
+1822,Henry,Walker,Henry Walker,Boston Celtics
+1823,Anthony,Morrow,Anthony Morrow,Golden State Warriors
+1824,Othello,Hunter,Othello Hunter,Atlanta Hawks
+1825,Steven,Hill,Steven Hill,Oklahoma City Thunder
+1826,Darnell,Jackson,Darnell Jackson,Cleveland Cavaliers
+1827,Sun,Sun,Sun Sun,Los Angeles Lakers
+1828,Jawad,Williams,Jawad Williams,Cleveland Cavaliers
+1829,Nathan,Jawai,Nathan Jawai,Toronto Raptors
+1830,Cartier,Martin,Cartier Martin,Charlotte Hornets
+1831,Malik,Hairston,Malik Hairston,San Antonio Spurs
+1832,J.R.,Giddens,J.R. Giddens,Boston Celtics
+1833,Trey,Johnson,Trey Johnson,Cleveland Cavaliers
+1834,Joe,Crawford,Joe Crawford,New York Knicks
+1835,Dontell,Jefferson,Dontell Jefferson,Charlotte Hornets
+1836,DJ,White,DJ White,Oklahoma City Thunder
+1837,Chris,Hunter,Chris Hunter,New York Knicks
+1838,Rodrigue,Beaubois,Rodrigue Beaubois,Dallas Mavericks
+1839,David,Andersen,David Andersen,Houston Rockets
+1840,Chase,Budinger,Chase Budinger,Houston Rockets
+1841,Jermaine,Taylor,Jermaine Taylor,Houston Rockets
+1842,Lester,Hudson,Lester Hudson,Boston Celtics
+1843,DeJuan,Blair,DeJuan Blair,San Antonio Spurs
+1844,AJ,Price,AJ Price,Indiana Pacers
+1845,Gerald,Henderson,Gerald Henderson,Charlotte Hornets
+1846,Derrick,Brown,Derrick Brown,Charlotte Hornets
+1847,Jon,Brockman,Jon Brockman,Sacramento Kings
+1848,Eric,Maynor,Eric Maynor,Utah Jazz
+1849,Ty,Lawson,Ty Lawson,Denver Nuggets
+1850,Toney,Douglas,Toney Douglas,New York Knicks
+1851,Jordan,Hill,Jordan Hill,New York Knicks
+1852,Marcus,Landry,Marcus Landry,New York Knicks
+1853,Austin,Daye,Austin Daye,Detroit Pistons
+1854,Hasheem,Thabeet,Hasheem Thabeet,Memphis Grizzlies
+1855,Sam,Young,Sam Young,Memphis Grizzlies
+1856,Trey,Gilder,Trey Gilder,Memphis Grizzlies
+1857,Earl,Clark,Earl Clark,Phoenix Suns
+1858,Terrence,Williams,Terrence Williams,Brooklyn Nets
+1859,Jonny,Flynn,Jonny Flynn,Minnesota Timberwolves
+1860,Brandon,Jennings,Brandon Jennings,Milwaukee Bucks
+1861,DaJuan,Summers,DaJuan Summers,Detroit Pistons
+1862,Taylor,Griffin,Taylor Griffin,Phoenix Suns
+1863,Tyler,Hansbrough,Tyler Hansbrough,Indiana Pacers
+1864,Marcus,Thornton,Marcus Thornton,New Orleans Pelicans
+1865,Jeff,Ayres,Jeff Ayres,Portland Trail Blazers
+1866,Byron,Mullens,Byron Mullens,Oklahoma City Thunder
+1867,Sundiata,Gaines,Sundiata Gaines,Utah Jazz
+1868,Cedric,Jackson,Cedric Jackson,Cleveland Cavaliers
+1869,Antonio,Anderson,Antonio Anderson,Oklahoma City Thunder
+1870,Reggie,Williams,Reggie Williams,Golden State Warriors
+1871,Othyus,Jeffers,Othyus Jeffers,Utah Jazz
+1872,Alonzo,Gee,Alonzo Gee,Washington Wizards
+1873,Oliver,Lafayette,Oliver Lafayette,Boston Celtics
+1874,Kenny,Hasbrouck,Kenny Hasbrouck,Miami Heat
+1875,Derrick,Caracter,Derrick Caracter,Los Angeles Lakers
+1876,Devin,Ebanks,Devin Ebanks,Los Angeles Lakers
+1877,Garret,Siler,Garret Siler,Phoenix Suns
+1878,Armon,Johnson,Armon Johnson,Portland Trail Blazers
+1879,Luke,Babbitt,Luke Babbitt,Portland Trail Blazers
+1880,Semih,Erden,Semih Erden,Boston Celtics
+1881,Pooh,Jeter,Pooh Jeter,Sacramento Kings
+1882,Nikola,Pekovic,Nikola Pekovic,Minnesota Timberwolves
+1883,Lazar,Hayward,Lazar Hayward,Minnesota Timberwolves
+1884,Damion,James,Damion James,Brooklyn Nets
+1885,Landry,Fields,Landry Fields,New York Knicks
+1886,Andy,Rautins,Andy Rautins,New York Knicks
+1887,Sherron,Collins,Sherron Collins,Charlotte Hornets
+1888,Dominique,Jones,Dominique Jones,Dallas Mavericks
+1889,Jeff,Adrien,Jeff Adrien,Golden State Warriors
+1890,Jeremy,Evans,Jeremy Evans,Utah Jazz
+1891,Gary,Forbes,Gary Forbes,Denver Nuggets
+1892,Jordan,Crawford,Jordan Crawford,Atlanta Hawks
+1893,Xavier,Henry,Xavier Henry,Memphis Grizzlies
+1894,Larry,Sanders,Larry Sanders,Milwaukee Bucks
+1895,Omer,Asik,Omer Asik,Chicago Bulls
+1896,Cole,Aldrich,Cole Aldrich,Oklahoma City Thunder
+1897,James,Anderson,James Anderson,San Antonio Spurs
+1898,Gary,Neal,Gary Neal,San Antonio Spurs
+1899,Manny,Harris,Manny Harris,Cleveland Cavaliers
+1900,Trevor,Booker,Trevor Booker,Washington Wizards
+1901,Hamady,Ndiaye,Hamady Ndiaye,Washington Wizards
+1902,Samardo,Samuels,Samardo Samuels,Cleveland Cavaliers
+1903,Luke,Harangody,Luke Harangody,Boston Celtics
+1904,Kevin,Seraphin,Kevin Seraphin,Washington Wizards
+1905,Greivis,Vasquez,Greivis Vasquez,Memphis Grizzlies
+1906,Tiago,Splitter,Tiago Splitter,San Antonio Spurs
+1907,Willie,Warren,Willie Warren,LA Clippers
+1908,Elliot,Williams,Elliot Williams,Portland Trail Blazers
+1909,Solomon,Alabi,Solomon Alabi,Toronto Raptors
+1910,Craig,Brackins,Craig Brackins,Philadelphia 76ers
+1911,Ben,Uzoh,Ben Uzoh,Brooklyn Nets
+1912,Gani,Lawal,Gani Lawal,Phoenix Suns
+1913,Christian,Eyenga,Christian Eyenga,Cleveland Cavaliers
+1914,Zabian,Dowdell,Zabian Dowdell,Phoenix Suns
+1915,Larry,Owens,Larry Owens,San Antonio Spurs
+1916,Chris,Johnson,Chris Johnson,Portland Trail Blazers
+1917,Pape,Sy,Pape Sy,Atlanta Hawks
+1918,Marcus,Cousin,Marcus Cousin,Utah Jazz
+1919,Jerel,McNeal,Jerel McNeal,New Orleans Pelicans
+1920,Patrick,Ewing,Patrick Ewing,New Orleans Pelicans
+1921,Dexter,Pittman,Dexter Pittman,Miami Heat
+1922,Marqus,Blakely,Marqus Blakely,Houston Rockets
+1923,Justin,Harper,Justin Harper,Orlando Magic
+1924,JaJuan,Johnson,JaJuan Johnson,Boston Celtics
+1925,Greg,Stiemsma,Greg Stiemsma,Boston Celtics
+1926,Josh,Harrellson,Josh Harrellson,New York Knicks
+1927,Jerome,Jordan,Jerome Jordan,New York Knicks
+1928,Travis,Leslie,Travis Leslie,LA Clippers
+1929,Trey,Thompkins,Trey Thompkins,LA Clippers
+1930,Charles,Jenkins,Charles Jenkins,Golden State Warriors
+1931,Jeremy,Tyler,Jeremy Tyler,Golden State Warriors
+1932,Andrew,Goudelock,Andrew Goudelock,Los Angeles Lakers
+1933,Norris,Cole,Norris Cole,Miami Heat
+1934,Terrel,Harris,Terrel Harris,Miami Heat
+1935,Mickell,Gladness,Mickell Gladness,Miami Heat
+1937,Josh,Selby,Josh Selby,Memphis Grizzlies
+1939,Tyler,Honeycutt,Tyler Honeycutt,Sacramento Kings
+1940,Vernon,Macklin,Vernon Macklin,Detroit Pistons
+1941,Derrick,Williams,Derrick Williams,Minnesota Timberwolves
+1942,Malcolm,Lee,Malcolm Lee,Minnesota Timberwolves
+1943,Nolan,Smith,Nolan Smith,Portland Trail Blazers
+1944,Darington,Hobson,Darington Hobson,Milwaukee Bucks
+1945,Cory,Higgins,Cory Higgins,Charlotte Hornets
+1946,Dennis,Horner,Dennis Horner,Brooklyn Nets
+1947,Chris,Singleton,Chris Singleton,Washington Wizards
+1948,Carldell,Johnson,Carldell Johnson,New Orleans Pelicans
+1949,Ivan,Johnson,Ivan Johnson,Atlanta Hawks
+1950,Chris,Wright,Chris Wright,Golden State Warriors
+1951,Daniel,Orton,Daniel Orton,Orlando Magic
+1952,Gustavo,Ayon,Gustavo Ayon,New Orleans Pelicans
+1953,Jordan,Hamilton,Jordan Hamilton,Denver Nuggets
+1954,Jan,Vesely,Jan Vesely,Washington Wizards
+1955,Julyan,Stone,Julyan Stone,Denver Nuggets
+1956,Jordan,Williams,Jordan Williams,Brooklyn Nets
+1957,Darius,Morris,Darius Morris,Los Angeles Lakers
+1958,Mychel,Thompson,Mychel Thompson,Cleveland Cavaliers
+1959,Lavoy,Allen,Lavoy Allen,Philadelphia 76ers
+1960,Donald,Sloan,Donald Sloan,Atlanta Hawks
+1961,Malcolm,Thomas,Malcolm Thomas,San Antonio Spurs
+1962,Courtney,Fortson,Courtney Fortson,LA Clippers
+1963,Ryan,Reid,Ryan Reid,Oklahoma City Thunder
+1964,Greg,Smith,Greg Smith,Houston Rockets
+1965,Eric,Dawson,Eric Dawson,San Antonio Spurs
+1966,DeAndre,Liggins,DeAndre Liggins,Orlando Magic
+1967,Walker,Russell,Walker Russell,Detroit Pistons
+1968,Jeff,Foote,Jeff Foote,New Orleans Pelicans
+1969,Jerry,Smith,Jerry Smith,Brooklyn Nets
+1970,Edwin,Ubiles,Edwin Ubiles,Washington Wizards
+1971,Justin,Dentmon,Justin Dentmon,San Antonio Spurs
+1972,Keith,Benson,Keith Benson,Golden State Warriors
+1973,Jerome,Dyson,Jerome Dyson,New Orleans Pelicans
+1974,D.J.,Kennedy,D.J. Kennedy,Cleveland Cavaliers
+1975,Derrick,Byars,Derrick Byars,San Antonio Spurs
+1976,Xavier,Silas,Xavier Silas,Philadelphia 76ers
+1977,Diamon,Simpson,Diamon Simpson,Houston Rockets
+1978,Jared,Sullinger,Jared Sullinger,Boston Celtics
+1979,Kris,Joseph,Kris Joseph,Boston Celtics
+1980,Jared,Cunningham,Jared Cunningham,Dallas Mavericks
+1981,Bernard,James,Bernard James,Dallas Mavericks
+1982,Robert,Sacre,Robert Sacre,Los Angeles Lakers
+1984,Kevin,Murphy,Kevin Murphy,Utah Jazz
+1985,Victor,Claver,Victor Claver,Portland Trail Blazers
+1986,Joel,Freeland,Joel Freeland,Portland Trail Blazers
+1987,Terrence,Jones,Terrence Jones,Houston Rockets
+1989,Royce,White,Royce White,Houston Rockets
+1990,Kim,English,Kim English,Detroit Pistons
+1991,Kyle,Singler,Kyle Singler,Detroit Pistons
+1992,Nando,De Colo,Nando De Colo,San Antonio Spurs
+1993,Brian,Roberts,Brian Roberts,New Orleans Pelicans
+1994,Ben,Hansbrough,Ben Hansbrough,Indiana Pacers
+1995,Orlando,Johnson,Orlando Johnson,Indiana Pacers
+1996,Thomas,Robinson,Thomas Robinson,Sacramento Kings
+1997,Marquis,Teague,Marquis Teague,Chicago Bulls
+1998,Festus,Ezeli,Festus Ezeli,Golden State Warriors
+1999,Kendall,Marshall,Kendall Marshall,Phoenix Suns
+2000,Luke,Zeller,Luke Zeller,Phoenix Suns
+2001,Quincy,Miller,Quincy Miller,Denver Nuggets
+2002,Maalik,Wayns,Maalik Wayns,Philadelphia 76ers
+2003,Arnett,Moultrie,Arnett Moultrie,Philadelphia 76ers
+2004,Tony,Wroten,Tony Wroten,Memphis Grizzlies
+2005,Perry,Jones III,Perry Jones III,Oklahoma City Thunder
+2006,Alexey,Shved,Alexey Shved,Minnesota Timberwolves
+2008,Pablo,Prigioni,Pablo Prigioni,New York Knicks
+2009,Chris,Copeland,Chris Copeland,New York Knicks
+2010,Doron,Lamb,Doron Lamb,Milwaukee Bucks
+2011,Jeffery,Taylor,Jeffery Taylor,Charlotte Hornets
+2012,Andrew,Nicholson,Andrew Nicholson,Orlando Magic
+2013,Tornike,Shengelia,Tornike Shengelia,Brooklyn Nets
+2014,Tyshawn,Taylor,Tyshawn Taylor,Brooklyn Nets
+2015,Mirza,Teletovic,Mirza Teletovic,Brooklyn Nets
+2016,Scott,Machado,Scott Machado,Houston Rockets
+2017,DeQuan,Jones,DeQuan Jones,Orlando Magic
+2018,Viacheslav,Kravtsov,Viacheslav Kravtsov,Detroit Pistons
+2019,Diante,Garrett,Diante Garrett,Phoenix Suns
+2020,Quincy,Acy,Quincy Acy,Toronto Raptors
+2021,Darius,Johnson-Odom,Darius Johnson-Odom,Los Angeles Lakers
+2022,Kevin,Jones,Kevin Jones,Cleveland Cavaliers
+2023,Jarvis,Varnado,Jarvis Varnado,Boston Celtics
+2024,Chris,Johnson,Chris Johnson,Memphis Grizzlies
+2025,Fab,Melo,Fab Melo,Boston Celtics
+2026,Tim,Ohlbrecht,Tim Ohlbrecht,Houston Rockets
+2027,Henry,Sims,Henry Sims,New Orleans Pelicans
+2028,Chris,Wright,Chris Wright,Dallas Mavericks
+2029,Josh,Akognon,Josh Akognon,Dallas Mavericks
+2030,Ryan,Kelly,Ryan Kelly,Los Angeles Lakers
+2031,Erik,Murphy,Erik Murphy,Chicago Bulls
+2032,Vitor,Faverani,Vitor Faverani,Boston Celtics
+2033,Phil,Pressey,Phil Pressey,Boston Celtics
+2034,Dwight,Buycks,Dwight Buycks,Toronto Raptors
+2035,Elias,Harris,Elias Harris,Los Angeles Lakers
+2036,Ognjen,Kuzmic,Ognjen Kuzmic,Golden State Warriors
+2037,Nemanja,Nedovic,Nemanja Nedovic,Golden State Warriors
+2038,Glen,Rice,Glen Rice,Washington Wizards
+2039,Peyton,Siva,Peyton Siva,Detroit Pistons
+2040,Tony,Mitchell,Tony Mitchell,Detroit Pistons
+2041,Gigi,Datome,Gigi Datome,Detroit Pistons
+2042,Arinze,Onuaku,Arinze Onuaku,New Orleans Pelicans
+2043,Jeff,Withey,Jeff Withey,New Orleans Pelicans
+2044,Nate,Wolters,Nate Wolters,Milwaukee Bucks
+2045,Miroslav,Raduljica,Miroslav Raduljica,Milwaukee Bucks
+2046,Nick,Calathes,Nick Calathes,Memphis Grizzlies
+2047,Jamaal,Franklin,Jamaal Franklin,Memphis Grizzlies
+2049,Pero,Antic,Pero Antic,Atlanta Hawks
+2050,Gal,Mekel,Gal Mekel,Dallas Mavericks
+2051,Ricky,Ledo,Ricky Ledo,Dallas Mavericks
+2052,Robbie,Hummel,Robbie Hummel,Minnesota Timberwolves
+2053,Shabazz,Muhammad,Shabazz Muhammad,Minnesota Timberwolves
+2054,Brandon,Davies,Brandon Davies,Philadelphia 76ers
+2055,Hollis,Thompson,Hollis Thompson,Philadelphia 76ers
+2056,Archie,Goodwin,Archie Goodwin,Phoenix Suns
+2057,Dionte,Christmas,Dionte Christmas,Phoenix Suns
+2058,Toure',Murry,Toure' Murry,New York Knicks
+2059,James,Southerland,James Southerland,Charlotte Hornets
+2060,Sergey,Karasev,Sergey Karasev,Cleveland Cavaliers
+2061,Ray,McCallum,Ray McCallum,Sacramento Kings
+2062,Carrick,Felix,Carrick Felix,Cleveland Cavaliers
+2063,Chris,Smith,Chris Smith,New York Knicks
+2064,Shane,Larkin,Shane Larkin,Dallas Mavericks
+2065,Vander,Blue,Vander Blue,Boston Celtics
+2066,Adonis,Thomas,Adonis Thomas,Orlando Magic
+2067,Chris,Babb,Chris Babb,Boston Celtics
+2068,Tony,Mitchell,Tony Mitchell,Milwaukee Bucks
+2069,Justin,Hamilton,Justin Hamilton,Charlotte Hornets
+2070,Jorge,Gutierrez,Jorge Gutierrez,Brooklyn Nets
+2071,Shane,Edwards,Shane Edwards,Cleveland Cavaliers
+2072,Casper,Ware,Casper Ware,Philadelphia 76ers
+2073,Scotty,Hopson,Scotty Hopson,Cleveland Cavaliers
+2074,Willie,Reed,Willie Reed,Sacramento Kings
+2076,Tarik,Black,Tarik Black,Houston Rockets
+2077,Kostas,Papanikolaou,Kostas Papanikolaou,Houston Rockets
+2078,PJ,Hairston,PJ Hairston,Charlotte Hornets
+2079,KJ,McDaniels,KJ McDaniels,Philadelphia 76ers
+2081,Damjan,Rudez,Damjan Rudez,Indiana Pacers
+2082,Shayne,Whittington,Shayne Whittington,Indiana Pacers
+2083,Cory,Jefferson,Cory Jefferson,Brooklyn Nets
+2084,James,Young,James Young,Boston Celtics
+2085,Lucas,Nogueira,Lucas Nogueira,Toronto Raptors
+2086,Jordan,Adams,Jordan Adams,Memphis Grizzlies
+2087,Jarnell,Stokes,Jarnell Stokes,Memphis Grizzlies
+2088,Tyler,Ennis,Tyler Ennis,Phoenix Suns
+2089,Cameron,Bairstow,Cameron Bairstow,Chicago Bulls
+2090,Cleanthony,Early,Cleanthony Early,New York Knicks
+2091,Travis,Wear,Travis Wear,New York Knicks
+2092,Alex,Kirk,Alex Kirk,Cleveland Cavaliers
+2093,Zoran,Dragic,Zoran Dragic,Phoenix Suns
+2094,Nick,Johnson,Nick Johnson,Houston Rockets
+2095,Andre,Dawkins,Andre Dawkins,Miami Heat
+2096,Russ,Smith,Russ Smith,New Orleans Pelicans
+2097,Patric,Young,Patric Young,New Orleans Pelicans
+2098,Will,Cherry,Will Cherry,Cleveland Cavaliers
+2101,Erick,Green,Erick Green,Denver Nuggets
+2102,Adreian,Payne,Adreian Payne,Atlanta Hawks
+2103,Drew,Gordon,Drew Gordon,Philadelphia 76ers
+2104,Markel,Brown,Markel Brown,Brooklyn Nets
+2107,Grant,Jerrett,Grant Jerrett,Oklahoma City Thunder
+2108,Ronald,Roberts Jr.,Ronald Roberts Jr.,Philadelphia 76ers
+2109,Damien,Inglis,Damien Inglis,Milwaukee Bucks
+2110,Johnny,O'Bryant III,Johnny O'Bryant III,Milwaukee Bucks
+2111,Mitch,McGary,Mitch McGary,Oklahoma City Thunder
+2112,Furkan,Aldemir,Furkan Aldemir,Philadelphia 76ers
+2113,Patrick,Christopher,Patrick Christopher,Utah Jazz
+2114,Elijah,Millsap,Elijah Millsap,Utah Jazz
+2115,Larry,Drew II,Larry Drew II,Philadelphia 76ers
+2116,James,Michael McAdoo,James Michael McAdoo,Golden State Warriors
+2118,Joffrey,Lauvergne,Joffrey Lauvergne,Denver Nuggets
+2119,Jack,Cooley,Jack Cooley,Utah Jazz
+2120,Bryce,Cotton,Bryce Cotton,Utah Jazz
+2121,Jerrelle,Benimon,Jerrelle Benimon,Utah Jazz
+2122,Jarell,Eddie,Jarell Eddie,Atlanta Hawks
+2123,Jabari,Brown,Jabari Brown,Los Angeles Lakers
+2124,Sean,Kilpatrick,Sean Kilpatrick,Minnesota Timberwolves
+2125,David,Wear,David Wear,Sacramento Kings
+2126,Sim,Bhullar,Sim Bhullar,Sacramento Kings
+2127,Darrun,Hilliard,Darrun Hilliard,Detroit Pistons
+2128,Lamar,Patterson,Lamar Patterson,Atlanta Hawks
+2129,Sasha,Kaun,Sasha Kaun,Cleveland Cavaliers
+2130,Tibor,Pleiss,Tibor Pleiss,Utah Jazz
+2131,Rashad,Vaughn,Rashad Vaughn,Milwaukee Bucks
+2132,Aaron,Harrison,Aaron Harrison,Charlotte Hornets
+2133,Joe,Young,Joe Young,Indiana Pacers
+2134,Luis,Montero,Luis Montero,Portland Trail Blazers
+2135,Marcelo,Huertas,Marcelo Huertas,Los Angeles Lakers
+2136,Anthony,Brown,Anthony Brown,Los Angeles Lakers
+2137,Jordan,Mickey,Jordan Mickey,Boston Celtics
+2138,Edy,Tavares,Edy Tavares,Atlanta Hawks
+2140,Duje,Dukan,Duje Dukan,Sacramento Kings
+2141,Cliff,Alexander,Cliff Alexander,Portland Trail Blazers
+2142,Josh,Huestis,Josh Huestis,Oklahoma City Thunder
+2143,Branden,Dawson,Branden Dawson,LA Clippers
+2144,Rakeem,Christmas,Rakeem Christmas,Indiana Pacers
+2145,JJ,O'Brien,JJ O'Brien,Utah Jazz
+2146,Keith,Appling,Keith Appling,Orlando Magic
+2147,Bryce,Dejean-Jones,Bryce Dejean-Jones,New Orleans Pelicans
+2149,Chris,McCullough,Chris McCullough,Brooklyn Nets
+2150,Alex,Stepheson,Alex Stepheson,LA Clippers
+2151,Axel,Toupane,Axel Toupane,Denver Nuggets
+2152,Briante,Weber,Briante Weber,Memphis Grizzlies
+2153,Coty,Clarke,Coty Clarke,Boston Celtics
+2154,Xavier,Munford,Xavier Munford,Memphis Grizzlies
+2155,John,Holland,John Holland,Boston Celtics
+2156,Mindaugas,Kuzminskas,Mindaugas Kuzminskas,New York Knicks
+2157,Nicolas,Laprovittola,Nicolas Laprovittola,San Antonio Spurs
+2159,Joel,Bolomboy,Joel Bolomboy,Utah Jazz
+2161,Kyle,Wiltjer,Kyle Wiltjer,Houston Rockets
+2163,Michael,Gbinije,Michael Gbinije,Detroit Pistons
+2164,Semaj,Christon,Semaj Christon,Oklahoma City Thunder
+2165,Nicolas,Brussino,Nicolas Brussino,Dallas Mavericks
+2166,Paul,Zipser,Paul Zipser,Chicago Bulls
+2167,Diamond,Stone,Diamond Stone,LA Clippers
+2168,Daniel,Ochefu,Daniel Ochefu,Washington Wizards
+2170,Malcolm,Delaney,Malcolm Delaney,Atlanta Hawks
+2171,AJ,Hammons,AJ Hammons,Dallas Mavericks
+2172,Kay,Felder,Kay Felder,Cleveland Cavaliers
+2173,Stephen,Zimmerman,Stephen Zimmerman,Orlando Magic
+2174,Maurice,Ndour,Maurice Ndour,New York Knicks
+2176,Georgios,Papagiannis,Georgios Papagiannis,Sacramento Kings
+2177,Tim,Quarterman,Tim Quarterman,Portland Trail Blazers
+2179,Marshall,Plumlee,Marshall Plumlee,New York Knicks
+2180,Chinanu,Onuaku,Chinanu Onuaku,Houston Rockets
+2181,Pierre,Jackson,Pierre Jackson,Dallas Mavericks
+2182,Okaro,White,Okaro White,Miami Heat
+2183,Mike,Tobey,Mike Tobey,Charlotte Hornets
+2184,Marcus,Georges-Hunt,Marcus Georges-Hunt,Miami Heat
+2185,Brice,Johnson,Brice Johnson,LA Clippers
+2186,Ben,Bentil,Ben Bentil,Dallas Mavericks
+2187,Shawn,Long,Shawn Long,Philadelphia 76ers
+2191,Patricio,Garino,Patricio Garino,Orlando Magic
+2192,Charles,Cooke,Charles Cooke,New Orleans Pelicans
+2193,Jalen,Jones,Jalen Jones,New Orleans Pelicans
+2195,Alec,Peters,Alec Peters,Phoenix Suns
+2196,Mike,James,Mike James,Phoenix Suns
+2197,Matt,Williams Jr.,Matt Williams Jr.,Miami Heat
+2169,Sheldon,Mac,Sheldon Mac,Cleveland Cavaliers
+2198,Brandon,Paul,Brandon Paul,San Antonio Spurs
+2199,Dakari,Johnson,Dakari Johnson,Oklahoma City Thunder
+2200,Mike,Young,Mike Young,Washington Wizards
+2201,Gian,Clavell,Gian Clavell,Dallas Mavericks
+2203,Mangok,Mathiang,Mangok Mathiang,Charlotte Hornets
+2204,Marcus,Paige,Marcus Paige,Charlotte Hornets
+2206,Matt,Costello,Matt Costello,San Antonio Spurs
+2207,Jacob,Wiley,Jacob Wiley,Brooklyn Nets
+2209,Vincent,Hunter,Vincent Hunter,Memphis Grizzlies
+2210,Jamil,Wilson,Jamil Wilson,LA Clippers
+2212,Jacob,Pullen,Jacob Pullen,Philadelphia 76ers
+2214,Yakuba,Ouattara,Yakuba Ouattara,Brooklyn Nets
+2217,Jamel,Artis,Jamel Artis,Orlando Magic
+2218,Kyle,Collinsworth,Kyle Collinsworth,Dallas Mavericks
+2220,Reggie,Hearn,Reggie Hearn,Detroit Pistons
+2221,Nigel,Hayes,Nigel Hayes,Los Angeles Lakers
+2224,James,Webb III,James Webb III,Brooklyn Nets
+2226,Erik,McCree,Erik McCree,Utah Jazz
+2227,Andrew,White III,Andrew White III,Atlanta Hawks
+2228,Trey,McKinney-Jones,Trey McKinney-Jones,Indiana Pacers
+2230,Xavier,Rathan-Mayes,Xavier Rathan-Mayes,Memphis Grizzlies
+2231,Rodney,Purvis,Rodney Purvis,Orlando Magic
+2232,Jameel,Warney,Jameel Warney,Dallas Mavericks
+2233,Omari,Johnson,Omari Johnson,Memphis Grizzlies
+2234,Andre,Ingram,Andre Ingram,Los Angeles Lakers
+2235,Aaron,Jackson,Aaron Jackson,Houston Rockets
+2236,Brian,Taylor,Brian Taylor,LA Clippers
+2237,Freeman,Williams,Freeman Williams,LA Clippers
+2238,Jerome,Whitehead,Jerome Whitehead,LA Clippers
+2239,Joe,Bryant,Joe Bryant,LA Clippers
+2240,Nick,Weatherspoon,Nick Weatherspoon,LA Clippers
+2241,Sidney,Wicks,Sidney Wicks,LA Clippers
+2242,Swen,Nater,Swen Nater,LA Clippers
+2243,World,Free,World Free,LA Clippers
+2244,Don,Ford,Don Ford,Los Angeles Lakers
+2245,Jamaal,Wilkes,Jamaal Wilkes,Los Angeles Lakers
+2246,Jim,Chones,Jim Chones,Los Angeles Lakers
+2247,Kareem,Abdul-Jabbar,Kareem Abdul-Jabbar,Los Angeles Lakers
+2248,Michael,Cooper,Michael Cooper,Los Angeles Lakers
+2249,Norm,Nixon,Norm Nixon,Los Angeles Lakers
+2250,Ron,Boone,Ron Boone,Los Angeles Lakers
+2251,Spencer,Haywood,Spencer Haywood,Los Angeles Lakers
+2252,Cedric,Maxwell,Cedric Maxwell,Boston Celtics
+2253,Chris,Ford,Chris Ford,Boston Celtics
+2254,Dave,Cowens,Dave Cowens,Boston Celtics
+2255,Don,Chaney,Don Chaney,Boston Celtics
+2256,Eric,Fernsten,Eric Fernsten,Boston Celtics
+2257,Jeff,Judkins,Jeff Judkins,Boston Celtics
+2258,M.L.,Carr,M.L. Carr,Boston Celtics
+2259,Nate,Archibald,Nate Archibald,Boston Celtics
+2260,Rick,Robey,Rick Robey,Boston Celtics
+2261,Calvin,Murphy,Calvin Murphy,Houston Rockets
+2262,Dwight,Jones,Dwight Jones,Houston Rockets
+2263,Major,Jones,Major Jones,Houston Rockets
+2264,Mike,Dunleavy,Mike Dunleavy,Houston Rockets
+2265,Rick,Barry,Rick Barry,Houston Rockets
+2266,Rudy,Tomjanovich,Rudy Tomjanovich,Houston Rockets
+2267,Rudy,White,Rudy White,Houston Rockets
+2268,Tom,Henderson,Tom Henderson,Houston Rockets
+2269,Bob,Dandridge,Bob Dandridge,Washington Wizards
+2270,Elvin,Hayes,Elvin Hayes,Washington Wizards
+2271,Greg,Ballard,Greg Ballard,Washington Wizards
+2272,Kevin,Grevey,Kevin Grevey,Washington Wizards
+2273,Kevin,Porter,Kevin Porter,Washington Wizards
+2274,Larry,Wright,Larry Wright,Washington Wizards
+2275,Roger,Phegley,Roger Phegley,Washington Wizards
+2276,Wes,Unseld,Wes Unseld,Washington Wizards
+2277,Bobby,Jones,Bobby Jones,Philadelphia 76ers
+2278,Caldwell,Jones,Caldwell Jones,Philadelphia 76ers
+2279,Darryl,Dawkins,Darryl Dawkins,Philadelphia 76ers
+2280,Doug,Collins,Doug Collins,Philadelphia 76ers
+2281,Eric,Money,Eric Money,Philadelphia 76ers
+2282,Henry,Bibby,Henry Bibby,Philadelphia 76ers
+2283,Julius,Erving,Julius Erving,Philadelphia 76ers
+2284,Steve,Mix,Steve Mix,Philadelphia 76ers
+2285,Armond,Hill,Armond Hill,Atlanta Hawks
+2286,Charlie,Criss,Charlie Criss,Atlanta Hawks
+2287,Dan,Roundfield,Dan Roundfield,Atlanta Hawks
+2288,Eddie,Johnson,Eddie Johnson,Atlanta Hawks
+2289,Jack,Givens,Jack Givens,Atlanta Hawks
+2290,John,Drew,John Drew,Atlanta Hawks
+2291,Ron,Lee,Ron Lee,Atlanta Hawks
+2292,Steve,Hawes,Steve Hawes,Atlanta Hawks
+2293,Terry,Furlow,Terry Furlow,Atlanta Hawks
+2294,Tom,McMillen,Tom McMillen,Atlanta Hawks
+2295,Geoff,Huston,Geoff Huston,New York Knicks
+2296,Hollis,Copeland,Hollis Copeland,New York Knicks
+2297,Jim,Cleamons,Jim Cleamons,New York Knicks
+2298,Joe,Meriweather,Joe Meriweather,New York Knicks
+2299,Larry,Demic,Larry Demic,New York Knicks
+2300,Micheal,Ray Richardson,Micheal Ray Richardson,New York Knicks
+2301,Mike,Glenn,Mike Glenn,New York Knicks
+2302,Ray,Williams,Ray Williams,New York Knicks
+2303,Sly,Williams,Sly Williams,New York Knicks
+2304,Toby,Knight,Toby Knight,New York Knicks
+2305,Abdul,Jeelani,Abdul Jeelani,Portland Trail Blazers
+2306,Jim,Brewer,Jim Brewer,Portland Trail Blazers
+2307,Jim,Paxson,Jim Paxson,Portland Trail Blazers
+2308,Kermit,Washington,Kermit Washington,Portland Trail Blazers
+2309,Kevin,Kunnert,Kevin Kunnert,Portland Trail Blazers
+2310,Larry,Steele,Larry Steele,Portland Trail Blazers
+2311,Lionel,Hollins,Lionel Hollins,Portland Trail Blazers
+2312,Ron,Brewer,Ron Brewer,Portland Trail Blazers
+2313,Tom,Owens,Tom Owens,Portland Trail Blazers
+2314,Allan,Bristow,Allan Bristow,Utah Jazz
+2315,Ben,Poquette,Ben Poquette,Utah Jazz
+2316,Don,Williams,Don Williams,Utah Jazz
+2317,Greg,Deane,Greg Deane,Utah Jazz
+2318,James,Hardy,James Hardy,Utah Jazz
+2319,John,Gianelli,John Gianelli,Utah Jazz
+2320,Paul,Dawkins,Paul Dawkins,Utah Jazz
+2321,Pete,Maravich,Pete Maravich,Utah Jazz
+2322,Robert,Smith,Robert Smith,Utah Jazz
+2323,Bob,Lanier,Bob Lanier,Detroit Pistons
+2324,Bob,McAdoo,Bob McAdoo,Detroit Pistons
+2325,Greg,Kelser,Greg Kelser,Detroit Pistons
+2326,Jim,McElroy,Jim McElroy,Detroit Pistons
+2327,John,Shumate,John Shumate,Detroit Pistons
+2328,Leon,Douglas,Leon Douglas,Detroit Pistons
+2329,Phil,Hubbard,Phil Hubbard,Detroit Pistons
+2330,Roylee,Hamilton,Roylee Hamilton,Detroit Pistons
+2331,Terry,Duerod,Terry Duerod,Detroit Pistons
+2332,Terry,Tyler,Terry Tyler,Detroit Pistons
+2333,Billy,Knight,Billy Knight,Indiana Pacers
+2334,Clemon,Johnson,Clemon Johnson,Indiana Pacers
+2335,Dudley,Bradley,Dudley Bradley,Indiana Pacers
+2336,Johnny,Davis,Johnny Davis,Indiana Pacers
+2337,Mickey,Johnson,Mickey Johnson,Indiana Pacers
+2338,Mike,Bantom,Mike Bantom,Indiana Pacers
+2339,Tony,Zeno,Tony Zeno,Indiana Pacers
+2340,Calvin,Natt,Calvin Natt,Brooklyn Nets
+2341,Eddie,Jordan,Eddie Jordan,Brooklyn Nets
+2342,George,Johnson,George Johnson,Brooklyn Nets
+2343,Jan,Van Breda Kolff,Jan Van Breda Kolff,Brooklyn Nets
+2344,John,Williamson,John Williamson,Brooklyn Nets
+2345,Ralph,Simpson,Ralph Simpson,Brooklyn Nets
+2346,Rich,Kelley,Rich Kelley,Brooklyn Nets
+2347,Bill,Willoughby,Bill Willoughby,Cleveland Cavaliers
+2348,Bingo,Smith,Bingo Smith,Cleveland Cavaliers
+2349,Campy,Russell,Campy Russell,Cleveland Cavaliers
+2350,Dave,Robisch,Dave Robisch,Cleveland Cavaliers
+2351,Earl,Tatum,Earl Tatum,Cleveland Cavaliers
+2352,John,Lambert,John Lambert,Cleveland Cavaliers
+2353,Kenny,Carr,Kenny Carr,Cleveland Cavaliers
+2354,Mike,Mitchell,Mike Mitchell,Cleveland Cavaliers
+2355,Randy,Smith,Randy Smith,Cleveland Cavaliers
+2356,Willie,Smith,Willie Smith,Cleveland Cavaliers
+2357,Alvan,Adams,Alvan Adams,Phoenix Suns
+2358,Alvin,Scott,Alvin Scott,Phoenix Suns
+2359,Don,Buse,Don Buse,Phoenix Suns
+2360,Garfield,Heard,Garfield Heard,Phoenix Suns
+2361,Jeff,Cook,Jeff Cook,Phoenix Suns
+2362,Joel,Kramer,Joel Kramer,Phoenix Suns
+2363,Johnny,High,Johnny High,Phoenix Suns
+2364,Mike,Bratz,Mike Bratz,Phoenix Suns
+2365,Paul,Westphal,Paul Westphal,Phoenix Suns
+2366,Truck,Robinson,Truck Robinson,Phoenix Suns
+2367,Clifford,Ray,Clifford Ray,Golden State Warriors
+2368,John,Coughran,John Coughran,Golden State Warriors
+2369,John,Lucas,John Lucas,Golden State Warriors
+2370,Jojo,White,Jojo White,Golden State Warriors
+2371,Purvis,Short,Purvis Short,Golden State Warriors
+2372,Raymond,Townsend,Raymond Townsend,Golden State Warriors
+2373,Sonny,Parker,Sonny Parker,Golden State Warriors
+2374,Thomas,Wilson,Thomas Wilson,Golden State Warriors
+2375,Tom,Abernethy,Tom Abernethy,Golden State Warriors
+2376,Bill,Robinzine,Bill Robinzine,Sacramento Kings
+2377,Billy,McKinney,Billy McKinney,Sacramento Kings
+2378,Ernie,Grunfeld,Ernie Grunfeld,Sacramento Kings
+2379,Marlon,Redmond,Marlon Redmond,Sacramento Kings
+2380,Mike,Green,Mike Green,Sacramento Kings
+2381,Otis,Birdsong,Otis Birdsong,Sacramento Kings
+2382,Phil,Ford,Phil Ford,Sacramento Kings
+2383,Reggie,King,Reggie King,Sacramento Kings
+2384,Sam,Lacey,Sam Lacey,Sacramento Kings
+2385,Scott,Wedman,Scott Wedman,Sacramento Kings
+2386,Brian,Winters,Brian Winters,Milwaukee Bucks
+2387,Dave,Meyers,Dave Meyers,Milwaukee Bucks
+2388,Harvey,Catchings,Harvey Catchings,Milwaukee Bucks
+2389,Junior,Bridgeman,Junior Bridgeman,Milwaukee Bucks
+2390,Kent,Benson,Kent Benson,Milwaukee Bucks
+2391,Lloyd,Walton,Lloyd Walton,Milwaukee Bucks
+2392,Marques,Johnson,Marques Johnson,Milwaukee Bucks
+2393,Quinn,Buckner,Quinn Buckner,Milwaukee Bucks
+2394,Richard,Washington,Richard Washington,Milwaukee Bucks
+2395,Alonzo,Bradley,Alonzo Bradley,Houston Rockets
+2396,Anthony,Roberts,Anthony Roberts,Denver Nuggets
+2397,Bo,Ellis,Bo Ellis,Denver Nuggets
+2398,Bob,Wilkerson,Bob Wilkerson,Denver Nuggets
+2399,Charlie,Scott,Charlie Scott,Denver Nuggets
+2400,Dan,Issel,Dan Issel,Denver Nuggets
+2401,David,Thompson,David Thompson,Denver Nuggets
+2402,Gary,Garland,Gary Garland,Denver Nuggets
+2403,George,McGinnis,George McGinnis,Denver Nuggets
+2404,John,Roche,John Roche,Denver Nuggets
+2405,Kim,Hughes,Kim Hughes,Denver Nuggets
+2406,Austin,Carr,Austin Carr,Cleveland Cavaliers
+2407,Walt,Frazier,Walt Frazier,Cleveland Cavaliers
+2408,Billy,Paultz,Billy Paultz,San Antonio Spurs
+2409,George,Gervin,George Gervin,San Antonio Spurs
+2410,Irv,Kiffin,Irv Kiffin,San Antonio Spurs
+2411,James,Silas,James Silas,San Antonio Spurs
+2412,Kevin,Restani,Kevin Restani,San Antonio Spurs
+2413,Larry,Kenon,Larry Kenon,San Antonio Spurs
+2414,Mark,Olberding,Mark Olberding,San Antonio Spurs
+2415,Mike,Evans,Mike Evans,San Antonio Spurs
+2416,Mike,Gale,Mike Gale,San Antonio Spurs
+2417,Paul,Griffin,Paul Griffin,San Antonio Spurs
+2418,Gus,Bailey,Gus Bailey,Washington Wizards
+2419,Phil,Chenier,Phil Chenier,Washington Wizards
+2420,Artis,Gilmore,Artis Gilmore,Chicago Bulls
+2421,Coby,Dietrick,Coby Dietrick,Chicago Bulls
+2422,Del,Beshore,Del Beshore,Chicago Bulls
+2423,Mark,Landsberger,Mark Landsberger,Chicago Bulls
+2424,Ollie,Johnson,Ollie Johnson,Chicago Bulls
+2425,Ricky,Sobers,Ricky Sobers,Chicago Bulls
+2426,Scott,May,Scott May,Chicago Bulls
+2427,Corky,Calhoun,Corky Calhoun,Indiana Pacers
+2428,Stan,Pietkiewicz,Stan Pietkiewicz,LA Clippers
+2429,Dennis,Johnson,Dennis Johnson,Oklahoma City Thunder
+2430,Fred,Brown,Fred Brown,Oklahoma City Thunder
+2431,Gus,Williams,Gus Williams,Oklahoma City Thunder
+2432,James,Bailey,James Bailey,Oklahoma City Thunder
+2433,John,Johnson,John Johnson,Oklahoma City Thunder
+2434,Lonnie,Shelton,Lonnie Shelton,Oklahoma City Thunder
+2435,Paul,Silas,Paul Silas,Oklahoma City Thunder
+2436,Tom,LaGarde,Tom LaGarde,Oklahoma City Thunder
+2437,Roger,Brown,Roger Brown,Chicago Bulls
+2438,Sammy,Smith,Sammy Smith,Chicago Bulls
+2439,Tom,Boswell,Tom Boswell,Denver Nuggets
+2440,Wally,Walker,Wally Walker,Oklahoma City Thunder
+2441,Mike,Newlin,Mike Newlin,Brooklyn Nets
+2442,Tim,Bassett,Tim Bassett,Brooklyn Nets
+2443,Winford,Boynes,Winford Boynes,Brooklyn Nets
+2444,Bernard,Toone,Bernard Toone,Philadelphia 76ers
+2445,Jim,Spanarkel,Jim Spanarkel,Philadelphia 76ers
+2446,Gus,Gerard,Gus Gerard,Sacramento Kings
+2447,Brad,Holland,Brad Holland,Los Angeles Lakers
+2448,Bob,Carrington,Bob Carrington,LA Clippers
+2449,Dennis,Awtrey,Dennis Awtrey,Chicago Bulls
+2450,Joey,Hassett,Joey Hassett,Indiana Pacers
+2451,Foots,Walker,Foots Walker,Cleveland Cavaliers
+2452,Dave,Twardzik,Dave Twardzik,Portland Trail Blazers
+2453,Wiley,Peck,Wiley Peck,San Antonio Spurs
+2454,John,Kuester,John Kuester,Indiana Pacers
+2455,George,Johnson,George Johnson,Denver Nuggets
+2456,Allen,Leavell,Allen Leavell,Houston Rockets
+2457,Clint,Richardson,Clint Richardson,Philadelphia 76ers
+2458,Maurice,Lucas,Maurice Lucas,Portland Trail Blazers
+2459,Marty,Byrnes,Marty Byrnes,Los Angeles Lakers
+2460,Ollie,Mack,Ollie Mack,Los Angeles Lakers
+2461,Bob,Elliott,Bob Elliott,Brooklyn Nets
+2462,Earl,Evans,Earl Evans,Detroit Pistons
+2463,John,Mengelt,John Mengelt,Chicago Bulls
+2464,Bob,Gross,Bob Gross,Portland Trail Blazers
+2465,Steve,Malovic,Steve Malovic,Washington Wizards
+2466,Andre,Wakefield,Andre Wakefield,Utah Jazz
+2467,John,Brown,John Brown,Utah Jazz
+2468,Terry,Crosby,Terry Crosby,Sacramento Kings
+2469,Ron,Carter,Ron Carter,Indiana Pacers
+2470,John,Olive,John Olive,LA Clippers
+2471,Tom,Burleson,Tom Burleson,Sacramento Kings
+2472,Mitch,Kupchak,Mitch Kupchak,Washington Wizards
+2473,Mack,Calvin,Mack Calvin,Utah Jazz
+2474,Len,Elmore,Len Elmore,Sacramento Kings
+2475,Glen,Gondrezick,Glen Gondrezick,Denver Nuggets
+2476,Sam,Pellom,Sam Pellom,Atlanta Hawks
+2477,Earl,Monroe,Earl Monroe,New York Knicks
+2478,Darnell,Hillman,Darnell Hillman,Golden State Warriors
+2479,Phil,Smith,Phil Smith,Golden State Warriors
+2480,Sylvester,Norris,Sylvester Norris,San Antonio Spurs
+2481,Rick,Wilson,Rick Wilson,Atlanta Hawks
+2482,Jackie,Robinson,Jackie Robinson,Detroit Pistons
+2483,Al,Skinner,Al Skinner,Philadelphia 76ers
+2484,Bill,Walton,Bill Walton,LA Clippers
+2485,Butch,Lee,Butch Lee,Cleveland Cavaliers
+2486,Marvin,Barnes,Marvin Barnes,LA Clippers
+2487,Phil,Jackson,Phil Jackson,Brooklyn Nets
+2488,Billyray,Bates,Billyray Bates,Portland Trail Blazers
+2489,Marvin,Webster,Marvin Webster,New York Knicks
+2490,Harry,Davis,Harry Davis,San Antonio Spurs
+2491,Arvid,Kramer,Arvid Kramer,Denver Nuggets
+2492,Lawrence,Boston,Lawrence Boston,Washington Wizards
+2493,Lynbert,Johnson,Lynbert Johnson,Golden State Warriors
+2494,Ron,Behagen,Ron Behagen,Washington Wizards
+2495,Carl,Kilpatrick,Carl Kilpatrick,Utah Jazz
+2496,Carl,Nicks,Carl Nicks,Denver Nuggets
+2497,Cedrick,Hordges,Cedrick Hordges,Denver Nuggets
+2498,Kenny,Higgs,Kenny Higgs,Denver Nuggets
+2499,Johnny,Moore,Johnny Moore,San Antonio Spurs
+2500,Reggie,Johnson,Reggie Johnson,San Antonio Spurs
+2501,Kyle,Macy,Kyle Macy,Phoenix Suns
+2502,Mike,Niles,Mike Niles,Phoenix Suns
+2503,Billy,Reid,Billy Reid,Golden State Warriors
+2504,Lorenzo,Romar,Lorenzo Romar,Golden State Warriors
+2505,Rickey,Brown,Rickey Brown,Golden State Warriors
+2506,Alan,Hardy,Alan Hardy,Los Angeles Lakers
+2507,Darwin,Cook,Darwin Cook,Brooklyn Nets
+2508,Mike,O'Koren,Mike O'Koren,Brooklyn Nets
+2509,Jerry,Sichting,Jerry Sichting,Indiana Pacers
+2510,Louis,Orr,Louis Orr,Indiana Pacers
+2511,Mike,Harper,Mike Harper,Portland Trail Blazers
+2512,Michael,Brooks,Michael Brooks,LA Clippers
+2513,Calvin,Garrett,Calvin Garrett,Houston Rockets
+2514,Keith,Herron,Keith Herron,Detroit Pistons
+2515,Tony,Fuller,Tony Fuller,Detroit Pistons
+2516,Wayne,Robinson,Wayne Robinson,Detroit Pistons
+2517,Wes,Matthews,Wes Matthews,Washington Wizards
+2518,Charles,Whitney,Charles Whitney,Sacramento Kings
+2519,Brett,Vroman,Brett Vroman,Utah Jazz
+2520,John,Duren,John Duren,Utah Jazz
+2521,Craig,Shelton,Craig Shelton,Atlanta Hawks
+2522,Don,Collins,Don Collins,Atlanta Hawks
+2523,James,Wilkes,James Wilkes,Chicago Bulls
+2524,Sam,Worthen,Sam Worthen,Chicago Bulls
+2525,Chad,Kinch,Chad Kinch,Cleveland Cavaliers
+2526,Walter,Jordan,Walter Jordan,Cleveland Cavaliers
+2527,Lowes,Moore,Lowes Moore,Brooklyn Nets
+2528,Darrell,Allums,Darrell Allums,Dallas Mavericks
+2529,Ralph,Drollinger,Ralph Drollinger,Dallas Mavericks
+2530,Reggie,Carter,Reggie Carter,New York Knicks
+2531,Butch,Carter,Butch Carter,Los Angeles Lakers
+2532,Lee,Johnson,Lee Johnson,Houston Rockets
+2533,Kelvin,Ransey,Kelvin Ransey,Portland Trail Blazers
+2534,Bill,Hanzlik,Bill Hanzlik,Oklahoma City Thunder
+2535,Dewayne,Scales,Dewayne Scales,New York Knicks
+2536,Art,Collins,Art Collins,Atlanta Hawks
+2537,Kenny,Natt,Kenny Natt,Indiana Pacers
+2538,Wally,Rank,Wally Rank,LA Clippers
+2539,Monti,Davis,Monti Davis,Philadelphia 76ers
+2540,Carlos,Terry,Carlos Terry,Washington Wizards
+2541,Jamesearl,Ray,Jamesearl Ray,Denver Nuggets
+2542,Ronnie,Lester,Ronnie Lester,Chicago Bulls
+2543,Tony,Price,Tony Price,LA Clippers
+2544,Wayne,Kreklow,Wayne Kreklow,Boston Celtics
+2545,Andrew,Toney,Andrew Toney,Philadelphia 76ers
+2546,Scott,Lloyd,Scott Lloyd,Dallas Mavericks
+2547,Ron,Davis,Ron Davis,LA Clippers
+2548,Tony,Jackson,Tony Jackson,Los Angeles Lakers
+2549,Dick,Miller,Dick Miller,Indiana Pacers
+2550,Myles,Patrick,Myles Patrick,Los Angeles Lakers
+2551,Edgar,Jones,Edgar Jones,Brooklyn Nets
+2552,Michael,Wiley,Michael Wiley,San Antonio Spurs
+2553,Ron,Valentine,Ron Valentine,Denver Nuggets
+2554,Jeff,Wilkins,Jeff Wilkins,Utah Jazz
+2555,John,Stroud,John Stroud,Houston Rockets
+2556,Norman,Black,Norman Black,Detroit Pistons
+2557,David,Britton,David Britton,Washington Wizards
+2558,Keith,McCord,Keith McCord,Washington Wizards
+2559,Andre,McCarter,Andre McCarter,Washington Wizards
+2560,Lewis,Brown,Lewis Brown,Washington Wizards
+2561,Mel,Bennett,Mel Bennett,Utah Jazz
+2562,Frankie,Sanders,Frankie Sanders,Sacramento Kings
+2563,Jacky,Dorsey,Jacky Dorsey,Oklahoma City Thunder
+2564,Ed,Lawrence,Ed Lawrence,Detroit Pistons
+2565,Jeffrey,Crompton,Jeffrey Crompton,Portland Trail Blazers
+2566,Clarence,Kea,Clarence Kea,Dallas Mavericks
+2567,Bill,Mayfield,Bill Mayfield,Golden State Warriors
+2568,Peter,Verhoeven,Peter Verhoeven,Portland Trail Blazers
+2569,Franklin,Edwards,Franklin Edwards,Philadelphia 76ers
+2570,Mickey,Dillard,Mickey Dillard,Cleveland Cavaliers
+2571,Roger,Burkman,Roger Burkman,Chicago Bulls
+2572,Joe,Cooper,Joe Cooper,Brooklyn Nets
+2573,Ray,Tolbert,Ray Tolbert,Brooklyn Nets
+2574,Charles,Bradley,Charles Bradley,Boston Celtics
+2575,Tracy,Jackson,Tracy Jackson,Boston Celtics
+2576,Charlie,Davis,Charlie Davis,Washington Wizards
+2577,Garry,Witts,Garry Witts,Washington Wizards
+2578,Kevin,Loder,Kevin Loder,Sacramento Kings
+2579,Gene,Banks,Gene Banks,San Antonio Spurs
+2580,Bobby,Cattage,Bobby Cattage,Utah Jazz
+2581,Howard,Wood,Howard Wood,Utah Jazz
+2582,Elston,Turner,Elston Turner,Dallas Mavericks
+2583,Jay,Vincent,Jay Vincent,Dallas Mavericks
+2584,Kevin,McKenna,Kevin McKenna,Los Angeles Lakers
+2585,Hank,McDowell,Hank McDowell,Golden State Warriors
+2586,Samuel,Williams,Samuel Williams,Golden State Warriors
+2587,Danny,Vranes,Danny Vranes,Oklahoma City Thunder
+2588,Ed,Rains,Ed Rains,San Antonio Spurs
+2589,Rudy,Macklin,Rudy Macklin,Atlanta Hawks
+2590,Jim,Smith,Jim Smith,LA Clippers
+2591,John,Douglas,John Douglas,LA Clippers
+2592,Jeff,Lamp,Jeff Lamp,Portland Trail Blazers
+2593,Alex,Bradley,Alex Bradley,New York Knicks
+2594,Ray,Blume,Ray Blume,Chicago Bulls
+2595,Mike,McGee,Mike McGee,Los Angeles Lakers
+2596,Craig,Dykema,Craig Dykema,Phoenix Suns
+2597,John,McCullough,John McCullough,Phoenix Suns
+2598,David,Burns,David Burns,Brooklyn Nets
+2599,Kurt,Nimphius,Kurt Nimphius,Dallas Mavericks
+2600,Lewis,Lloyd,Lewis Lloyd,Golden State Warriors
+2601,Jim,Brogan,Jim Brogan,LA Clippers
+2602,Glenn,Hagan,Glenn Hagan,Detroit Pistons
+2603,Petur,Gudmundsson,Petur Gudmundsson,Portland Trail Blazers
+2604,Mark,Radford,Mark Radford,Oklahoma City Thunder
+2605,Al,Wood,Al Wood,Atlanta Hawks
+2606,Kevin,Stacom,Kevin Stacom,Milwaukee Bucks
+2607,Steve,Hayes,Steve Hayes,San Antonio Spurs
+2608,Kenny,Dennard,Kenny Dennard,Sacramento Kings
+2609,Rich,Yonakor,Rich Yonakor,San Antonio Spurs
+2610,Larry,Spriggs,Larry Spriggs,Houston Rockets
+2611,Brad,Branson,Brad Branson,Cleveland Cavaliers
+2612,Clay,Johnson,Clay Johnson,Los Angeles Lakers
+2613,Carl,Bailey,Carl Bailey,Portland Trail Blazers
+2614,Rock,Lee,Rock Lee,LA Clippers
+2615,Edmund,Sherod,Edmund Sherod,Brooklyn Nets
+2616,Eddie,Phillips,Eddie Phillips,Brooklyn Nets
+2617,Richard,Anderson,Richard Anderson,LA Clippers
+2618,David,Thirdkill,David Thirdkill,Phoenix Suns
+2619,Rory,White,Rory White,Phoenix Suns
+2620,Jerry,Eaves,Jerry Eaves,Utah Jazz
+2621,Brook,Steppe,Brook Steppe,Sacramento Kings
+2622,Audie,Norris,Audie Norris,Portland Trail Blazers
+2623,Bruce,Flowers,Bruce Flowers,Cleveland Cavaliers
+2624,Dave,Magley,Dave Magley,Cleveland Cavaliers
+2625,Darren,Tillis,Darren Tillis,Boston Celtics
+2626,Jeff,Taylor,Jeff Taylor,Houston Rockets
+2627,Chris,Engler,Chris Engler,Golden State Warriors
+2628,Clark,Kellogg,Clark Kellogg,Indiana Pacers
+2629,Bryan,Warrick,Bryan Warrick,Washington Wizards
+2630,Rob,Williams,Rob Williams,Denver Nuggets
+2631,Bill,Garnett,Bill Garnett,Dallas Mavericks
+2632,Vince,Taylor,Vince Taylor,New York Knicks
+2633,Marc,Iavaroni,Marc Iavaroni,Philadelphia 76ers
+2634,Mitchell,Anderson,Mitchell Anderson,Philadelphia 76ers
+2635,Russ,Schoene,Russ Schoene,Philadelphia 76ers
+2636,Dave,Batton,Dave Batton,Washington Wizards
+2637,Rickey,Williams,Rickey Williams,Utah Jazz
+2638,Walker,Russell,Walker Russell,Detroit Pistons
+2639,Jim,Zoet,Jim Zoet,Detroit Pistons
+2640,Keith,Edmonson,Keith Edmonson,Atlanta Hawks
+2641,Steve,Lingenfelter,Steve Lingenfelter,Washington Wizards
+2642,Guy,Morgan,Guy Morgan,Indiana Pacers
+2643,Jose,Slaughter,Jose Slaughter,Indiana Pacers
+2644,Linton,Townes,Linton Townes,Portland Trail Blazers
+2645,Jim,Johnstone,Jim Johnstone,San Antonio Spurs
+2646,Oliver,Robinson,Oliver Robinson,San Antonio Spurs
+2647,Willie,Jones,Willie Jones,LA Clippers
+2648,Corny,Thompson,Corny Thompson,Dallas Mavericks
+2649,Dwight,Anderson,Dwight Anderson,Denver Nuggets
+2650,John,Cox,John Cox,Washington Wizards
+2651,Charlie,Pittman,Charlie Pittman,Phoenix Suns
+2652,John,Greig,John Greig,Oklahoma City Thunder
+2653,Joe,Kopicki,Joe Kopicki,Washington Wizards
+2654,Michael,Davis,Michael Davis,New York Knicks
+2655,Moses,Malone,Moses Malone,San Antonio Spurs
+2656,Howard,Carter,Howard Carter,Denver Nuggets
+2657,Bruce,Kuczenski,Bruce Kuczenski,Brooklyn Nets
+2658,John,Pinone,John Pinone,Atlanta Hawks
+2659,Darren,Daye,Darren Daye,Washington Wizards
+2660,Mike,Wilson,Mike Wilson,Washington Wizards
+2661,Scooter,McCray,Scooter McCray,Oklahoma City Thunder
+2662,Pace,Mannion,Pace Mannion,Golden State Warriors
+2663,Paul,Thompson,Paul Thompson,Cleveland Cavaliers
+2664,Granville,Waiters,Granville Waiters,Indiana Pacers
+2665,Leroy,Combs,Leroy Combs,Indiana Pacers
+2666,Sidney,Lowe,Sidney Lowe,Indiana Pacers
+2667,Steve,Stipanovich,Steve Stipanovich,Indiana Pacers
+2668,Kevin,Williams,Kevin Williams,San Antonio Spurs
+2669,John,Garris,John Garris,Cleveland Cavaliers
+2670,Stewart,Granger,Stewart Granger,Cleveland Cavaliers
+2671,Carlos,Clark,Carlos Clark,Boston Celtics
+2672,Leo,Rautins,Leo Rautins,Philadelphia 76ers
+2673,Rod,Foster,Rod Foster,Phoenix Suns
+2674,Dane,Suttle,Dane Suttle,Sacramento Kings
+2675,Darrell,Lockhart,Darrell Lockhart,San Antonio Spurs
+2676,Mark,Jones,Mark Jones,Brooklyn Nets
+2677,Larry,Micheaux,Larry Micheaux,Sacramento Kings
+2678,Mike,Gibson,Mike Gibson,Washington Wizards
+2679,Ken,Austin,Ken Austin,Detroit Pistons
+2680,Tom,Piotrowski,Tom Piotrowski,Portland Trail Blazers
+2681,Russell,Cross,Russell Cross,Golden State Warriors
+2682,Wallace,Bryant,Wallace Bryant,Chicago Bulls
+2683,Bob,Miller,Bob Miller,San Antonio Spurs
+2684,Brant,Weidner,Brant Weidner,San Antonio Spurs
+2685,Cory,Blackwell,Cory Blackwell,Oklahoma City Thunder
+2686,Mel,Turpin,Mel Turpin,Cleveland Cavaliers
+2687,Chuck,Aleksinas,Chuck Aleksinas,Golden State Warriors
+2688,Othell,Wilson,Othell Wilson,Golden State Warriors
+2689,Peter,Thibeaux,Peter Thibeaux,Golden State Warriors
+2690,Michael,Holton,Michael Holton,Phoenix Suns
+2691,Wayne,Sappleton,Wayne Sappleton,Brooklyn Nets
+2692,Tom,Sewell,Tom Sewell,Washington Wizards
+2693,Kenny,Fields,Kenny Fields,Milwaukee Bucks
+2694,Devin,Durrant,Devin Durrant,Indiana Pacers
+2695,Ozell,Jones,Ozell Jones,San Antonio Spurs
+2696,Lancaster,Gordon,Lancaster Gordon,LA Clippers
+2697,Bernard,Thompson,Bernard Thompson,Portland Trail Blazers
+2698,Charles,Jones,Charles Jones,Phoenix Suns
+2699,Tom,Scheffler,Tom Scheffler,Portland Trail Blazers
+2700,Willie,White,Willie White,Denver Nuggets
+2701,Guy,Williams,Guy Williams,Washington Wizards
+2702,Charlie,Sitton,Charlie Sitton,Dallas Mavericks
+2703,Terence,Stansbury,Terence Stansbury,Indiana Pacers
+2704,Rick,Carlisle,Rick Carlisle,Boston Celtics
+2705,Dale,Wilkinson,Dale Wilkinson,Detroit Pistons
+2706,Jay,Murphy,Jay Murphy,LA Clippers
+2707,Tom,Sluby,Tom Sluby,Dallas Mavericks
+2708,Earl,Jones,Earl Jones,Los Angeles Lakers
+2709,Ralph,Jackson,Ralph Jackson,Indiana Pacers
+2710,Ron,Cavenall,Ron Cavenall,New York Knicks
+2711,John,Schweitz,John Schweitz,Oklahoma City Thunder
+2712,Michael,Young,Michael Young,Phoenix Suns
+2713,David,Pope,David Pope,Sacramento Kings
+2714,Kent,Edelin,Kent Edelin,Indiana Pacers
+2715,Butch,Graves,Butch Graves,Cleveland Cavaliers
+2716,Dirk,Minniefield,Dirk Minniefield,Cleveland Cavaliers
+2717,Lorenzo,Charles,Lorenzo Charles,Atlanta Hawks
+2718,Perry,Moss,Perry Moss,Washington Wizards
+2719,Carey,Scurry,Carey Scurry,Utah Jazz
+2720,Steve,Harris,Steve Harris,Houston Rockets
+2721,Carl,Henry,Carl Henry,Sacramento Kings
+2722,David,Cooke,David Cooke,Sacramento Kings
+2723,Ron,Crevier,Ron Crevier,Golden State Warriors
+2724,Bill,Martin,Bill Martin,Indiana Pacers
+2725,Dwayne,McClain,Dwayne McClain,Indiana Pacers
+2726,Yvon,Joseph,Yvon Joseph,Brooklyn Nets
+2727,Uwe,Blab,Uwe Blab,Dallas Mavericks
+2728,Mike,Phelps,Mike Phelps,Oklahoma City Thunder
+2729,Alfredrick,Hughes,Alfredrick Hughes,San Antonio Spurs
+2730,Ken,Johnson,Ken Johnson,Portland Trail Blazers
+2731,Pete,Williams,Pete Williams,Denver Nuggets
+2732,Kenny,Green,Kenny Green,Washington Wizards
+2733,Brian,Martin,Brian Martin,Oklahoma City Thunder
+2734,Mike,Brittain,Mike Brittain,San Antonio Spurs
+2735,Fred,Cofield,Fred Cofield,New York Knicks
+2736,Georgi,Glouchkov,Georgi Glouchkov,Phoenix Suns
+2737,Greg,Stokes,Greg Stokes,Philadelphia 76ers
+2738,Voise,Winters,Voise Winters,Philadelphia 76ers
+2739,Keith,Lee,Keith Lee,Cleveland Cavaliers
+2740,Harold,Keeling,Harold Keeling,Dallas Mavericks
+2741,Claude,Gregory,Claude Gregory,Washington Wizards
+2742,Jeff,Cross,Jeff Cross,LA Clippers
+2743,Chris,McNealy,Chris McNealy,New York Knicks
+2744,Ben,McDonald,Ben McDonald,Cleveland Cavaliers
+2745,Jerome,Henderson,Jerome Henderson,Los Angeles Lakers
+2746,Derrick,Rowland,Derrick Rowland,Milwaukee Bucks
+2747,Nick,Vanos,Nick Vanos,Phoenix Suns
+2748,Ken,Green,Ken Green,New York Knicks
+2749,Myron,Jackson,Myron Jackson,Dallas Mavericks
+2750,Mo,Martin,Mo Martin,Denver Nuggets
+2751,Anthony,Jones,Anthony Jones,Washington Wizards
+2752,Fernando,Martin,Fernando Martin,Portland Trail Blazers
+2753,Walter,Berry,Walter Berry,Portland Trail Blazers
+2754,Keith,Smith,Keith Smith,Milwaukee Bucks
+2755,Dwayne,Washington,Dwayne Washington,Brooklyn Nets
+2756,Mckinley,Singleton,Mckinley Singleton,New York Knicks
+2757,Grant,Gondrezick,Grant Gondrezick,Phoenix Suns
+2758,Chris,Washburn,Chris Washburn,Golden State Warriors
+2759,Bruce,Douglas,Bruce Douglas,Sacramento Kings
+2760,Johnny,Rogers,Johnny Rogers,Sacramento Kings
+2761,Cedric,Henderson,Cedric Henderson,Atlanta Hawks
+2762,Conner,Henry,Conner Henry,Houston Rockets
+2763,Dwayne,Polee,Dwayne Polee,LA Clippers
+2764,Steffond,Johnson,Steffond Johnson,LA Clippers
+2765,Adrian,Branch,Adrian Branch,Los Angeles Lakers
+2766,Harold,Pressley,Harold Pressley,Sacramento Kings
+2767,Forrest,McKenzie,Forrest McKenzie,San Antonio Spurs
+2768,Curtis,Kitchen,Curtis Kitchen,Oklahoma City Thunder
+2769,Jim,Lampley,Jim Lampley,Philadelphia 76ers
+2770,Dennis,Nutt,Dennis Nutt,Dallas Mavericks
+2771,Cozell,McQueen,Cozell McQueen,Detroit Pistons
+2772,Perry,Young,Perry Young,Chicago Bulls
+2773,Kevin,Henderson,Kevin Henderson,Golden State Warriors
+2774,Joe,Binion,Joe Binion,Portland Trail Blazers
+2775,Ron,Rowan,Ron Rowan,Portland Trail Blazers
+2776,Brad,Wright,Brad Wright,New York Knicks
+2777,Ralph,Lewis,Ralph Lewis,Detroit Pistons
+2778,John,Stroeder,John Stroeder,Milwaukee Bucks
+2779,Nikita,Wilson,Nikita Wilson,Portland Trail Blazers
+2780,Dallas,Comegys,Dallas Comegys,Brooklyn Nets
+2781,Jamie,Waller,Jamie Waller,Brooklyn Nets
+2782,Andre,Moore,Andre Moore,Denver Nuggets
+2783,Martin,Nessley,Martin Nessley,LA Clippers
+2784,Norris,Coleman,Norris Coleman,LA Clippers
+2785,Chris,Welp,Chris Welp,Philadelphia 76ers
+2786,Nate,Blackwell,Nate Blackwell,San Antonio Spurs
+2787,Joe,Arlauckas,Joe Arlauckas,Sacramento Kings
+2788,Michael,Jackson,Michael Jackson,Sacramento Kings
+2789,Clinton,Wheeler,Clinton Wheeler,Indiana Pacers
+2790,Ron,Moore,Ron Moore,Detroit Pistons
+2791,Tony,White,Tony White,Chicago Bulls
+2792,Kannard,Johnson,Kannard Johnson,Cleveland Cavaliers
+2793,Winston,Crite,Winston Crite,Phoenix Suns
+2794,Rickie,Winslow,Rickie Winslow,Milwaukee Bucks
+2795,Brian,Rowsom,Brian Rowsom,Indiana Pacers
+2796,Billy,Donovan,Billy Donovan,New York Knicks
+2797,Ronnie,Murphy,Ronnie Murphy,Portland Trail Blazers
+2798,Scott,Roth,Scott Roth,Utah Jazz
+2799,Ricky,Wilson,Ricky Wilson,Brooklyn Nets
+2800,Dave,Henderson,Dave Henderson,Philadelphia 76ers
+2801,Phil,Zevenbergen,Phil Zevenbergen,San Antonio Spurs
+2802,Eddie,Hughes,Eddie Hughes,Utah Jazz
+2803,Eric,White,Eric White,LA Clippers
+2804,Mark,Wade,Mark Wade,Golden State Warriors
+2805,Richard,Rellford,Richard Rellford,San Antonio Spurs
+2806,Richard,Morton,Richard Morton,Indiana Pacers
+2807,Mark,Davis,Mark Davis,Milwaukee Bucks
+2808,Wayne,Englestad,Wayne Englestad,Denver Nuggets
+2809,Rolando,Ferreira,Rolando Ferreira,Portland Trail Blazers
+2810,Dominic,Pressley,Dominic Pressley,Washington Wizards
+2811,Anthony,Taylor,Anthony Taylor,Miami Heat
+2812,Sylvester,Gray,Sylvester Gray,Miami Heat
+2813,Ben,Gillery,Ben Gillery,Sacramento Kings
+2814,Ricky,Berry,Ricky Berry,Sacramento Kings
+2815,Ramon,Rivas,Ramon Rivas,Boston Celtics
+2816,Keith,Smart,Keith Smart,San Antonio Spurs
+2817,Shelton,Jones,Shelton Jones,San Antonio Spurs
+2818,Jose,Ortiz,Jose Ortiz,Utah Jazz
+2819,Fennis,Dembo,Fennis Dembo,Detroit Pistons
+2820,Todd,Mitchell,Todd Mitchell,Miami Heat
+2821,Robert,Lock,Robert Lock,LA Clippers
+2822,Michael,Anderson,Michael Anderson,San Antonio Spurs
+2823,Bill,Jones,Bill Jones,Brooklyn Nets
+2824,Jim,Rowinski,Jim Rowinski,Detroit Pistons
+2825,Mike,Champion,Mike Champion,Oklahoma City Thunder
+2826,Randy,Allen,Randy Allen,Sacramento Kings
+2827,Orlando,Graham,Orlando Graham,Golden State Warriors
+2828,Robert,Rose,Robert Rose,LA Clippers
+2829,Barry,Sumpter,Barry Sumpter,LA Clippers
+2830,Terry,Dozier,Terry Dozier,Charlotte Hornets
+2831,Ed,Horton,Ed Horton,Washington Wizards
+2832,Torgeir,Bryn,Torgeir Bryn,LA Clippers
+2833,Jay,Taylor,Jay Taylor,Brooklyn Nets
+2834,Stanley,Brundy,Stanley Brundy,Brooklyn Nets
+2835,Dyron,Nix,Dyron Nix,Indiana Pacers
+2836,Leonard,Taylor,Leonard Taylor,Golden State Warriors
+2837,Steve,Bucknall,Steve Bucknall,Los Angeles Lakers
+2838,Eric,Johnson,Eric Johnson,Utah Jazz
+2839,Mel,McCants,Mel McCants,Los Angeles Lakers
+2840,Gary,Voce,Gary Voce,Cleveland Cavaliers
+2841,Nate,Johnston,Nate Johnston,Utah Jazz
+2842,Jeff,Lebo,Jeff Lebo,San Antonio Spurs
+2843,Zarko,Paspalj,Zarko Paspalj,San Antonio Spurs
+2844,Dexter,Shouse,Dexter Shouse,Philadelphia 76ers
+2845,Mike,Morrison,Mike Morrison,Phoenix Suns
+2846,Doug,Roth,Doug Roth,Washington Wizards
+2847,Mike,Williams,Mike Williams,Sacramento Kings
+2848,Jay,Edwards,Jay Edwards,LA Clippers
+2849,Raymond,Brown,Raymond Brown,Utah Jazz
+2850,Dee,Brown,Dee Brown,Boston Celtics
+2851,Larry,Bird,Larry Bird,Boston Celtics
+2852,Reggie,Lewis,Reggie Lewis,Boston Celtics
+2853,Ed,Pinckney,Ed Pinckney,Boston Celtics
+2854,Kevin,McHale,Kevin McHale,Boston Celtics
+2855,Joe,Kleine,Joe Kleine,Boston Celtics
+2856,Kevin,Gamble,Kevin Gamble,Boston Celtics
+2857,Brian,Shaw,Brian Shaw,Boston Celtics
+2858,Dave,Popson,Dave Popson,Boston Celtics
+2859,Robert,Parish,Robert Parish,Boston Celtics
+2860,Brad,Daugherty,Brad Daugherty,Cleveland Cavaliers
+2861,Chucky,Brown,Chucky Brown,Cleveland Cavaliers
+2862,Craig,Ehlo,Craig Ehlo,Cleveland Cavaliers
+2863,Danny,Ferry,Danny Ferry,Cleveland Cavaliers
+2864,Derrick,Chievous,Derrick Chievous,Cleveland Cavaliers
+2865,Gerald,Paddio,Gerald Paddio,Cleveland Cavaliers
+2866,Hot,Rod,Williams,Hot Rod,Williams,Cleveland Cavaliers
+2867,Spud,Webb,Spud Webb,Atlanta Hawks
+2868,Jerry,Reynolds,Jerry Reynolds,Orlando Magic
+2869,Mark,Aguirre,Mark Aguirre,Detroit Pistons
+2870,Fred,Roberts,Fred Roberts,Milwaukee Bucks
+2871,John,Stockton,John Stockton,Utah Jazz
+2872,Eddie,Johnson,Eddie Johnson,Phoenix Suns
+2873,Terry,Porter,Terry Porter,Portland Trail Blazers
+2874,Mike,Woodson,Mike Woodson,Houston Rockets
+2875,Jim,Thomas,Jim Thomas,Minnesota Timberwolves
+2876,Brad,Davis,Brad Davis,Dallas Mavericks
+2877,Orlando,Woolridge,Orlando Woolridge,Denver Nuggets
+2878,Chris,Mullin,Chris Mullin,Golden State Warriors
+2879,Rony,Seikaly,Rony Seikaly,Miami Heat
+2880,Harvey,Grant,Harvey Grant,Washington Wizards
+2881,Chuck,Person,Chuck Person,Indiana Pacers
+2882,Detlef,Schrempf,Detlef Schrempf,Indiana Pacers
+2883,George,McCloud,George McCloud,Indiana Pacers
+2884,Greg,Dreiling,Greg Dreiling,Indiana Pacers
+2885,Kenny,Williams,Kenny Williams,Indiana Pacers
+2886,LaSalle,Thompson,LaSalle Thompson,Indiana Pacers
+2887,Micheal,Williams,Micheal Williams,Indiana Pacers
+2888,Mike,Sanders,Mike Sanders,Indiana Pacers
+2889,Randy,Wittman,Randy Wittman,Indiana Pacers
+2890,Reggie,Miller,Reggie Miller,Indiana Pacers
+2891,Rik,Smits,Rik Smits,Indiana Pacers
+2892,Vern,Fleming,Vern Fleming,Indiana Pacers
+2893,Chris,Dudley,Chris Dudley,Brooklyn Nets
+2894,Chris,Morris,Chris Morris,Brooklyn Nets
+2895,Derrick,Coleman,Derrick Coleman,Brooklyn Nets
+2896,Derrick,Gervin,Derrick Gervin,Brooklyn Nets
+2897,Jack,Haley,Jack Haley,Brooklyn Nets
+2898,Jud,Buechler,Jud Buechler,Brooklyn Nets
+2899,Kurk,Lee,Kurk Lee,Brooklyn Nets
+2900,Lester,Conner,Lester Conner,Brooklyn Nets
+2901,Mookie,Blaylock,Mookie Blaylock,Brooklyn Nets
+2902,Reggie,Theus,Reggie Theus,Brooklyn Nets
+2903,Sam,Bowie,Sam Bowie,Brooklyn Nets
+2904,Tate,George,Tate George,Brooklyn Nets
+2905,Bo,Kimble,Bo Kimble,LA Clippers
+2906,Charles,Smith,Charles Smith,LA Clippers
+2907,Gary,Grant,Gary Grant,LA Clippers
+2908,Jeff,Martin,Jeff Martin,LA Clippers
+2909,Ken,Bannister,Ken Bannister,LA Clippers
+2910,Ken,Norman,Ken Norman,LA Clippers
+2911,Loy,Vaught,Loy Vaught,LA Clippers
+2912,Tom,Garrick,Tom Garrick,LA Clippers
+2913,Winston,Garland,Winston Garland,LA Clippers
+2914,Antoine,Carr,Antoine Carr,Sacramento Kings
+2915,Bill,Wennington,Bill Wennington,Sacramento Kings
+2916,Bob,Hansen,Bob Hansen,Sacramento Kings
+2917,Duane,Causwell,Duane Causwell,Sacramento Kings
+2918,Eric,Leckner,Eric Leckner,Sacramento Kings
+2919,Lionel,Simmons,Lionel Simmons,Sacramento Kings
+2920,Ralph,Sampson,Ralph Sampson,Sacramento Kings
+2921,Rory,Sparrow,Rory Sparrow,Sacramento Kings
+2922,Steve,Colter,Steve Colter,Sacramento Kings
+2923,Wayman,Tisdale,Wayman Tisdale,Sacramento Kings
+2924,B.J.,Armstrong,B.J. Armstrong,Chicago Bulls
+2925,Bill,Cartwright,Bill Cartwright,Chicago Bulls
+2926,Cliff,Levingston,Cliff Levingston,Chicago Bulls
+2927,Craig,Hodges,Craig Hodges,Chicago Bulls
+2928,Dennis,Hopson,Dennis Hopson,Chicago Bulls
+2929,Horace,Grant,Horace Grant,Chicago Bulls
+2930,John,Paxson,John Paxson,Chicago Bulls
+2931,Michael,Jordan,Michael Jordan,Chicago Bulls
+2932,Scott,Williams,Scott Williams,Chicago Bulls
+2933,Scottie,Pippen,Scottie Pippen,Chicago Bulls
+2934,Stacey,King,Stacey King,Chicago Bulls
+2935,Will,Perdue,Will Perdue,Chicago Bulls
+2936,Brian,Oliver,Brian Oliver,Philadelphia 76ers
+2937,Charles,Barkley,Charles Barkley,Philadelphia 76ers
+2938,Hersey,Hawkins,Hersey Hawkins,Philadelphia 76ers
+2939,Jayson,Williams,Jayson Williams,Philadelphia 76ers
+2940,Johnny,Dawkins,Johnny Dawkins,Philadelphia 76ers
+2941,Manute,Bol,Manute Bol,Philadelphia 76ers
+2942,Mike,Gminski,Mike Gminski,Philadelphia 76ers
+2943,Rick,Mahorn,Rick Mahorn,Philadelphia 76ers
+2944,Rickey,Green,Rickey Green,Philadelphia 76ers
+2945,Ron,Anderson,Ron Anderson,Philadelphia 76ers
+2946,Armen,Gilliam,Armen Gilliam,Charlotte Hornets
+2947,Dave,Hoppen,Dave Hoppen,Charlotte Hornets
+2948,Dell,Curry,Dell Curry,Charlotte Hornets
+2949,J.R.,Reid,J.R. Reid,Charlotte Hornets
+2950,Johnny,Newman,Johnny Newman,Charlotte Hornets
+2951,Kelly,Tripucka,Kelly Tripucka,Charlotte Hornets
+2952,Kendall,Gill,Kendall Gill,Charlotte Hornets
+2953,Kenny,Gattison,Kenny Gattison,Charlotte Hornets
+2954,Muggsy,Bogues,Muggsy Bogues,Charlotte Hornets
+2955,Rex,Chapman,Rex Chapman,Charlotte Hornets
+2956,Brian,Quinnett,Brian Quinnett,New York Knicks
+2957,Charles,Oakley,Charles Oakley,New York Knicks
+2958,Eddielee,Wilkins,Eddielee Wilkins,New York Knicks
+2959,Gerald,Wilkins,Gerald Wilkins,New York Knicks
+2960,Jerrod,Mustaf,Jerrod Mustaf,New York Knicks
+2961,Kiki,Vandeweghe,Kiki Vandeweghe,New York Knicks
+2962,Mark,Jackson,Mark Jackson,New York Knicks
+2963,Maurice,Cheeks,Maurice Cheeks,New York Knicks
+2964,Patrick,Ewing,Patrick Ewing,New York Knicks
+2965,Mark,Bryant,Mark Bryant,Portland Trail Blazers
+2966,Dana,Barros,Dana Barros,Oklahoma City Thunder
+2967,Derrick,McKey,Derrick McKey,Oklahoma City Thunder
+2968,Gary,Payton,Gary Payton,Oklahoma City Thunder
+2969,Michael,Cage,Michael Cage,Oklahoma City Thunder
+2970,Olden,Polynice,Olden Polynice,Oklahoma City Thunder
+2971,Quintin,Dailey,Quintin Dailey,Oklahoma City Thunder
+2972,Sedale,Threatt,Sedale Threatt,Oklahoma City Thunder
+2973,Shawn,Kemp,Shawn Kemp,Oklahoma City Thunder
+2974,Xavier,McDaniel,Xavier McDaniel,Oklahoma City Thunder
+2975,Tree,Rollins,Tree Rollins,Detroit Pistons
+2976,Pervis,Ellison,Pervis Ellison,Washington Wizards
+2977,Stuart,Gray,Stuart Gray,New York Knicks
+2978,Trent,Tucker,Trent Tucker,New York Knicks
+2979,Frank,Kornet,Frank Kornet,Milwaukee Bucks
+2980,David,Greenwood,David Greenwood,San Antonio Spurs
+2981,David,Robinson,David Robinson,San Antonio Spurs
+2982,Paul,Pressey,Paul Pressey,San Antonio Spurs
+2983,Reggie,Williams,Reggie Williams,San Antonio Spurs
+2984,Sean,Elliott,Sean Elliott,San Antonio Spurs
+2985,Sean,Higgins,Sean Higgins,San Antonio Spurs
+2986,Sidney,Green,Sidney Green,San Antonio Spurs
+2987,Terry,Cummings,Terry Cummings,San Antonio Spurs
+2988,Tony,Massenburg,Tony Massenburg,San Antonio Spurs
+2989,A.C.,Green,A.C. Green,Los Angeles Lakers
+2990,Byron,Scott,Byron Scott,Los Angeles Lakers
+2991,Elden,Campbell,Elden Campbell,Los Angeles Lakers
+2992,James,Worthy,James Worthy,Los Angeles Lakers
+2993,Larry,Drew,Larry Drew,Los Angeles Lakers
+2994,Magic,Johnson,Magic Johnson,Los Angeles Lakers
+2995,Mychal,Thompson,Mychal Thompson,Los Angeles Lakers
+2996,Sam,Perkins,Sam Perkins,Los Angeles Lakers
+2997,Terry,Teagle,Terry Teagle,Los Angeles Lakers
+2998,Vlade,Divac,Vlade Divac,Los Angeles Lakers
+2999,John,Shasky,John Shasky,Dallas Mavericks
+3000,Randy,White,Randy White,Dallas Mavericks
+3001,Steve,Alford,Steve Alford,Dallas Mavericks
+3002,Greg,Butler,Greg Butler,LA Clippers
+3003,Steve,Scheffler,Steve Scheffler,Charlotte Hornets
+3004,Les,Jepsen,Les Jepsen,Golden State Warriors
+3005,Mike,Smrek,Mike Smrek,Golden State Warriors
+3006,Danny,Manning,Danny Manning,LA Clippers
+3007,Mark,McNamara,Mark McNamara,Orlando Magic
+3008,Steve,Kerr,Steve Kerr,Cleveland Cavaliers
+3009,Kennard,Winchester,Kennard Winchester,Houston Rockets
+3010,Rick,Calloway,Rick Calloway,Sacramento Kings
+3011,Travis,Mays,Travis Mays,Sacramento Kings
+3012,Trevor,Wilson,Trevor Wilson,Atlanta Hawks
+3013,Tony,Brown,Tony Brown,Los Angeles Lakers
+3014,Randolph,Keys,Randolph Keys,Charlotte Hornets
+3015,Benoit,Benjamin,Benoit Benjamin,LA Clippers
+3016,Byron,Dinkins,Byron Dinkins,San Antonio Spurs
+3017,Dwayne,Schintzius,Dwayne Schintzius,San Antonio Spurs
+3018,Kenny,Payne,Kenny Payne,Philadelphia 76ers
+3019,Greg,Grant,Greg Grant,New York Knicks
+3020,Tony,Smith,Tony Smith,Los Angeles Lakers
+3021,Nate,McMillan,Nate McMillan,Oklahoma City Thunder
+3022,Rod,Strickland,Rod Strickland,San Antonio Spurs
+3023,Mahmoud,Abdul-Rauf,Mahmoud Abdul-Rauf,Denver Nuggets
+3024,Scott,Meents,Scott Meents,Oklahoma City Thunder
+3025,Jim,Petersen,Jim Petersen,Golden State Warriors
+3026,Bob,Thornton,Bob Thornton,Minnesota Timberwolves
+3027,Drazen,Petrovic,Drazen Petrovic,Portland Trail Blazers
+3028,Kurt,Rambis,Kurt Rambis,Phoenix Suns
+3029,Jon,Koncak,Jon Koncak,Atlanta Hawks
+3030,Stojko,Vrankovic,Stojko Vrankovic,Boston Celtics
+3031,Cedric,Ball,Cedric Ball,LA Clippers
+3032,Andrew,Lang,Andrew Lang,Phoenix Suns
+3033,Bart,Kofoed,Bart Kofoed,Golden State Warriors
+3034,Jim,Farmer,Jim Farmer,Philadelphia 76ers
+3035,Dave,Corzine,Dave Corzine,Oklahoma City Thunder
+3036,Buck,Johnson,Buck Johnson,Houston Rockets
+3037,Milos,Babic,Milos Babic,Cleveland Cavaliers
+3038,Negele,Knight,Negele Knight,Phoenix Suns
+3039,Willie,Anderson,Willie Anderson,San Antonio Spurs
+3040,Andre,Turner,Andre Turner,Philadelphia 76ers
+3041,Ledell,Eackles,Ledell Eackles,Washington Wizards
+3042,Jim,Grandholm,Jim Grandholm,Dallas Mavericks
+3043,Kelvin,Upshaw,Kelvin Upshaw,Dallas Mavericks
+3044,Leon,Wood,Leon Wood,Sacramento Kings
+3045,Terry,Mills,Terry Mills,Denver Nuggets
+3046,Darnell,Valentine,Darnell Valentine,Cleveland Cavaliers
+3047,Morlon,Wiley,Morlon Wiley,Orlando Magic
+3048,Irving,Thomas,Irving Thomas,Los Angeles Lakers
+3049,John,Starks,John Starks,New York Knicks
+3050,Pete,Myers,Pete Myers,San Antonio Spurs
+3051,Keith,Askins,Keith Askins,Miami Heat
+3052,Anthony,Bonner,Anthony Bonner,Sacramento Kings
+3053,Dale,Ellis,Dale Ellis,Oklahoma City Thunder
+3054,Pat,Cummings,Pat Cummings,Utah Jazz
+3055,Kenny,Walker,Kenny Walker,New York Knicks
+3056,Mario,Elie,Mario Elie,Philadelphia 76ers
+3057,Anthony,Mason,Anthony Mason,Denver Nuggets
+3058,Tim,Legler,Tim Legler,Denver Nuggets
+3059,Dan,O'Sullivan,Dan O'Sullivan,Utah Jazz
+3060,Dan,Godfread,Dan Godfread,Minnesota Timberwolves
+3061,Henry,James,Henry James,Cleveland Cavaliers
+3062,Jim,Les,Jim Les,Sacramento Kings
+3063,Paul,Mokeski,Paul Mokeski,Golden State Warriors
+3064,Earl,Cureton,Earl Cureton,Charlotte Hornets
+3065,Anthony,Frederick,Anthony Frederick,Sacramento Kings
+3066,Jawann,Oldham,Jawann Oldham,Indiana Pacers
+3067,Jeff,Sanders,Jeff Sanders,Charlotte Hornets
+3068,Scott,Haffner,Scott Haffner,Charlotte Hornets
+3069,John,Long,John Long,Detroit Pistons
+3070,Ron,Harper,Ron Harper,LA Clippers
+3071,Tony,Harris,Tony Harris,Philadelphia 76ers
+3072,Clifford,Lett,Clifford Lett,San Antonio Spurs
+3073,Clinton,Smith,Clinton Smith,Washington Wizards
+3074,John,Williams,John Williams,Washington Wizards
+3075,Craig,Neal,Craig Neal,Denver Nuggets
+3076,Mike,Higgins,Mike Higgins,Sacramento Kings
+3077,Joe,Barry,Carroll,Joe Barry,Carroll,Phoenix Suns
+3078,Gerald,Henderson,Gerald Henderson,Detroit Pistons
+3079,Everette,Stephens,Everette Stephens,Milwaukee Bucks
+3080,Charles,Smith,Charles Smith,Boston Celtics
+3081,David,Wingate,David Wingate,San Antonio Spurs
+3082,Tony,Dawson,Tony Dawson,Sacramento Kings
+3083,Gary,Leonard,Gary Leonard,Atlanta Hawks
+3084,A.J.,Wynder,A.J. Wynder,Boston Celtics
+3085,Adrian,Dantley,Adrian Dantley,Milwaukee Bucks
+3086,Derek,Smith,Derek Smith,Boston Celtics
+3087,Vincent,Askew,Vincent Askew,Golden State Warriors
+3088,Robert,Reid,Robert Reid,Philadelphia 76ers
+5117,Mitchell,Creek,Mitchell Creek,Brooklyn Nets
+5279,Emanuel,Terry,Emanuel Terry,Phoenix Suns
+245,Wesley,Johnson,Wesley Johnson,Washington Wizards
+26,Wade,Baldwin IV,Wade Baldwin IV,Houston Rockets
+431,Lance,Stephenson,Lance Stephenson,Los Angeles Lakers
+39,Michael,Beasley,Michael Beasley,LA Clippers
+438,Jared,Terrell,Jared Terrell,Minnesota Timberwolves
+63,Isaiah,Briscoe,Isaiah Briscoe,Orlando Magic
+82,Isaiah,Canaan,Isaiah Canaan,Minnesota Timberwolves
+93,Tyler,Cavanaugh,Tyler Cavanaugh,Utah Jazz
+2205,Jawun,Evans,Jawun Evans,Oklahoma City Thunder
+152,Kenneth,Faried,Kenneth Faried,Houston Rockets
+155,Raymond,Felton,Raymond Felton,Oklahoma City Thunder
+2229,Walter,Lemon Jr.,Walter Lemon Jr.,Chicago Bulls
+276,Jon,Leuer,Jon Leuer,Detroit Pistons
+279,Jeremy,Lin,Jeremy Lin,Toronto Raptors
+280,Shaun,Livingston,Shaun Livingston,Golden State Warriors
+150,Tyreke,Evans,Tyreke Evans,Indiana Pacers
+287,Jordan,Loyd,Jordan Loyd,Toronto Raptors
+2100,Kalin,Lucas,Kalin Lucas,Detroit Pistons
+113,Dante,Cunningham,Dante Cunningham,San Antonio Spurs
+121,Sam,Dekker,Sam Dekker,Washington Wizards
+122,Angel,Delgado,Angel Delgado,LA Clippers
+124,Luol,Deng,Luol Deng,Minnesota Timberwolves
+133,Tyler,Dorsey,Tyler Dorsey,Memphis Grizzlies
+141,Trevon,Duval,Trevon Duval,Houston Rockets
+142,Vincent,Edwards,Vincent Edwards,Houston Rockets
+2162,Deyonta,Davis,Deyonta Davis,Atlanta Hawks
+80,Jose,Calderon,Jose Calderon,Detroit Pistons
+103,Darren,Collison,Darren Collison,Indiana Pacers
+50191,Bonzie,Colson,Bonzie Colson,Milwaukee Bucks
+327,Jaylen,Morris,Jaylen Morris,Milwaukee Bucks
+423,Jason,Smith,Jason Smith,New Orleans Pelicans
+34,Jerryd,Bayless,Jerryd Bayless,Minnesota Timberwolves
+50,Antonio,Blakeney,Antonio Blakeney,Chicago Bulls
+99,Ian,Clark,Ian Clark,New Orleans Pelicans
+1938,Jimmer,Fredette,Jimmer Fredette,Phoenix Suns
+2139,RJ,Hunter,RJ Hunter,Boston Celtics
+2007,John,Jenkins,John Jenkins,New York Knicks
+291,Shelvin,Mack,Shelvin Mack,Charlotte Hornets
+321,Nikola,Mirotic,Nikola Mirotic,Milwaukee Bucks
+325,Greg,Monroe,Greg Monroe,Philadelphia 76ers
+2223,Ben,Moore,Ben Moore,San Antonio Spurs
+346,Dirk,Nowitzki,Dirk Nowitzki,Dallas Mavericks
+381,Alex,Poythress,Alex Poythress,Atlanta Hawks
+5471,Brandon,Sampson,Brandon Sampson,Chicago Bulls
+412,Wayne,Selden,Wayne Selden,Chicago Bulls
+239,Jonas,Jerebko,Jonas Jerebko,Golden State Warriors
+429,Nik,Stauskas,Nik Stauskas,Cleveland Cavaliers
+3943,Julian,Washburn,Julian Washburn,Memphis Grizzlies
+7,Rawle,Alkins,Rawle Alkins,Chicago Bulls
+50609,Dairis,Bertans,Dairis Bertans,New Orleans Pelicans
+361,Zaza,Pachulia,Zaza Pachulia,Detroit Pistons
+50947,Tarik,Phillip,Tarik Phillip,Washington Wizards
+374,Quincy,Pondexter,Quincy Pondexter,San Antonio Spurs
+418,Jonathon,Simmons,Jonathon Simmons,Philadelphia 76ers
+453,Ekpe,Udoh,Ekpe Udoh,Utah Jazz
+488,Guerschon,Yabusele,Guerschon Yabusele,Boston Celtics
+164,Channing,Frye,Channing Frye,Cleveland Cavaliers
+50737,Billy,Garrett,Billy Garrett,New York Knicks
+2178,Jonathan,Gibson,Jonathan Gibson,Boston Celtics
+195,Devin,Harris,Devin Harris,Dallas Mavericks
+1988,Donatas,Motiejunas,Donatas Motiejunas,San Antonio Spurs
+332,Timofey,Mozgov,Timofey Mozgov,Orlando Magic
+363,Tony,Parker,Tony Parker,Charlotte Hornets
+209,Isaiah,Hicks,Isaiah Hicks,New York Knicks
+311,Jodie,Meeks,Jodie Meeks,Toronto Raptors
+312,Salah,Mejri,Salah Mejri,Dallas Mavericks
+461,Dwyane,Wade,Dwyane Wade,Miami Heat
+2160,Isaiah,Whitehead,Isaiah Whitehead,Detroit Pistons
+477,Alan,Williams,Alan Williams,Brooklyn Nets
+483,Troy,Williams,Troy Williams,Sacramento Kings
+666393,Jalen,Adams,Jalen Adams,New Orleans Pelicans
+3450,Deng,Adel,Deng Adel,Brooklyn Nets
+5,DeVaughn,Akoon-Purcell,DeVaughn Akoon-Purcell,Oklahoma City Thunder
+666453,Marques,Bolden,Marques Bolden,Cleveland Cavaliers
+2048,Anthony,Bennett,Anthony Bennett,Houston Rockets
+1891701,Eric,Mika,Eric Mika,Sacramento Kings
+666438,Javon,Bess,Javon Bess,New Orleans Pelicans
+666440,Kavell,Bigby-Williams,Kavell Bigby-Williams,New Orleans Pelicans
+666446,Keljin,Blevins,Keljin Blevins,Portland Trail Blazers
+3090,Jaron,Blossomgame,Jaron Blossomgame,Houston Rockets
+52,Trevon,Bluiett,Trevon Bluiett,Utah Jazz
+666457,Phil,Booth,Phil Booth,Washington Wizards
+1936,Jeremy,Pargo,Jeremy Pargo,Golden State Warriors
+666467,Amida,Brimah,Amida Brimah,Indiana Pacers
+2116373,Dusty,Hannahs,Dusty Hannahs,Memphis Grizzlies
+1986689,Malik,Newman,Malik Newman,Cleveland Cavaliers
+386,Chasson,Randle,Chasson Randle,Golden State Warriors
+666871,Justin,Robinson,Justin Robinson,Washington Wizards
+666488,Perrion,Callandret,Perrion Callandret,Chicago Bulls
+415,Iman,Shumpert,Iman Shumpert,Brooklyn Nets
+92,Troy,Caupain,Troy Caupain,Portland Trail Blazers
+96,Joe,Chealey,Joe Chealey,Charlotte Hornets
+666529,Jon,Davis,Jon Davis,Orlando Magic
+126,Marcus,Derrickson,Marcus Derrickson,Atlanta Hawks
+2219,Milton,Doyle,Milton Doyle,Chicago Bulls
+666552,John,Egbunu,John Egbunu,Brooklyn Nets
+666576,Abdul,Gaddy,Abdul Gaddy,Oklahoma City Thunder
+666580,JaKeenan,Gant,JaKeenan Gant,Indiana Pacers
+666584,Kaiser,Gates,Kaiser Gates,Boston Celtics
+45947,Donte,Grantham,Donte Grantham,LA Clippers
+666598,Hassani,Gravett,Hassani Gravett,Orlando Magic
+190,Daniel,Hamilton,Daniel Hamilton,Cleveland Cavaliers
+198,Andrew,Harrison,Andrew Harrison,Golden State Warriors
+2222,Myke,Henry,Myke Henry,Oklahoma City Thunder
+3092,Haywood,Highsmith,Haywood Highsmith,Philadelphia 76ers
+666637,Ahmed,Hill,Ahmed Hill,Charlotte Hornets
+666640,Amir,Hinton,Amir Hinton,New York Knicks
+1573276,Levi,Randolph,Levi Randolph,Cleveland Cavaliers
+666647,Daulton,Hommes,Daulton Hommes,San Antonio Spurs
+2270852,Sir'Dominic,Pointer,Sir'Dominic Pointer,Cleveland Cavaliers
+50793,Isaac,Humphries,Isaac Humphries,Orlando Magic
+232,Demetrius,Jackson,Demetrius Jackson,Los Angeles Lakers
+1364,Joe,Johnson,Joe Johnson,Detroit Pistons
+50823,Jemerrio,Jones,Jemerrio Jones,Washington Wizards
+666702,Sagaba,Konate,Sagaba Konate,Toronto Raptors
+666697,Stanton,Kidd,Stanton Kidd,Utah Jazz
+666707,Christ,Koumadje,Christ Koumadje,Philadelphia 76ers
+666708,David,Kramer,David Kramer,Phoenix Suns
+666714,Terry,Larrier,Terry Larrier,LA Clippers
+666716,Dedric,Lawson,Dedric Lawson,San Antonio Spurs
+666726,Mathias,Lessort,Mathias Lessort,LA Clippers
+289,Tyler,Lydon,Tyler Lydon,Sacramento Kings
+170,Pau,Gasol,Pau Gasol,Portland Trail Blazers
+238,Amile,Jefferson,Amile Jefferson,Orlando Magic
+2075,Devyn,Marble,Devyn Marble,Golden State Warriors
+298,Jarell,Martin,Jarell Martin,Cleveland Cavaliers
+300,Yante,Maten,Yante Maten,Boston Celtics
+666755,Dakota,Mathias,Dakota Mathias,Dallas Mavericks
+666757,Luke,Maye,Luke Maye,Milwaukee Bucks
+666758,Tahjere,McCall,Tahjere McCall,Atlanta Hawks
+109,Allen,Crabbe,Allen Crabbe,Minnesota Timberwolves
+666770,Nicolo,Melli,Nicolo Melli,New Orleans Pelicans
+666775,Isaiah,Miles,Isaiah Miles,Philadelphia 76ers
+2106,Eric,Moreland,Eric Moreland,Oklahoma City Thunder
+666795,Jordan,Murphy,Jordan Murphy,Minnesota Timberwolves
+666818,Chuma,Okeke,Chuma Okeke,Orlando Magic
+293,J.P.,Macura,J.P. Macura,Cleveland Cavaliers
+666828,James,Palmer Jr.,James Palmer Jr.,LA Clippers
+666847,Shamorie,Ponds,Shamorie Ponds,Toronto Raptors
+385,Ivan,Rabb,Ivan Rabb,New York Knicks
+666838,Josh,Perkins,Josh Perkins,Charlotte Hornets
+2213,London,Perrantes,London Perrantes,Portland Trail Blazers
+666840,Lamar,Peters,Lamar Peters,New York Knicks
+666841,Isaiah,Pineiro,Isaiah Pineiro,Sacramento Kings
+372,Miles,Plumlee,Miles Plumlee,Memphis Grizzlies
+390,Davon,Reed,Davon Reed,Miami Heat
+396,Devin,Robinson,Devin Robinson,Toronto Raptors
+55,Jonah,Bolden,Jonah Bolden,Phoenix Suns
+666892,Simisola,Shittu,Simisola Shittu,Chicago Bulls
+666897,Justin,Simon,Justin Simon,Chicago Bulls
+666899,Deividas,Sirvydis,Deividas Sirvydis,Detroit Pistons
+2117,David,Stockton,David Stockton,Los Angeles Lakers
+2190,Isaiah,Taylor,Isaiah Taylor,Toronto Raptors
+454,Tyler,Ulis,Tyler Ulis,Sacramento Kings
+466,Tyrone,Wallace,Tyrone Wallace,Atlanta Hawks
+471,Thomas,Welsh,Thomas Welsh,Charlotte Hornets
+666960,Lindell,Wigginton,Lindell Wigginton,Minnesota Timberwolves
+2105,CJ,Wilcox,CJ Wilcox,Indiana Pacers
+478,C.J.,Williams,C.J. Williams,Brooklyn Nets
+666973,Todd,Withers,Todd Withers,Detroit Pistons
+2216,Kadeem,Allen,Kadeem Allen,New York Knicks
+13,Ryan,Anderson,Ryan Anderson,Houston Rockets
+316,CJ,Miles,CJ Miles,Washington Wizards
+364,Chandler,Parsons,Chandler Parsons,Atlanta Hawks
+449,Allonzo,Trier,Allonzo Trier,New York Knicks
+201,Isaiah,Hartenstein,Isaiah Hartenstein,Houston Rockets
+292,Daryl,Macon,Daryl Macon,Miami Heat
+2194,Josh,Magette,Josh Magette,Orlando Magic
+666808,Zach,Norvell Jr.,Zach Norvell Jr.,Golden State Warriors
+666570,Robert,Franks,Robert Franks,Charlotte Hornets
+163,Tim,Frazier,Tim Frazier,Detroit Pistons
+107,DeMarcus,Cousins,DeMarcus Cousins,Los Angeles Lakers
+186,Gerald,Green,Gerald Green,Denver Nuggets
+143,Henry,Ellenson,Henry Ellenson,Brooklyn Nets
+43,Dragan,Bender,Dragan Bender,Golden State Warriors
+342,Nene,,Nene ,Atlanta Hawks
+2208,Derrick,Walton Jr.,Derrick Walton Jr.,Detroit Pistons
+440,Isaiah,Thomas,Isaiah Thomas,LA Clippers
+2,Jaylen,Adams,Jaylen Adams,Portland Trail Blazers
+3,Steven,Adams,Steven Adams,Oklahoma City Thunder
+4,Bam,Adebayo,Bam Adebayo,Miami Heat
+6,LaMarcus,Aldridge,LaMarcus Aldridge,San Antonio Spurs
+666400,Nickeil,Alexander-Walker,Nickeil Alexander-Walker,New Orleans Pelicans
+666401,Kyle,Alexander,Kyle Alexander,Miami Heat
+8,Grayson,Allen,Grayson Allen,Memphis Grizzlies
+9,Jarrett,Allen,Jarrett Allen,Brooklyn Nets
+10,Al-Farouq,Aminu,Al-Farouq Aminu,Orlando Magic
+11,Justin,Anderson,Justin Anderson,Brooklyn Nets
+12,Kyle,Anderson,Kyle Anderson,Memphis Grizzlies
+15,Giannis,Antetokounmpo,Giannis Antetokounmpo,Milwaukee Bucks
+16,Kostas,Antetokounmpo,Kostas Antetokounmpo,Los Angeles Lakers
+2148,Thanasis,Antetokounmpo,Thanasis Antetokounmpo,Milwaukee Bucks
+17,Carmelo,Anthony,Carmelo Anthony,Portland Trail Blazers
+18,OG,Anunoby,OG Anunoby,Toronto Raptors
+19,Ryan,Arcidiacono,Ryan Arcidiacono,Chicago Bulls
+20,Trevor,Ariza,Trevor Ariza,Portland Trail Blazers
+21,D.J.,Augustin,D.J. Augustin,Orlando Magic
+22,Deandre,Ayton,Deandre Ayton,Phoenix Suns
+23,Dwayne,Bacon,Dwayne Bacon,Charlotte Hornets
+24,Marvin,Bagley III,Marvin Bagley III,Sacramento Kings
+27,Lonzo,Ball,Lonzo Ball,New Orleans Pelicans
+28,Mo,Bamba,Mo Bamba,Orlando Magic
+29,J.J.,Barea,J.J. Barea,Dallas Mavericks
+30,Harrison,Barnes,Harrison Barnes,Sacramento Kings
+666423,RJ,Barrett,RJ Barrett,New York Knicks
+31,Will,Barton,Will Barton,Denver Nuggets
+32,Keita,Bates-Diop,Keita Bates-Diop,Denver Nuggets
+33,Nicolas,Batum,Nicolas Batum,Charlotte Hornets
+35,Aron,Baynes,Aron Baynes,Phoenix Suns
+36,Kent,Bazemore,Kent Bazemore,Sacramento Kings
+666429,Darius,Bazley,Darius Bazley,Oklahoma City Thunder
+37,Bradley,Beal,Bradley Beal,Washington Wizards
+38,Malik,Beasley,Malik Beasley,Minnesota Timberwolves
+40,Marco,Belinelli,Marco Belinelli,San Antonio Spurs
+41,Jordan,Bell,Jordan Bell,Cleveland Cavaliers
+42,DeAndre',Bembry,DeAndre' Bembry,Atlanta Hawks
+44,Davis,Bertans,Davis Bertans,Washington Wizards
+45,Patrick,Beverley,Patrick Beverley,LA Clippers
+46,Khem,Birch,Khem Birch,Orlando Magic
+666442,Goga,Bitadze,Goga Bitadze,Indiana Pacers
+48,Bismack,Biyombo,Bismack Biyombo,Charlotte Hornets
+49,Nemanja,Bjelica,Nemanja Bjelica,Sacramento Kings
+51,Eric,Bledsoe,Eric Bledsoe,Milwaukee Bucks
+53,Bogdan,Bogdanovic,Bogdan Bogdanovic,Sacramento Kings
+54,Bojan,Bogdanovic,Bojan Bogdanovic,Utah Jazz
+666451,Bol,Bol,Bol Bol,Denver Nuggets
+666454,Jordan,Bone,Jordan Bone,Detroit Pistons
+56,Isaac,Bonga,Isaac Bonga,Washington Wizards
+57,Devin,Booker,Devin Booker,Phoenix Suns
+58,Chris,Boucher,Chris Boucher,Toronto Raptors
+666459,Brian,Bowen II,Brian Bowen II,Indiana Pacers
+666460,Ky,Bowman,Ky Bowman,Golden State Warriors
+59,Avery,Bradley,Avery Bradley,Los Angeles Lakers
+60,Tony,Bradley,Tony Bradley,Utah Jazz
+666463,Jarrell,Brantley,Jarrell Brantley,Utah Jazz
+666464,Ignas,Brazdeikis,Ignas Brazdeikis,New York Knicks
+1764,Corey,Brewer,Corey Brewer,Sacramento Kings
+61,Mikal,Bridges,Mikal Bridges,Phoenix Suns
+62,Miles,Bridges,Miles Bridges,Charlotte Hornets
+666468,Oshae,Brissett,Oshae Brissett,Toronto Raptors
+64,Ryan,Broekhoff,Ryan Broekhoff,Philadelphia 76ers
+65,Malcolm,Brogdon,Malcolm Brogdon,Indiana Pacers
+66,Dillon,Brooks,Dillon Brooks,Memphis Grizzlies
+666474,Charles,Brown,Charles Brown,Atlanta Hawks
+68,Troy,Brown Jr.,Troy Brown Jr.,Washington Wizards
+69,Bruce,Brown,Bruce Brown,Detroit Pistons
+70,Jaylen,Brown,Jaylen Brown,Boston Celtics
+666476,Moses,Brown,Moses Brown,Portland Trail Blazers
+72,Sterling,Brown,Sterling Brown,Milwaukee Bucks
+73,Jalen,Brunson,Jalen Brunson,Dallas Mavericks
+74,Thomas,Bryant,Thomas Bryant,Washington Wizards
+75,Reggie,Bullock,Reggie Bullock,New York Knicks
+76,Trey,Burke,Trey Burke,Dallas Mavericks
+77,Alec,Burks,Alec Burks,Philadelphia 76ers
+78,Deonte,Burton,Deonte Burton,Oklahoma City Thunder
+79,Jimmy,Butler,Jimmy Butler,Miami Heat
+2099,Bruno,Caboclo,Bruno Caboclo,Houston Rockets
+666486,Devontae,Cacok,Devontae Cacok,Los Angeles Lakers
+81,Kentavious,Caldwell-Pope,Kentavious Caldwell-Pope,Los Angeles Lakers
+666489,Vlatko,Cancar,Vlatko Cancar,Denver Nuggets
+83,Clint,Capela,Clint Capela,Atlanta Hawks
+84,DeMarre,Carroll,DeMarre Carroll,Houston Rockets
+85,Wendell,Carter Jr.,Wendell Carter Jr.,Chicago Bulls
+86,Michael,Carter-Williams,Michael Carter-Williams,Orlando Magic
+87,Jevon,Carter,Jevon Carter,Phoenix Suns
+88,Vince,Carter,Vince Carter,Atlanta Hawks
+89,Alex,Caruso,Alex Caruso,Los Angeles Lakers
+91,Willie,Cauley-Stein,Willie Cauley-Stein,Dallas Mavericks
+94,Tyson,Chandler,Tyson Chandler,Houston Rockets
+95,Wilson,Chandler,Wilson Chandler,Brooklyn Nets
+666502,Zylan,Cheatham,Zylan Cheatham,New Orleans Pelicans
+50661,Chris,Chiozza,Chris Chiozza,Brooklyn Nets
+97,Marquese,Chriss,Marquese Chriss,Golden State Warriors
+666505,Brandon,Clarke,Brandon Clarke,Memphis Grizzlies
+98,Gary,Clark,Gary Clark,Orlando Magic
+100,Jordan,Clarkson,Jordan Clarkson,Utah Jazz
+666508,Nicolas,Claxton,Nicolas Claxton,Brooklyn Nets
+666509,Chris,Clemons,Chris Clemons,Houston Rockets
+2211,Antonius,Cleveland,Antonius Cleveland,Dallas Mavericks
+666511,Amir,Coffey,Amir Coffey,LA Clippers
+101,John,Collins,John Collins,Atlanta Hawks
+102,Zach,Collins,Zach Collins,Portland Trail Blazers
+104,Mike,Conley,Mike Conley,Utah Jazz
+105,Pat,Connaughton,Pat Connaughton,Milwaukee Bucks
+106,Quinn,Cook,Quinn Cook,Los Angeles Lakers
+666517,Tyler,Cook,Tyler Cook,Denver Nuggets
+108,Robert,Covington,Robert Covington,Houston Rockets
+110,Torrey,Craig,Torrey Craig,Denver Nuggets
+111,Jamal,Crawford,Jamal Crawford,Brooklyn Nets
+112,Jae,Crowder,Jae Crowder,Miami Heat
+666523,Jarrett,Culver,Jarrett Culver,Minnesota Timberwolves
+114,Seth,Curry,Seth Curry,Dallas Mavericks
+115,Stephen,Curry,Stephen Curry,Golden State Warriors
+116,Troy,Daniels,Troy Daniels,Denver Nuggets
+117,Anthony,Davis,Anthony Davis,Los Angeles Lakers
+118,Ed,Davis,Ed Davis,Utah Jazz
+666530,Terence,Davis,Terence Davis,Toronto Raptors
+120,Dewayne,Dedmon,Dewayne Dedmon,Atlanta Hawks
+123,Matthew,Dellavedova,Matthew Dellavedova,Cleveland Cavaliers
+125,DeMar,DeRozan,DeMar DeRozan,San Antonio Spurs
+127,Cheick,Diallo,Cheick Diallo,Phoenix Suns
+128,Hamidou,Diallo,Hamidou Diallo,Oklahoma City Thunder
+129,Gorgui,Dieng,Gorgui Dieng,Memphis Grizzlies
+130,Spencer,Dinwiddie,Spencer Dinwiddie,Brooklyn Nets
+131,Donte,DiVincenzo,Donte DiVincenzo,Milwaukee Bucks
+132,Luka,Doncic,Luka Doncic,Dallas Mavericks
+666541,Luguentz,Dort,Luguentz Dort,Oklahoma City Thunder
+134,Damyean,Dotson,Damyean Dotson,New York Knicks
+666543,Sekou,Doumbouya,Sekou Doumbouya,Detroit Pistons
+135,PJ,Dozier,PJ Dozier,Denver Nuggets
+136,Goran,Dragic,Goran Dragic,Miami Heat
+137,Andre,Drummond,Andre Drummond,Cleveland Cavaliers
+138,Jared,Dudley,Jared Dudley,Los Angeles Lakers
+139,Kris,Dunn,Kris Dunn,Chicago Bulls
+140,Kevin,Durant,Kevin Durant,Brooklyn Nets
+666551,Carsen,Edwards,Carsen Edwards,Boston Celtics
+144,Wayne,Ellington,Wayne Ellington,New York Knicks
+145,Joel,Embiid,Joel Embiid,Philadelphia 76ers
+146,James,Ennis III,James Ennis III,Orlando Magic
+147,Drew,Eubanks,Drew Eubanks,San Antonio Spurs
+148,Jacob,Evans,Jacob Evans,Minnesota Timberwolves
+151,Dante,Exum,Dante Exum,Cleveland Cavaliers
+666560,Tacko,Fall,Tacko Fall,Boston Celtics
+153,Derrick,Favors,Derrick Favors,New Orleans Pelicans
+154,Cristiano,Felicio,Cristiano Felicio,Chicago Bulls
+156,Terrance,Ferguson,Terrance Ferguson,Oklahoma City Thunder
+666564,Bruno,Fernando,Bruno Fernando,Atlanta Hawks
+157,Yogi,Ferrell,Yogi Ferrell,Sacramento Kings
+158,Dorian,Finney-Smith,Dorian Finney-Smith,Dallas Mavericks
+159,Bryn,Forbes,Bryn Forbes,San Antonio Spurs
+160,Evan,Fournier,Evan Fournier,Orlando Magic
+161,De'Aaron,Fox,De'Aaron Fox,Sacramento Kings
+162,Melvin,Frazier Jr.,Melvin Frazier Jr.,Orlando Magic
+50729,Michael,Frazier,Michael Frazier,Houston Rockets
+165,Markelle,Fultz,Markelle Fultz,Orlando Magic
+166,Wenyen,Gabriel,Wenyen Gabriel,Portland Trail Blazers
+666577,Daniel,Gafford,Daniel Gafford,Chicago Bulls
+167,Danilo,Gallinari,Danilo Gallinari,Oklahoma City Thunder
+168,Langston,Galloway,Langston Galloway,Detroit Pistons
+666581,Darius,Garland,Darius Garland,Cleveland Cavaliers
+169,Marc,Gasol,Marc Gasol,Toronto Raptors
+171,Rudy,Gay,Rudy Gay,San Antonio Spurs
+172,Paul,George,Paul George,LA Clippers
+173,Taj,Gibson,Taj Gibson,New York Knicks
+174,Harry,Giles III,Harry Giles III,Sacramento Kings
+175,Shai,Gilgeous-Alexander,Shai Gilgeous-Alexander,Oklahoma City Thunder
+176,Rudy,Gobert,Rudy Gobert,Utah Jazz
+3091,Brandon,Goodwin,Brandon Goodwin,Atlanta Hawks
+177,Aaron,Gordon,Aaron Gordon,Orlando Magic
+178,Eric,Gordon,Eric Gordon,Houston Rockets
+180,Devonte',Graham,Devonte' Graham,Charlotte Hornets
+181,Treveon,Graham,Treveon Graham,Atlanta Hawks
+182,Jerami,Grant,Jerami Grant,Denver Nuggets
+183,Jerian,Grant,Jerian Grant,Washington Wizards
+2225,Josh,Gray,Josh Gray,New Orleans Pelicans
+184,Danny,Green,Danny Green,Los Angeles Lakers
+185,Draymond,Green,Draymond Green,Golden State Warriors
+187,JaMychal,Green,JaMychal Green,LA Clippers
+666604,Javonte,Green,Javonte Green,Boston Celtics
+188,Jeff,Green,Jeff Green,Houston Rockets
+189,Blake,Griffin,Blake Griffin,Detroit Pistons
+666607,Marko,Guduric,Marko Guduric,Memphis Grizzlies
+666608,Kyle,Guy,Kyle Guy,Sacramento Kings
+666609,Rui,Hachimura,Rui Hachimura,Washington Wizards
+666610,Devon,Hall,Devon Hall,Oklahoma City Thunder
+666611,Donta,Hall,Donta Hall,Brooklyn Nets
+191,Tim,Hardaway Jr.,Tim Hardaway Jr.,Dallas Mavericks
+192,James,Harden,James Harden,Houston Rockets
+193,Maurice,Harkless,Maurice Harkless,New York Knicks
+666616,Jared,Harper,Jared Harper,New York Knicks
+194,Montrezl,Harrell,Montrezl Harrell,LA Clippers
+196,Gary,Harris,Gary Harris,Denver Nuggets
+197,Joe,Harris,Joe Harris,Brooklyn Nets
+199,Shaquille,Harrison,Shaquille Harrison,Chicago Bulls
+200,Tobias,Harris,Tobias Harris,Philadelphia 76ers
+202,Josh,Hart,Josh Hart,New Orleans Pelicans
+203,Udonis,Haslem,Udonis Haslem,Miami Heat
+666626,Jaxson,Hayes,Jaxson Hayes,New Orleans Pelicans
+204,Gordon,Hayward,Gordon Hayward,Boston Celtics
+205,John,Henson,John Henson,Detroit Pistons
+666630,Dewan,Hernandez,Dewan Hernandez,Toronto Raptors
+206,Juancho,Hernangomez,Juancho Hernangomez,Minnesota Timberwolves
+207,Willy,Hernangomez,Willy Hernangomez,Charlotte Hornets
+666633,Tyler,Herro,Tyler Herro,Miami Heat
+1280857,Kevin,Hervey,Kevin Hervey,Oklahoma City Thunder
+208,Mario,Hezonja,Mario Hezonja,Portland Trail Blazers
+210,Buddy,Hield,Buddy Hield,Sacramento Kings
+211,George,Hill,George Hill,Milwaukee Bucks
+212,Solomon,Hill,Solomon Hill,Miami Heat
+666641,Jaylen,Hoard,Jaylen Hoard,Portland Trail Blazers
+213,Aaron,Holiday,Aaron Holiday,Indiana Pacers
+214,Jrue,Holiday,Jrue Holiday,New Orleans Pelicans
+215,Justin,Holiday,Justin Holiday,Indiana Pacers
+216,Rondae,Hollis-Jefferson,Rondae Hollis-Jefferson,Toronto Raptors
+217,Richaun,Holmes,Richaun Holmes,Sacramento Kings
+218,Rodney,Hood,Rodney Hood,Portland Trail Blazers
+219,Al,Horford,Al Horford,Philadelphia 76ers
+666650,Talen,Horton-Tucker,Talen Horton-Tucker,Los Angeles Lakers
+2175,Danuel,House Jr.,Danuel House Jr.,Houston Rockets
+220,Dwight,Howard,Dwight Howard,Los Angeles Lakers
+666653,William,Howard,William Howard,Houston Rockets
+221,Kevin,Huerter,Kevin Huerter,Atlanta Hawks
+666656,De'Andre,Hunter,De'Andre Hunter,Atlanta Hawks
+222,Chandler,Hutchison,Chandler Hutchison,Chicago Bulls
+223,Serge,Ibaka,Serge Ibaka,Toronto Raptors
+224,Andre,Iguodala,Andre Iguodala,Miami Heat
+225,Ersan,Ilyasova,Ersan Ilyasova,Milwaukee Bucks
+226,Joe,Ingles,Joe Ingles,Utah Jazz
+227,Brandon,Ingram,Brandon Ingram,New Orleans Pelicans
+228,Kyrie,Irving,Kyrie Irving,Brooklyn Nets
+229,Jonathan,Isaac,Jonathan Isaac,Orlando Magic
+230,Wes,Iwundu,Wes Iwundu,Orlando Magic
+231,Jaren,Jackson Jr.,Jaren Jackson Jr.,Memphis Grizzlies
+233,Frank,Jackson,Frank Jackson,New Orleans Pelicans
+234,Josh,Jackson,Josh Jackson,Memphis Grizzlies
+235,Justin,Jackson,Justin Jackson,Dallas Mavericks
+236,Reggie,Jackson,Reggie Jackson,LA Clippers
+666672,Justin,James,Justin James,Sacramento Kings
+237,LeBron,James,LeBron James,Los Angeles Lakers
+666675,DaQuan,Jeffries,DaQuan Jeffries,Sacramento Kings
+666676,Ty,Jerome,Ty Jerome,Phoenix Suns
+240,Alize,Johnson,Alize Johnson,Indiana Pacers
+50815,BJ,Johnson,BJ Johnson,Orlando Magic
+666679,Cameron,Johnson,Cameron Johnson,Phoenix Suns
+242,James,Johnson,James Johnson,Minnesota Timberwolves
+666682,Keldon,Johnson,Keldon Johnson,San Antonio Spurs
+243,Stanley,Johnson,Stanley Johnson,Toronto Raptors
+244,Tyler,Johnson,Tyler Johnson,Brooklyn Nets
+246,Nikola,Jokic,Nikola Jokic,Denver Nuggets
+247,Derrick,Jones Jr.,Derrick Jones Jr.,Miami Heat
+248,Damian,Jones,Damian Jones,Atlanta Hawks
+249,Tyus,Jones,Tyus Jones,Memphis Grizzlies
+250,DeAndre,Jordan,DeAndre Jordan,Brooklyn Nets
+251,Cory,Joseph,Cory Joseph,Sacramento Kings
+666692,Mfiondu,Kabengele,Mfiondu Kabengele,LA Clippers
+252,Frank,Kaminsky,Frank Kaminsky,Phoenix Suns
+253,Enes,Kanter,Enes Kanter,Boston Celtics
+254,Luke,Kennard,Luke Kennard,Detroit Pistons
+255,Michael,Kidd-Gilchrist,Michael Kidd-Gilchrist,Dallas Mavericks
+666698,Louis,King,Louis King,Detroit Pistons
+257,Maxi,Kleber,Maxi Kleber,Dallas Mavericks
+258,Brandon,Knight,Brandon Knight,Detroit Pistons
+259,Kevin,Knox,Kevin Knox,New York Knicks
+666703,John,Konchar,John Konchar,Memphis Grizzlies
+260,Furkan,Korkmaz,Furkan Korkmaz,Philadelphia 76ers
+261,Luke,Kornet,Luke Kornet,Chicago Bulls
+262,Kyle,Korver,Kyle Korver,Milwaukee Bucks
+264,Rodions,Kurucs,Rodions Kurucs,Brooklyn Nets
+265,Kyle,Kuzma,Kyle Kuzma,Los Angeles Lakers
+266,Skal,Labissiere,Skal Labissiere,Atlanta Hawks
+267,Jeremy,Lamb,Jeremy Lamb,Indiana Pacers
+666713,Romeo,Langford,Romeo Langford,Boston Celtics
+268,Zach,LaVine,Zach LaVine,Chicago Bulls
+666717,Vic,Law,Vic Law,Orlando Magic
+269,Jake,Layman,Jake Layman,Minnesota Timberwolves
+270,TJ,Leaf,TJ Leaf,Indiana Pacers
+666720,Jalen,Lecque,Jalen Lecque,Phoenix Suns
+271,Courtney,Lee,Courtney Lee,Dallas Mavericks
+272,Damion,Lee,Damion Lee,Golden State Warriors
+273,Alex,Len,Alex Len,Sacramento Kings
+274,Kawhi,Leonard,Kawhi Leonard,LA Clippers
+275,Meyers,Leonard,Meyers Leonard,Miami Heat
+277,Caris,LeVert,Caris LeVert,Brooklyn Nets
+278,Damian,Lillard,Damian Lillard,Portland Trail Blazers
+666729,Nassir,Little,Nassir Little,Portland Trail Blazers
+282,Kevon,Looney,Kevon Looney,Golden State Warriors
+283,Brook,Lopez,Brook Lopez,Milwaukee Bucks
+284,Robin,Lopez,Robin Lopez,Milwaukee Bucks
+285,Kevin,Love,Kevin Love,Cleveland Cavaliers
+286,Kyle,Lowry,Kyle Lowry,Toronto Raptors
+288,Timothe,Luwawu-Cabarrot,Timothe Luwawu-Cabarrot,Brooklyn Nets
+290,Trey,Lyles,Trey Lyles,San Antonio Spurs
+294,Ian,Mahinmi,Ian Mahinmi,Washington Wizards
+295,Thon,Maker,Thon Maker,Detroit Pistons
+666743,Terance,Mann,Terance Mann,LA Clippers
+296,Boban,Marjanovic,Boban Marjanovic,Dallas Mavericks
+297,Lauri,Markkanen,Lauri Markkanen,Chicago Bulls
+666747,Caleb,Martin,Caleb Martin,Charlotte Hornets
+666748,Cody,Martin,Cody Martin,Charlotte Hornets
+666750,Jeremiah,Martin,Jeremiah Martin,Brooklyn Nets
+666751,Kelan,Martin,Kelan Martin,Minnesota Timberwolves
+299,Frank,Mason,Frank Mason,Milwaukee Bucks
+666754,Garrison,Mathews,Garrison Mathews,Washington Wizards
+301,Wesley,Matthews,Wesley Matthews,Milwaukee Bucks
+302,Luc,Mbah a Moute,Luc Mbah a Moute,Houston Rockets
+2158,Patrick,McCaw,Patrick McCaw,Toronto Raptors
+303,CJ,McCollum,CJ McCollum,Portland Trail Blazers
+304,T.J.,McConnell,T.J. McConnell,Indiana Pacers
+666762,Jalen,McDaniels,Jalen McDaniels,Charlotte Hornets
+305,Doug,McDermott,Doug McDermott,Indiana Pacers
+306,JaVale,McGee,JaVale McGee,Los Angeles Lakers
+307,Rodney,McGruder,Rodney McGruder,LA Clippers
+308,Alfonzo,McKinnie,Alfonzo McKinnie,Cleveland Cavaliers
+666767,Jordan,McLaughlin,Jordan McLaughlin,Minnesota Timberwolves
+309,Ben,McLemore,Ben McLemore,Houston Rockets
+310,Jordan,McRae,Jordan McRae,Detroit Pistons
+667302,Nicolo,Melli,Nicolo Melli,New Orleans Pelicans
+313,De'Anthony,Melton,De'Anthony Melton,Memphis Grizzlies
+314,Chimezie,Metu,Chimezie Metu,San Antonio Spurs
+315,Khris,Middleton,Khris Middleton,Milwaukee Bucks
+317,Darius,Miller,Darius Miller,New Orleans Pelicans
+2215,Malcolm,Miller,Malcolm Miller,Toronto Raptors
+318,Paul,Millsap,Paul Millsap,Denver Nuggets
+319,Patty,Mills,Patty Mills,San Antonio Spurs
+320,Shake,Milton,Shake Milton,Philadelphia 76ers
+322,Donovan,Mitchell,Donovan Mitchell,Utah Jazz
+323,Naz,Mitrou-Long,Naz Mitrou-Long,Indiana Pacers
+666783,Adam,Mokoka,Adam Mokoka,Chicago Bulls
+324,Malik,Monk,Malik Monk,Charlotte Hornets
+1687493,Matt,Mooney,Matt Mooney,Cleveland Cavaliers
+326,E'Twaun,Moore,E'Twaun Moore,New Orleans Pelicans
+666786,Ja,Morant,Ja Morant,Memphis Grizzlies
+666788,Juwan,Morgan,Juwan Morgan,Utah Jazz
+328,Marcus,Morris,Marcus Morris,LA Clippers
+329,Markieff,Morris,Markieff Morris,Los Angeles Lakers
+330,Monte,Morris,Monte Morris,Denver Nuggets
+331,Johnathan,Motley,Johnathan Motley,LA Clippers
+333,Emmanuel,Mudiay,Emmanuel Mudiay,Utah Jazz
+666794,Mychal,Mulder,Mychal Mulder,Golden State Warriors
+334,Dejounte,Murray,Dejounte Murray,San Antonio Spurs
+335,Jamal,Murray,Jamal Murray,Denver Nuggets
+336,Dzanan,Musa,Dzanan Musa,Brooklyn Nets
+337,Mike,Muscala,Mike Muscala,Oklahoma City Thunder
+338,Svi,Mykhailiuk,Svi Mykhailiuk,Detroit Pistons
+339,Abdel,Nader,Abdel Nader,Oklahoma City Thunder
+340,Larry,Nance Jr.,Larry Nance Jr.,Cleveland Cavaliers
+341,Shabazz,Napier,Shabazz Napier,Washington Wizards
+343,Raul,Neto,Raul Neto,Philadelphia 76ers
+344,Georges,Niang,Georges Niang,Utah Jazz
+1771,Joakim,Noah,Joakim Noah,LA Clippers
+345,Nerlens,Noel,Nerlens Noel,Oklahoma City Thunder
+666809,Jaylen,Nowell,Jaylen Nowell,Minnesota Timberwolves
+347,Frank,Ntilikina,Frank Ntilikina,New York Knicks
+50927,Kendrick,Nunn,Kendrick Nunn,Miami Heat
+349,Jusuf,Nurkic,Jusuf Nurkic,Portland Trail Blazers
+350,David,Nwaba,David Nwaba,Houston Rockets
+351,Royce,O'Neale,Royce O'Neale,Utah Jazz
+352,Kyle,O'Quinn,Kyle O'Quinn,Philadelphia 76ers
+353,Semi,Ojeleye,Semi Ojeleye,Boston Celtics
+354,Jahlil,Okafor,Jahlil Okafor,New Orleans Pelicans
+355,Elie,Okobo,Elie Okobo,Phoenix Suns
+356,Josh,Okogie,Josh Okogie,Minnesota Timberwolves
+666821,KZ,Okpala,KZ Okpala,Miami Heat
+357,Victor,Oladipo,Victor Oladipo,Indiana Pacers
+358,Kelly,Olynyk,Kelly Olynyk,Miami Heat
+666824,Miye,Oni,Miye Oni,Utah Jazz
+359,Cedi,Osman,Cedi Osman,Cleveland Cavaliers
+360,Kelly,Oubre Jr.,Kelly Oubre Jr.,Phoenix Suns
+666827,Tariq,Owens,Tariq Owens,Phoenix Suns
+362,Jabari,Parker,Jabari Parker,Sacramento Kings
+666831,Eric,Paschall,Eric Paschall,Golden State Warriors
+1358055,Anzejs,Pasecniks,Anzejs Pasecniks,Washington Wizards
+365,Patrick,Patterson,Patrick Patterson,LA Clippers
+366,Justin,Patton,Justin Patton,Detroit Pistons
+367,Chris,Paul,Chris Paul,Oklahoma City Thunder
+368,Cameron,Payne,Cameron Payne,Phoenix Suns
+2189,Gary,Payton II,Gary Payton II,Washington Wizards
+369,Elfrid,Payton,Elfrid Payton,New York Knicks
+666837,Norvel,Pelle,Norvel Pelle,Philadelphia 76ers
+370,Theo,Pinson,Theo Pinson,New York Knicks
+371,Mason,Plumlee,Mason Plumlee,Denver Nuggets
+373,Jakob,Poeltl,Jakob Poeltl,San Antonio Spurs
+666846,Vincent,Poirier,Vincent Poirier,Boston Celtics
+666848,Jordan,Poole,Jordan Poole,Golden State Warriors
+666849,Kevin,Porter Jr.,Kevin Porter Jr.,Cleveland Cavaliers
+375,Michael,Porter Jr.,Michael Porter Jr.,Denver Nuggets
+376,Otto,Porter Jr.,Otto Porter Jr.,Chicago Bulls
+2309958,Jontay,Porter,Jontay Porter,Memphis Grizzlies
+377,Bobby,Portis,Bobby Portis,New York Knicks
+378,Kristaps,Porzingis,Kristaps Porzingis,Dallas Mavericks
+379,Dwight,Powell,Dwight Powell,Dallas Mavericks
+380,Norman,Powell,Norman Powell,Toronto Raptors
+383,Taurean,Prince,Taurean Prince,Brooklyn Nets
+387,Julius,Randle,Julius Randle,New York Knicks
+666859,Josh,Reaves,Josh Reaves,Dallas Mavericks
+666860,Cameron,Reddish,Cameron Reddish,Atlanta Hawks
+389,JJ,Redick,JJ Redick,New Orleans Pelicans
+667378,Naz,Reid,Naz Reid,Minnesota Timberwolves
+50966,Cameron,Reynolds,Cameron Reynolds,Milwaukee Bucks
+391,Josh,Richardson,Josh Richardson,Philadelphia 76ers
+393,Austin,Rivers,Austin Rivers,Houston Rockets
+394,Andre,Roberson,Andre Roberson,Oklahoma City Thunder
+395,Glenn,Robinson III,Glenn Robinson III,Philadelphia 76ers
+397,Duncan,Robinson,Duncan Robinson,Miami Heat
+398,Jerome,Robinson,Jerome Robinson,Washington Wizards
+399,Mitchell,Robinson,Mitchell Robinson,New York Knicks
+666873,Isaiah,Roby,Isaiah Roby,Oklahoma City Thunder
+400,Rajon,Rondo,Rajon Rondo,Los Angeles Lakers
+401,Derrick,Rose,Derrick Rose,Detroit Pistons
+402,Terrence,Ross,Terrence Ross,Orlando Magic
+403,Terry,Rozier,Terry Rozier,Charlotte Hornets
+404,Ricky,Rubio,Ricky Rubio,Phoenix Suns
+405,D'Angelo,Russell,D'Angelo Russell,Minnesota Timberwolves
+406,Domantas,Sabonis,Domantas Sabonis,Indiana Pacers
+666881,Luka,Samanic,Luka Samanic,San Antonio Spurs
+2080,JaKarr,Sampson,JaKarr Sampson,Indiana Pacers
+407,Dario,Saric,Dario Saric,Phoenix Suns
+408,Tomas,Satoransky,Tomas Satoransky,Chicago Bulls
+666885,Admiral,Schofield,Admiral Schofield,Washington Wizards
+409,Dennis,Schroder,Dennis Schroder,Oklahoma City Thunder
+410,Mike,Scott,Mike Scott,Philadelphia 76ers
+411,Thabo,Sefolosha,Thabo Sefolosha,Houston Rockets
+413,Collin,Sexton,Collin Sexton,Cleveland Cavaliers
+414,Landry,Shamet,Landry Shamet,LA Clippers
+666891,Marial,Shayok,Marial Shayok,Philadelphia 76ers
+416,Pascal,Siakam,Pascal Siakam,Toronto Raptors
+666894,Chris,Silva,Chris Silva,Miami Heat
+417,Ben,Simmons,Ben Simmons,Philadelphia 76ers
+2202,Kobi,Simmons,Kobi Simmons,Charlotte Hornets
+419,Anfernee,Simons,Anfernee Simons,Portland Trail Blazers
+666900,Alen,Smailagic,Alen Smailagic,Golden State Warriors
+420,Marcus,Smart,Marcus Smart,Boston Celtics
+421,Dennis,Smith Jr.,Dennis Smith Jr.,New York Knicks
+422,Ish,Smith,Ish Smith,Washington Wizards
+424,JR,Smith,JR Smith,Los Angeles Lakers
+425,Zhaire,Smith,Zhaire Smith,Philadelphia 76ers
+426,Tony,Snell,Tony Snell,Detroit Pistons
+427,Ray,Spalding,Ray Spalding,Charlotte Hornets
+428,Omari,Spellman,Omari Spellman,Minnesota Timberwolves
+666908,Max,Strus,Max Strus,Chicago Bulls
+432,Edmond,Sumner,Edmond Sumner,Indiana Pacers
+433,Caleb,Swanigan,Caleb Swanigan,Portland Trail Blazers
+434,Jayson,Tatum,Jayson Tatum,Boston Celtics
+435,Jeff,Teague,Jeff Teague,Atlanta Hawks
+436,Garrett,Temple,Garrett Temple,Brooklyn Nets
+439,Daniel,Theis,Daniel Theis,Boston Celtics
+441,Khyri,Thomas,Khyri Thomas,Detroit Pistons
+442,Lance,Thomas,Lance Thomas,Brooklyn Nets
+666919,Matt,Thomas,Matt Thomas,Toronto Raptors
+443,Klay,Thompson,Klay Thompson,Golden State Warriors
+444,Tristan,Thompson,Tristan Thompson,Cleveland Cavaliers
+445,Sindarius,Thornwell,Sindarius Thornwell,New Orleans Pelicans
+666923,Matisse,Thybulle,Matisse Thybulle,Philadelphia 76ers
+446,Anthony,Tolliver,Anthony Tolliver,Memphis Grizzlies
+666925,Juan,Toscano-Anderson,Juan Toscano-Anderson,Golden State Warriors
+447,Karl-Anthony,Towns,Karl-Anthony Towns,Minnesota Timberwolves
+3089,Gary,Trent Jr.,Gary Trent Jr.,Portland Trail Blazers
+450,PJ,Tucker,PJ Tucker,Houston Rockets
+666930,Rayjon,Tucker,Rayjon Tucker,Utah Jazz
+451,Evan,Turner,Evan Turner,Minnesota Timberwolves
+452,Myles,Turner,Myles Turner,Indiana Pacers
+2188,Jarrod,Uthoff,Jarrod Uthoff,Washington Wizards
+455,Jonas,Valanciunas,Jonas Valanciunas,Memphis Grizzlies
+456,Denzel,Valentine,Denzel Valentine,Chicago Bulls
+457,Jarred,Vanderbilt,Jarred Vanderbilt,Minnesota Timberwolves
+458,Fred,VanVleet,Fred VanVleet,Toronto Raptors
+1603383,Gabe,Vincent,Gabe Vincent,Miami Heat
+459,Noah,Vonleh,Noah Vonleh,Denver Nuggets
+460,Nikola,Vucevic,Nikola Vucevic,Orlando Magic
+666940,Dean,Wade,Dean Wade,Cleveland Cavaliers
+462,Moritz,Wagner,Moritz Wagner,Washington Wizards
+463,Dion,Waiters,Dion Waiters,Los Angeles Lakers
+464,Lonnie,Walker IV,Lonnie Walker IV,San Antonio Spurs
+465,Kemba,Walker,Kemba Walker,Boston Celtics
+467,John,Wall,John Wall,Washington Wizards
+468,Brad,Wanamaker,Brad Wanamaker,Boston Celtics
+469,T.J.,Warren,T.J. Warren,Indiana Pacers
+666950,P.J.,Washington,P.J. Washington,Charlotte Hornets
+470,Yuta,Watanabe,Yuta Watanabe,Memphis Grizzlies
+666952,Tremont,Waters,Tremont Waters,Boston Celtics
+1567838,Paul,Watson,Paul Watson,Toronto Raptors
+666953,Quinndary,Weatherspoon,Quinndary Weatherspoon,San Antonio Spurs
+472,Russell,Westbrook,Russell Westbrook,Houston Rockets
+666956,Coby,White,Coby White,Chicago Bulls
+473,Derrick,White,Derrick White,San Antonio Spurs
+474,Hassan,Whiteside,Hassan Whiteside,Portland Trail Blazers
+475,Andrew,Wiggins,Andrew Wiggins,Golden State Warriors
+476,Robert,Williams III,Robert Williams III,Boston Celtics
+666963,Nigel,Williams-Goss,Nigel Williams-Goss,Utah Jazz
+666965,Grant,Williams,Grant Williams,Boston Celtics
+479,Johnathan,Williams,Johnathan Williams,Washington Wizards
+480,Kenrich,Williams,Kenrich Williams,New Orleans Pelicans
+481,Lou,Williams,Lou Williams,LA Clippers
+482,Marvin,Williams,Marvin Williams,Milwaukee Bucks
+666969,Zion,Williamson,Zion Williamson,New Orleans Pelicans
+484,D.J.,Wilson,D.J. Wilson,Milwaukee Bucks
+666971,Dylan,Windler,Dylan Windler,Cleveland Cavaliers
+485,Justise,Winslow,Justise Winslow,Memphis Grizzlies
+486,Christian,Wood,Christian Wood,Detroit Pistons
+666975,Kenny,Wooten,Kenny Wooten,New York Knicks
+666976,Justin,Wright-Foreman,Justin Wright-Foreman,Utah Jazz
+487,Delon,Wright,Delon Wright,Dallas Mavericks
+489,Thaddeus,Young,Thaddeus Young,Chicago Bulls
+490,Trae,Young,Trae Young,Atlanta Hawks
+491,Cody,Zeller,Cody Zeller,Charlotte Hornets
+1983,Tyler,Zeller,Tyler Zeller,San Antonio Spurs
+492,Ante,Zizic,Ante Zizic,Cleveland Cavaliers
+493,Ivica,Zubac,Ivica Zubac,LA Clippers

@@ -10,14 +10,12 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    var playerStore = PlayerStore()
-    var teamStore = TeamStore()
-    var ballDontLie = BallDontLie()
-    
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        ballDontLie.populateAllPlayers(playerStore: playerStore, teamStore: teamStore)
+        AppData._instance = AppData()
+        AppData.instance.ballDontLie.populateAllPlayers(
+            playerStore: AppData.instance.playerStore,
+            teamStore: AppData.instance.teamStore)
         return true
     }
 

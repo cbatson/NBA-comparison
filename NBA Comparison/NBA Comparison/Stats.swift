@@ -25,7 +25,8 @@ class StatInfo {
     }
 }
 
-enum Stats {
+enum Stats: Int {
+    // Note: Stats are displayed in the order listed here.
     case GAMES_PLAYED
     case MINUTES
     case FIELD_GOALS_MADE
