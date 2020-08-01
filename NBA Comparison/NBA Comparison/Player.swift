@@ -14,7 +14,8 @@ class Player : RemoteEntity {
     let displayName: String
     let sortName: String
     weak var _team: Team?
-    
+    let seasonAverages: SeasonAverages
+
     var team: Team {
         self._team!
     }
@@ -25,6 +26,11 @@ class Player : RemoteEntity {
         self.displayName = displayName ?? firstName + " " + lastName
         self.sortName = sortName ?? lastName + ", " + firstName
         self._team = team
+        self.seasonAverages = SeasonAverages(remoteId: remoteId)
         super.init(remoteId: remoteId)
+    }
+    
+    func loadSeasonAverages(ballDontLie: BallDontLie) {
+        seasonAverages.loadAll(ballDontLie: ballDontLie)
     }
 }

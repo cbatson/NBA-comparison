@@ -27,6 +27,7 @@ class StatInfo {
 
 enum Stats: Int {
     // Note: Stats are displayed in the order listed here.
+    case SEASON
     case GAMES_PLAYED
     case MINUTES
     case FIELD_GOALS_MADE
@@ -88,6 +89,7 @@ struct StatMap {
     
     static func getStatInfo(stat : Stats) -> StatInfo {
         switch (stat) {
+        case .SEASON: return IntStat(displayName: "Season")
         case .GAMES_PLAYED: return IntStat(displayName: "Games Played")
         case .MINUTES: return StringStat(displayName: "Minutes Per Game")
         case .FIELD_GOALS_MADE: return FloatStat(displayName: "Field Goal Makes Per Game")

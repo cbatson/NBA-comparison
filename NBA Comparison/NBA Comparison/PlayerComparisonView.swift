@@ -17,27 +17,11 @@ struct PlayerComparisonView: View {
 
     @State private var player1Season = 2018
     @State private var player2Season = 2018
-
-    struct HeadshotModifier: ViewModifier {
-        func body(content: Content) -> some View {
-            content
-                .frame(width: 200, height: 150, alignment: .bottom)
-                .scaledToFit()
-                //.border(Color.red)
-                .shadow(color: .gray, radius: 4, x: 3, y: 3)
-        }
-    }
     
-    struct BioDataModifier: ViewModifier {
-        func body(content: Content) -> some View {
-            content
-                .frame(width: 180, alignment: .center)
-                .multilineTextAlignment(.center)
-                .lineLimit(1)
-                .truncationMode(.tail)
-                //.border(Color.red)
-        }
-    }
+    @State private var playerSeasonSheetDisplay = false
+    @State private var playerSeasonSheetWhich = 0
+
+    //@Environment(\.presentationMode) var presentation
     
     struct StatValueModifier: ViewModifier {
         func body(content: Content) -> some View {
@@ -55,11 +39,11 @@ struct PlayerComparisonView: View {
         }
     }
     
-    var headshot1 : some View {
+    var headshot1 : AnyView {
         PlayerHeadshotMap.getHeadshotFromId(id: player1.remoteId)
             
     }
-    var headshot2 : some View {
+    var headshot2 : AnyView {
         PlayerHeadshotMap.getHeadshotFromId(id: player2.remoteId)
     }
     
@@ -82,14 +66,19 @@ struct PlayerComparisonView: View {
                 Text(player2.team.displayName).modifier(BioDataModifier())
             }
             HStack {
-                Picker("Season", selection: $player1Season) {
-                    ForEach((1980...2020).reversed(), id: \.self) { year in
-                        Text(String(year))
-                    }
-                }.labelsHidden()
-                /*Picker {
-                    
-                }*/
+                Button(action: {
+                    self.playerSeasonSheetWhich = 1
+                    self.playerSeasonSheetDisplay = true
+                }, label: {
+                    Text(String(player1Season))
+                }).modifier(BioDataModifier())
+
+                Button(action: {
+                    self.playerSeasonSheetWhich = 2
+                    self.playerSeasonSheetDisplay = true
+                }, label: {
+                    Text(String(player2Season))
+                }).modifier(BioDataModifier())
             }
         }
     }
@@ -114,6 +103,16 @@ struct PlayerComparisonView: View {
         }
         .navigationBarTitle("", displayMode: .inline)
         //.navigationBarHidden(true)
+        .sheet(isPresented: $playerSeasonSheetDisplay) {
+            self.getSeasonSelectSheet()
+        }
+    }
+    
+    func getSeasonSelectSheet() -> PlayerSeasonPickerView {
+        let player = self.playerSeasonSheetWhich == 1 ? self.player1 : self.player2
+        let headshot = self.playerSeasonSheetWhich == 1 ? self.headshot1 : self.headshot2
+        let year = self.playerSeasonSheetWhich == 1 ? self.$player1Season : self.$player2Season
+        return PlayerSeasonPickerView(player: player, headshot: headshot, seasonYear: year)
     }
     
     struct StatRow : Identifiable {
@@ -139,20 +138,26 @@ struct PlayerComparisonView: View {
     }
     
     func loadSeasonAverages() {
-        let playerIds = [player1.remoteId, player2.remoteId]
-        // TODO: convert to use generic data retrieval mechanism
-        AppData.instance.ballDontLie.loadSeasonAverages(season: 2018, playerIds: playerIds, completionHandler: { (stats, error) in
-            guard let stats = stats, error == nil else {
-                // TODO: Display error to user
-                print("ERROR: could not load season average stats")
-                return
-            }
-            DispatchQueue.main.async {
-                // TODO: Handle one or both players not having stats for the season
-                self.player1SeasonAverages = stats[0]
-                self.player2SeasonAverages = stats[1]
-            }
-        })
+        if false {
+            player1.loadSeasonAverages(ballDontLie: AppData.instance.ballDontLie)
+            player2.loadSeasonAverages(ballDontLie: AppData.instance.ballDontLie)
+        }
+        else {
+            let playerIds = [player1.remoteId, player2.remoteId]
+            // TODO: convert to use generic data retrieval mechanism
+            AppData.instance.ballDontLie.loadSeasonAverages(season: 2018, playerIds: playerIds, completionHandler: { (stats, error) in
+                guard let stats = stats, error == nil else {
+                    // TODO: Display error to user
+                    print("ERROR: could not load season average stats")
+                    return
+                }
+                DispatchQueue.main.async {
+                    // TODO: Handle one or both players not having stats for the season
+                    self.player1SeasonAverages = stats[0]
+                    self.player2SeasonAverages = stats[1]
+                }
+            })
+        }
     }
 }
 
