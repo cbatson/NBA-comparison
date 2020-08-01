@@ -161,11 +161,11 @@
 				130BF8C924D2510500C6BEB8 /* RemoteEntity.swift */,
 				13BFBB0824CB68B10004AEE7 /* SceneDelegate.swift */,
 				13BFBB3824CB6ABC0004AEE7 /* SearchBar.swift */,
+				1341357024D4F7AC00CA262D /* SeasonAverages.swift */,
 				138F547D24CBF2C9004C5AE3 /* SelectPlayerView.swift */,
 				1311C8AE24CCC9340021A10B /* Stats.swift */,
 				130BF8C724D24C6000C6BEB8 /* Team.swift */,
 				130BF8CB24D252DA00C6BEB8 /* TeamStore.swift */,
-				1341357024D4F7AC00CA262D /* SeasonAverages.swift */,
 			);
 			path = "NBA Comparison";
 			sourceTree = "<group>";
