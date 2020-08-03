@@ -85,6 +85,7 @@ class BallDontLie {
     }
     
     static let seasonAverageStats = [
+        "season": Stats.SEASON,
         "games_played": Stats.GAMES_PLAYED,
         "min": Stats.MINUTES,
         "fgm": Stats.FIELD_GOALS_MADE,
@@ -107,9 +108,10 @@ class BallDontLie {
         "ft_pct": Stats.FREE_THROW_PERCENTAGE,
     ]
     
-    func loadSeasonAverages(season: Int, playerIds : [Int], completionHandler: @escaping ([Dictionary<Stats, StatValue>]?, Error?) -> Void) {
+    func loadSeasonAverages(season: Int? = nil, playerIds : [Int], completionHandler: @escaping ([Dictionary<Stats, StatValue>]?, Error?) -> Void) {
         let urlArgs = playerIds.map { "player_ids[]=\($0)" }
-        let urlString = baseUrl + "season_averages?season=\(season)&\(urlArgs.joined(separator: "&"))"
+        let seasonOption = (season != nil) ? "season=\(season!)&" : ""
+        let urlString = baseUrl + "season_averages?" + seasonOption + urlArgs.joined(separator: "&")
         jsonFromUrl(urlString: urlString, jsonCompletionHandler: {(data, error) in
             guard let data = data, error == nil else {
                 completionHandler(nil, error)
