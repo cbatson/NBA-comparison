@@ -9,18 +9,26 @@
 import SwiftUI
 
 struct PlayerComparisonView: View {
-    var player1 : Player
-    var player2 : Player
-    
-    @State private var player1SeasonAverages = Dictionary<Stats, StatValue>()
-    @State private var player2SeasonAverages = Dictionary<Stats, StatValue>()
-
-    @State private var player1Season = 2018
-    @State private var player2Season = 2018
+    var player1: Player
+    var player2: Player
     
     @State private var playerSeasonSheetDisplay = false
     @State private var playerSeasonSheetWhich = 0
 
+    @ObservedObject var player1SeasonAverages: SeasonAverages
+    @ObservedObject var player2SeasonAverages: SeasonAverages
+    @ObservedObject var player1Season: SeasonYear
+    @ObservedObject var player2Season: SeasonYear
+    
+    init(player1: Player, player2: Player) {
+        self.player1 = player1
+        self.player2 = player2
+        self.player1SeasonAverages = player1.seasonAverages
+        self.player2SeasonAverages = player2.seasonAverages
+        self.player1Season = SeasonYear(seasonAverages: player1.seasonAverages)
+        self.player2Season = SeasonYear(seasonAverages: player2.seasonAverages)
+    }
+    
     //@Environment(\.presentationMode) var presentation
     
     struct StatValueModifier: ViewModifier {
@@ -70,14 +78,14 @@ struct PlayerComparisonView: View {
                     self.playerSeasonSheetWhich = 1
                     self.playerSeasonSheetDisplay = true
                 }, label: {
-                    Text(String(player1Season))
+                    Text(String(player1Season.year))
                 }).modifier(BioDataModifier())
 
                 Button(action: {
                     self.playerSeasonSheetWhich = 2
                     self.playerSeasonSheetDisplay = true
                 }, label: {
-                    Text(String(player2Season))
+                    Text(String(player2Season.year))
                 }).modifier(BioDataModifier())
             }
         }
@@ -91,9 +99,9 @@ struct PlayerComparisonView: View {
             List {
                 ForEach(commonStats()) { statRow in
                     HStack {
-                        Text(statRow.player1Value.displayValue).modifier(StatValueModifier())
+                        Text(statRow.player1DisplayValue).modifier(StatValueModifier())
                         Text(statRow.displayName).modifier(StatNameModifier())
-                        Text(statRow.player2Value.displayValue).modifier(StatValueModifier())
+                        Text(statRow.player2DisplayValue).modifier(StatValueModifier())
                     }
                 }
             }
@@ -111,53 +119,53 @@ struct PlayerComparisonView: View {
     func getSeasonSelectSheet() -> PlayerSeasonPickerView {
         let player = self.playerSeasonSheetWhich == 1 ? self.player1 : self.player2
         let headshot = self.playerSeasonSheetWhich == 1 ? self.headshot1 : self.headshot2
-        let year = self.playerSeasonSheetWhich == 1 ? self.$player1Season : self.$player2Season
+        let year = self.playerSeasonSheetWhich == 1 ? self.$player1Season.year : self.$player2Season.year
         return PlayerSeasonPickerView(player: player, headshot: headshot, seasonYear: year)
     }
     
     struct StatRow : Identifiable {
         var id = UUID()
-        var player1Value : StatValue
-        var player2Value : StatValue
+        var player1Value: StatValue?
+        var player2Value: StatValue?
         
-        var displayName : String {
+        var displayName: String {
             get {
-                return player1Value.displayName
+                if player1Value != nil {
+                    return player1Value!.displayName
+                }
+                if player2Value != nil {
+                    return player2Value!.displayName
+                }
+                return "<unknown>"
             }
+        }
+        
+        var player1DisplayValue: String {
+            player1Value == nil ? "n/a" : player1Value!.displayValue
+        }
+        
+        var player2DisplayValue: String {
+            player2Value == nil ? "n/a" : player2Value!.displayValue
         }
     }
     
     func commonStats() -> [StatRow] {
-        let commonStats = Array(Set(player1SeasonAverages.keys).intersection(player2SeasonAverages.keys))
+        let player1Stats = player1SeasonAverages.stats[player1Season.year]
+        let player1Set = player1Stats == nil ? Set() : Set(player1Stats!.keys)
+        let player2Stats = player2SeasonAverages.stats[player2Season.year]
+        let player2Set = player2Stats == nil ? Set() : Set(player2Stats!.keys)
+        let commonStats = Array(player1Set.union(player2Set))
         let sortedStates = commonStats.sorted() { $0.rawValue < $1.rawValue }
         return sortedStates.map({
-            let player1Value = player1SeasonAverages[$0]!
-            let player2Value = player2SeasonAverages[$0]!
+            let player1Value = player1Stats == nil ? nil : player1Stats![$0]
+            let player2Value = player2Stats == nil ? nil : player2Stats![$0]
             return StatRow(player1Value: player1Value, player2Value: player2Value)
         })
     }
     
     func loadSeasonAverages() {
-        if false {
-            player1.loadSeasonAverages(ballDontLie: AppData.instance.ballDontLie)
-            player2.loadSeasonAverages(ballDontLie: AppData.instance.ballDontLie)
-        }
-        else {
-            let playerIds = [player1.remoteId, player2.remoteId]
-            // TODO: convert to use generic data retrieval mechanism
-            AppData.instance.ballDontLie.loadSeasonAverages(season: 2018, playerIds: playerIds, completionHandler: { (stats, error) in
-                guard let stats = stats, error == nil else {
-                    // TODO: Display error to user
-                    print("ERROR: could not load season average stats")
-                    return
-                }
-                DispatchQueue.main.async {
-                    // TODO: Handle one or both players not having stats for the season
-                    self.player1SeasonAverages = stats[0]
-                    self.player2SeasonAverages = stats[1]
-                }
-            })
-        }
+        player1.loadSeasonAverages(ballDontLie: AppData.instance.ballDontLie)
+        player2.loadSeasonAverages(ballDontLie: AppData.instance.ballDontLie)
     }
 }
 

@@ -147,6 +147,8 @@ class BallDontLie {
         print("DEBUG: Fetching from \(urlString)")
         let url = URL(string: urlString)
         URLSession.shared.dataTask(with:url!, completionHandler: {(data, response, error) in
+            //print("DEBUG: Fetch from \(urlString) completed")
+            
             guard let data = data, error == nil else {
                 print("ERROR: \(error!.localizedDescription)")
                 jsonCompletionHandler(nil, error)
