@@ -20,6 +20,9 @@ class SeasonYear : ObservableObject {
                 let year = seasonAverages.seasonYears[0]
                 if self.year != year {
                     self.year = year
+                    // Only need to set the year once.
+                    // Then we can stop paying attention.
+                    self.sink = nil
                 }
             }
         }
