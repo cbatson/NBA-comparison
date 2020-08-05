@@ -8,18 +8,17 @@
 
 import Foundation
 
-class SeasonAverages : RemoteEntity {
-    func getSeasonYears() -> [Int] {
-        return Array(stats.keys).sorted()
-    }
-    
+class SeasonAverages : RemoteEntity, ObservableObject {
+    @Published var seasonYears: [Int] = []
+    var stats: [Int: Dictionary<Stats, StatValue>] = [:]
+
     func loadAll(ballDontLie: BallDontLie) {
         // The API does not give a convenient way to determine which
         // seasons have season averages. So to load all season averages,
         // we start with the current year, and search backwards from there.
         if loadPhase == .idle {
             loadPhase = .searching
-            loadSeason = max(Calendar.current.component(.year, from: Date()), 2020)
+            loadSeason = Util.getCurrentSeasonYear()
             load(ballDontLie: ballDontLie)
         }
     }
@@ -33,6 +32,7 @@ class SeasonAverages : RemoteEntity {
         
         guard stats.count > 0 else {
             // No stats returned.
+            //print("DEBUG: player \(remoteId) no stats for year \(loadSeason)")
             if loadPhase == .searching && loadSeason > oldestYear {
                 loadSeason -= 1
                 load(ballDontLie: ballDontLie)
@@ -41,20 +41,29 @@ class SeasonAverages : RemoteEntity {
             loadPhase = .done
             return
         }
-        let statsEntry = stats[0]
+        var statsEntry = stats[0]
         
         guard let seasonValue = statsEntry[.SEASON] else {
             // No season value.
+            print("DEBUG: player \(remoteId) no season value for year \(loadSeason)")
             loadPhase = .done
             return
         }
 
         let seasonYear = seasonValue.value as! Int
         loadPhase = .collecting
-        print("seasonYear is \(seasonYear)")
-        self.stats[seasonYear] = statsEntry
-        loadSeason -= 1
+        statsEntry.removeValue(forKey: .SEASON)
+        addStats(seasonYear: seasonYear, statDict: statsEntry)
+        loadSeason -= 1     // continue and try the prior year
         load(ballDontLie: ballDontLie)
+    }
+    
+    private func addStats(seasonYear: Int, statDict: Dictionary<Stats, StatValue>) {
+        stats[seasonYear] = statDict
+        let years = Array(Array(stats.keys).sorted().reversed())
+        DispatchQueue.main.async {
+            self.seasonYears = years
+        }
     }
     
     private func load(ballDontLie: BallDontLie) {
@@ -63,7 +72,6 @@ class SeasonAverages : RemoteEntity {
         }
     }
 
-    private var stats: [Int: Dictionary<Stats, StatValue>] = [:]
     private var loadSeason = 0
     private let oldestYear = 1990
     

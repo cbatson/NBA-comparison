@@ -13,8 +13,17 @@ struct PlayerSeasonPickerView: View {
     var headshot: AnyView
     var seasonYear: Binding<Int>
 
+    @ObservedObject var seasonAverages: SeasonAverages
+
     @Environment(\.presentationMode) var presentation
 
+    init(player: Player, headshot: AnyView, seasonYear: Binding<Int>) {
+        self.player = player
+        self.headshot = headshot
+        self.seasonYear = seasonYear
+        self.seasonAverages = player.seasonAverages
+    }
+    
     var body: some View {
         VStack {
             Button("X") {
@@ -26,7 +35,7 @@ struct PlayerSeasonPickerView: View {
             Text(self.player.displayName).modifier(BioDataModifier())
             Text(self.player.team.displayName).modifier(BioDataModifier())
             Picker("Season", selection: seasonYear) {
-                ForEach((1980...2020).reversed(), id: \.self) { year in
+                ForEach(seasonAverages.seasonYears, id: \.self) { year in
                     Text(String(year))
                 }
             }.labelsHidden()
