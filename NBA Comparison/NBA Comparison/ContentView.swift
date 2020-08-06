@@ -10,8 +10,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationView {
-            SelectPlayerView()
+        UIKitTabView {
+            ComparePlayersView().tab(title: "Compare", image: "person.2.fill")
+            AboutView().tab(title: "About", image: "info.circle")
         }
     }
 }
