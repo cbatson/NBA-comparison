@@ -24,6 +24,9 @@
 		137C729424D0C9BA00A2DA0E /* PlayerHeadshotMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137C729324D0C9BA00A2DA0E /* PlayerHeadshotMap.swift */; };
 		137C729824D0CDD700A2DA0E /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137C729724D0CDD700A2DA0E /* AsyncImage.swift */; };
 		138F547E24CBF2C9004C5AE3 /* SelectPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138F547D24CBF2C9004C5AE3 /* SelectPlayerView.swift */; };
+		139F4A5D24DBA4F40092918D /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139F4A5C24DBA4F40092918D /* AboutView.swift */; };
+		139F4A5F24DBA97F0092918D /* ComparePlayersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139F4A5E24DBA97F0092918D /* ComparePlayersView.swift */; };
+		139F4A6124DBAD450092918D /* UIKitTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139F4A6024DBAD450092918D /* UIKitTabView.swift */; };
 		13BFBB0724CB68B10004AEE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BFBB0624CB68B10004AEE7 /* AppDelegate.swift */; };
 		13BFBB0924CB68B10004AEE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BFBB0824CB68B10004AEE7 /* SceneDelegate.swift */; };
 		13BFBB0B24CB68B10004AEE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BFBB0A24CB68B10004AEE7 /* ContentView.swift */; };
@@ -74,6 +77,9 @@
 		137C729324D0C9BA00A2DA0E /* PlayerHeadshotMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerHeadshotMap.swift; sourceTree = "<group>"; };
 		137C729724D0CDD700A2DA0E /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
 		138F547D24CBF2C9004C5AE3 /* SelectPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPlayerView.swift; sourceTree = "<group>"; };
+		139F4A5C24DBA4F40092918D /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		139F4A5E24DBA97F0092918D /* ComparePlayersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparePlayersView.swift; sourceTree = "<group>"; };
+		139F4A6024DBAD450092918D /* UIKitTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitTabView.swift; sourceTree = "<group>"; };
 		13BFBB0324CB68B10004AEE7 /* NBA Comparison.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NBA Comparison.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13BFBB0624CB68B10004AEE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13BFBB0824CB68B10004AEE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -143,12 +149,14 @@
 		13BFBB0524CB68B10004AEE7 /* NBA Comparison */ = {
 			isa = PBXGroup;
 			children = (
+				139F4A5C24DBA4F40092918D /* AboutView.swift */,
 				130BFB0024D27C36009CB6A0 /* AppData.swift */,
 				13BFBB0624CB68B10004AEE7 /* AppDelegate.swift */,
 				13BFBB0C24CB68B30004AEE7 /* Assets.xcassets */,
 				137C729724D0CDD700A2DA0E /* AsyncImage.swift */,
 				13BFBB3C24CB72230004AEE7 /* BallDontLie.swift */,
 				130B3E8824D4A70D007AEB54 /* BioDataModifier.swift */,
+				139F4A5E24DBA97F0092918D /* ComparePlayersView.swift */,
 				13BFBB0A24CB68B10004AEE7 /* ContentView.swift */,
 				130B3E8624D4A66F007AEB54 /* HeadshotModifier.swift */,
 				1301CE5424D0D03F00890490 /* ImageCache.swift */,
@@ -172,6 +180,7 @@
 				130BF8C724D24C6000C6BEB8 /* Team.swift */,
 				130BF8CB24D252DA00C6BEB8 /* TeamStore.swift */,
 				137209DD24D89F3F007C5355 /* Util.swift */,
+				139F4A6024DBAD450092918D /* UIKitTabView.swift */,
 			);
 			path = "NBA Comparison";
 			sourceTree = "<group>";
@@ -337,6 +346,7 @@
 				1311C8AF24CCC9340021A10B /* Stats.swift in Sources */,
 				1341357124D4F7AC00CA262D /* SeasonAverages.swift in Sources */,
 				130B3E8524D4A427007AEB54 /* PlayerSeasonPickerView.swift in Sources */,
+				139F4A5D24DBA4F40092918D /* AboutView.swift in Sources */,
 				130B3E8924D4A70D007AEB54 /* BioDataModifier.swift in Sources */,
 				13223CFE24DA395B005E0D30 /* SeasonYear.swift in Sources */,
 				1301CE5724D0D03F00890490 /* ImageLoader.swift in Sources */,
@@ -354,8 +364,10 @@
 				13BFBB0924CB68B10004AEE7 /* SceneDelegate.swift in Sources */,
 				13F494C024D34525004B6024 /* PlayerListRow.swift in Sources */,
 				137209DE24D89F3F007C5355 /* Util.swift in Sources */,
+				139F4A5F24DBA97F0092918D /* ComparePlayersView.swift in Sources */,
 				137C729824D0CDD700A2DA0E /* AsyncImage.swift in Sources */,
 				1301CE5624D0D03F00890490 /* ImageCache.swift in Sources */,
+				139F4A6124DBAD450092918D /* UIKitTabView.swift in Sources */,
 				13BFBB0B24CB68B10004AEE7 /* ContentView.swift in Sources */,
 				130BFB0124D27C36009CB6A0 /* AppData.swift in Sources */,
 			);
