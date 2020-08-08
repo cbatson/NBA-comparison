@@ -14,7 +14,7 @@ class BallDontLie {
     
     func populateAllPlayers(playerStore: PlayerStore, teamStore: TeamStore) {
         playerStore.reset()
-        var pageNumber = 0
+        var pageNumber = 1
         var completionHandler : (([Dictionary<String, AnyObject>]?, Dictionary<String, AnyObject>?, Error?) -> Void)!
         completionHandler = {(playerDicts, meta, error) in
             guard let playerDicts = playerDicts, let meta = meta, error == nil else {
@@ -27,15 +27,18 @@ class BallDontLie {
             }
             // TODO: Don't append players that alread exist.
             // The API pagination gives us some duplicate entries.
-            playerStore.appendWithSort(players: players)
+            let numberOfPlayers = playerStore.appendWithSort(players: players)
             pageNumber += 1
             let total_pages = meta["total_pages"] as! Int
             if (pageNumber <= total_pages) {
                 // Commented out for testing
-                //self.loadPlayerPage(pageNumber: pageNumber, completionHandler: completionHandler)
+                self.loadPlayerPage(pageNumber: pageNumber, completionHandler: completionHandler)
+            }
+            else {
+                print("DEBUG: total number of players is \(numberOfPlayers)")
             }
         }
-        loadPlayerPage(pageNumber: 0, completionHandler: completionHandler)
+        loadPlayerPage(pageNumber: pageNumber, completionHandler: completionHandler)
     }
     
     func processJsonPlayer(playerDict: Dictionary<String, AnyObject>, teamStore: TeamStore) -> Player {
