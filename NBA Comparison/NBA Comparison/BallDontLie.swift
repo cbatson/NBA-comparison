@@ -27,7 +27,7 @@ class BallDontLie {
             }
             // TODO: Don't append players that alread exist.
             // The API pagination gives us some duplicate entries.
-            let numberOfPlayers = playerStore.appendWithSort(players: players)
+            let numberOfPlayers = playerStore.appendWithSort(playersToAppend: players)
             pageNumber += 1
             let total_pages = meta["total_pages"] as! Int
             if (pageNumber <= total_pages) {

@@ -9,7 +9,7 @@
 import SwiftUI
 
 class PlayerStore : ObservableObject {
-    @Published var players: [Player] = []
+    var players: [Player] = []
     private var playerIds = Set<Int>()
 
     init(initPlayers : [Player] = []) {
@@ -20,17 +20,17 @@ class PlayerStore : ObservableObject {
         players = []
     }
     
-    func appendWithSort(players: [Player]) -> Int {
+    func appendWithSort(playersToAppend: [Player]) -> Int {
         // Include only those players who are new to the playerIds set.
-        let filteredPlayers = players.filter { !playerIds.contains($0.remoteId) }
+        let filteredPlayers = playersToAppend.filter { !playerIds.contains($0.remoteId) }
         // Update the playerIds set to include the new players.
-        playerIds.formUnion(Set(players.map { $0.remoteId }))
+        playerIds.formUnion(Set(playersToAppend.map { $0.remoteId }))
         // Combine the existing player with the new players and sort them.
-        let newPlayers = (self.players + filteredPlayers).sorted(by: { $0.sortName < $1.sortName })
+        players = (players + filteredPlayers).sorted(by: { $0.sortName < $1.sortName })
         DispatchQueue.main.async {
             // Publishing needs to happen on the main thread.
-            self.players = newPlayers
+            self.objectWillChange.send()
         }
-        return newPlayers.count
+        return players.count
     }
 }
