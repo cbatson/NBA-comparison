@@ -21,6 +21,17 @@ class SeasonAverages : RemoteEntity, ObservableObject {
             loadSeason = Util.getCurrentSeasonYear()
             load(ballDontLie: ballDontLie)
         }
+        else {
+            // Note: By telling listeners that the season years have "changed,"
+            // the comparison view knows to update its season year selection
+            // from a year in the season year list.
+            // Another approach to this issue could be to have the player
+            // comparison check for any available season years and choose an
+            // initial season year selection based on that.
+            DispatchQueue.main.async {
+                self.objectWillChange.send()
+            }
+        }
     }
     
     private func onStats(ballDontLie: BallDontLie, stats: [Dictionary<Stats, StatValue>]?, error: Error?) {
