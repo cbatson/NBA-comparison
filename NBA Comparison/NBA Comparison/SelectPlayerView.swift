@@ -14,6 +14,8 @@ struct SelectPlayerView: View {
 
     @State private var searchText : String = ""
 
+    @State private var splashDisplay = false
+
     @ObservedObject var playerStore = AppData.instance.playerStore
 
     var body: some View {
@@ -32,6 +34,21 @@ struct SelectPlayerView: View {
             .id(UUID())     // See https://www.hackingwithswift.com/articles/210/how-to-fix-slow-list-updates-in-swiftui
             .navigationBarTitle(Text("Select Player #\(playerNumber)"))
         }
+        .onAppear {
+            // Only show the splash screen over the first player selection.
+            // Also make sure to only show it once.
+            if (self.playerNumber == 1 && AppData.instance.shouldDisplaySplash) {
+                AppData.instance.shouldDisplaySplash = false
+                self.splashDisplay = true
+            }
+        }
+        .sheet(isPresented: $splashDisplay) {
+            self.getSplashSheet()
+        }
+    }
+    
+    func getSplashSheet() -> SplashView {
+        return SplashView()
     }
     
     func getDestination(player : Player) -> AnyView {

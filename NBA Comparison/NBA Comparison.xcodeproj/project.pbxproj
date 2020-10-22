@@ -19,6 +19,7 @@
 		1311C8AD24CCBB120021A10B /* PlayerComparisonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1311C8AC24CCBB120021A10B /* PlayerComparisonView.swift */; };
 		1311C8AF24CCC9340021A10B /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1311C8AE24CCC9340021A10B /* Stats.swift */; };
 		13223CFE24DA395B005E0D30 /* SeasonYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13223CFD24DA395B005E0D30 /* SeasonYear.swift */; };
+		132858CE25412AAC0093E396 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132858CD25412AAC0093E396 /* SplashView.swift */; };
 		1341357124D4F7AC00CA262D /* SeasonAverages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1341357024D4F7AC00CA262D /* SeasonAverages.swift */; };
 		137209DE24D89F3F007C5355 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137209DD24D89F3F007C5355 /* Util.swift */; };
 		137C729424D0C9BA00A2DA0E /* PlayerHeadshotMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137C729324D0C9BA00A2DA0E /* PlayerHeadshotMap.swift */; };
@@ -72,6 +73,7 @@
 		1311C8AC24CCBB120021A10B /* PlayerComparisonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerComparisonView.swift; sourceTree = "<group>"; };
 		1311C8AE24CCC9340021A10B /* Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
 		13223CFD24DA395B005E0D30 /* SeasonYear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonYear.swift; sourceTree = "<group>"; };
+		132858CD25412AAC0093E396 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		1341357024D4F7AC00CA262D /* SeasonAverages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonAverages.swift; sourceTree = "<group>"; };
 		137209DD24D89F3F007C5355 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		137C729324D0C9BA00A2DA0E /* PlayerHeadshotMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerHeadshotMap.swift; sourceTree = "<group>"; };
@@ -176,11 +178,12 @@
 				1341357024D4F7AC00CA262D /* SeasonAverages.swift */,
 				13223CFD24DA395B005E0D30 /* SeasonYear.swift */,
 				138F547D24CBF2C9004C5AE3 /* SelectPlayerView.swift */,
+				132858CD25412AAC0093E396 /* SplashView.swift */,
 				1311C8AE24CCC9340021A10B /* Stats.swift */,
 				130BF8C724D24C6000C6BEB8 /* Team.swift */,
 				130BF8CB24D252DA00C6BEB8 /* TeamStore.swift */,
-				137209DD24D89F3F007C5355 /* Util.swift */,
 				139F4A6024DBAD450092918D /* UIKitTabView.swift */,
+				137209DD24D89F3F007C5355 /* Util.swift */,
 			);
 			path = "NBA Comparison";
 			sourceTree = "<group>";
@@ -368,6 +371,7 @@
 				137C729824D0CDD700A2DA0E /* AsyncImage.swift in Sources */,
 				1301CE5624D0D03F00890490 /* ImageCache.swift in Sources */,
 				139F4A6124DBAD450092918D /* UIKitTabView.swift in Sources */,
+				132858CE25412AAC0093E396 /* SplashView.swift in Sources */,
 				13BFBB0B24CB68B10004AEE7 /* ContentView.swift in Sources */,
 				130BFB0124D27C36009CB6A0 /* AppData.swift in Sources */,
 			);

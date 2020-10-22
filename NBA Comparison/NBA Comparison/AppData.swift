@@ -13,6 +13,8 @@ class AppData : ObservableObject {
     let teamStore = TeamStore()
     let ballDontLie = BallDontLie()
     
+    var shouldDisplaySplash = true
+    
     static var _instance: AppData?
     
     static var instance: AppData {

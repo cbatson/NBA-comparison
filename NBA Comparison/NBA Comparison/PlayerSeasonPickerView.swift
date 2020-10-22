@@ -36,7 +36,7 @@ struct PlayerSeasonPickerView: View {
             Text(self.player.team.displayName).modifier(BioDataModifier())
             Picker("Season", selection: seasonYear) {
                 ForEach(seasonAverages.seasonYears, id: \.self) { year in
-                    Text(String(year))
+                    Text(SeasonYear.getDisplayString(year: year))
                 }
             }.labelsHidden()
             Spacer()

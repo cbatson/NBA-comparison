@@ -78,14 +78,14 @@ struct PlayerComparisonView: View {
                     self.playerSeasonSheetWhich = 1
                     self.playerSeasonSheetDisplay = true
                 }, label: {
-                    Text(String(player1Season.year))
+                    Text(SeasonYear.getDisplayString(year: player1Season.year))
                 }).modifier(BioDataModifier())
 
                 Button(action: {
                     self.playerSeasonSheetWhich = 2
                     self.playerSeasonSheetDisplay = true
                 }, label: {
-                    Text(String(player2Season.year))
+                    Text(SeasonYear.getDisplayString(year: player2Season.year))
                 }).modifier(BioDataModifier())
             }
         }

@@ -27,4 +27,8 @@ class SeasonYear : ObservableObject {
             }
         }
     }
+    
+    class func getDisplayString(year: Int) -> String {
+        return String(year) + "-" + String(year + 1)
+    }
 }
