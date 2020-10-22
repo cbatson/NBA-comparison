@@ -44,6 +44,7 @@ struct PlayerHeadshotMap {
     }
         
     static func getHeadshotFromId(id: Int) -> AnyView {
+        return placeholderView
         guard let url = getHeadshotUrlFromId(id: id) else {
             return placeholderView
         }
@@ -53,7 +54,7 @@ struct PlayerHeadshotMap {
             placeholder: placeholderView,
             configuration: {
                 configureImage(image: $0)
-            }
+        }
         ))
     }
     
